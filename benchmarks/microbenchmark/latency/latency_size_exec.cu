@@ -25,12 +25,17 @@ int main(int argc, char ** argv)
   cudaMemcpy(&h_ptr, d_ptr, sizeof(float), cudaMemcpyDeviceToHost);
   for (int i = 0; i < iters; ++i) {
     auto s = std::chrono::high_resolution_clock::now();
-    cudaMemcpy(d_ptr, &h_ptr, sizeof(float), cudaMemcpyHostToDevice);
-    cudaMemcpy(&h_ptr, d_ptr, sizeof(float), cudaMemcpyDeviceToHost);
+    int ret1 = cudaMemcpy(d_ptr, &h_ptr, sizeof(float), cudaMemcpyHostToDevice);
+    int ret2 = cudaMemcpy(&h_ptr, d_ptr, sizeof(float), cudaMemcpyDeviceToHost);
     auto e = std::chrono::high_resolution_clock::now();
     auto d =
         std::chrono::duration_cast<std::chrono::nanoseconds>(e - s).count();
     results.push_back(d);
+
+    if(ret1 != cudaSuccess || ret2 != cudaSuccess) {
+      std::cerr << "error!" << std::endl;
+      abort();
+    }
   }
   printf("Iters %d\n", iters);
 

@@ -13,26 +13,38 @@ extern "C" size_t function(mignificient::Invocation invocation) {
 
   char *d_ptr;
   char *h_ptr;
-  cudaMalloc(&d_ptr, sizeof(char) * size);
-  cudaMallocHost(&h_ptr, sizeof(char) * size);
+  //char h_ptr;
+  auto code = cudaMalloc(&d_ptr, sizeof(char) * size);
+  printf("Input size %d, iters %d, %d \n", size, iters, code);
+  //printf("%s\n", cudaGetErrorString(code));
+  //cudaMallocHost(&h_ptr, sizeof(char) * size);
+  h_ptr = new char[sizeof(char) * size];
+  printf("Input size %d, iters %d\n", size, iters);
 
   std::vector<long long int> results;
   results.reserve(iters);
 
   // int iters = 300000;
   cudaMemcpy(d_ptr, &h_ptr, sizeof(float), cudaMemcpyHostToDevice);
+  printf("Input size %d, iters %d\n", size, iters);
   cudaMemcpy(&h_ptr, d_ptr, sizeof(float), cudaMemcpyDeviceToHost);
+  printf("Input size %d, iters %d\n", size, iters);
   for (int i = 0; i < iters; ++i) {
     auto s = std::chrono::high_resolution_clock::now();
-    cudaMemcpy(d_ptr, &h_ptr, sizeof(float), cudaMemcpyHostToDevice);
-    cudaMemcpy(&h_ptr, d_ptr, sizeof(float), cudaMemcpyDeviceToHost);
+    int ret1 = cudaMemcpy(d_ptr, &h_ptr, sizeof(float), cudaMemcpyHostToDevice);
+    int ret2 = cudaMemcpy(&h_ptr, d_ptr, sizeof(float), cudaMemcpyDeviceToHost);
     auto e = std::chrono::high_resolution_clock::now();
     auto d =
         std::chrono::duration_cast<std::chrono::nanoseconds>(e - s).count();
     results.push_back(d);
+
+    if(ret1 != cudaSuccess || ret2 != cudaSuccess) {
+      std::cerr << "error!" << std::endl;
+      abort();
+    }
   }
 
-  std::ofstream of{"result.txt", std::ios::out};
+  std::ofstream of{"/tmp/result.txt", std::ios::out};
   for (int i = 0; i < iters; ++i) {
     of << i << "," << results[i] << std::endl;
   }
