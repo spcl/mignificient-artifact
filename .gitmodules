@@ -1,0 +1,3 @@
+[submodule "mignificient"]
+	path = mignificient
+	url = git@github.com:spcl/mignificient.git
