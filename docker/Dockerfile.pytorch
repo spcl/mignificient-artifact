@@ -1,0 +1,8 @@
+FROM spcleth/mignificient:base 
+
+#RUN git clone --branch v1.12.1 --recursive https://github.com/pytorch/pytorch  /pytorch
+ADD pytorch /pytorch
+RUN cd /pytorch && pip install -r requirements.txt
+RUN cd /pytorch && MAX_JOBS=12 USE_DISTRIBUTED=OFF TORCH_CUDA_ARCH_LIST="8.0+PTX" USE_NNPACK=OFF USE_XNNPACK=OFF\
+    USE_CUDNN=ON USE_DISTRIBUTED=OFF USE_MKL=OFF USE_MKLDNN=OFF USE_NNPACK=OFF USE_XNNPACK=OFF python3 setup.py develop
+RUN pip install --no-deps torchk
