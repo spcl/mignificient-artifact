@@ -15,12 +15,17 @@
 
   Created by Pawan Harish.
  ************************************************************************************/
-#include <chrono>
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
 #include <cuda.h>
+#include <string>
+
+#include <jsoncpp/json/reader.h>
+#include <jsoncpp/json/value.h>
+
+#include "function.hpp"
 
 #define MAX_THREADS_PER_BLOCK 512
 
@@ -38,41 +43,39 @@ struct Node
 #include "kernel.cu"
 #include "kernel2.cu"
 
-void BFSGraph(int argc, char** argv);
+void BFSGraph(const std::string& file, const std::string& output_result);
 
-////////////////////////////////////////////////////////////////////////////////
-// Main Program
-////////////////////////////////////////////////////////////////////////////////
-int main( int argc, char** argv) 
+extern "C" int function(mignificient::Invocation invoc)
 {
-	no_of_nodes=0;
-	edge_list_size=0;
-	BFSGraph( argc, argv);
+  no_of_nodes=0;
+  edge_list_size=0;
+
+  const char* input_data = reinterpret_cast<const char*>(invoc.payload.data);
+
+  Json::Value input_json;
+  Json::Reader reader;
+  if (!reader.parse(input_data, input_json)) {
+    printf("json error %s", input_data);
+    return -1;
+  }
+
+  std::string graph_path = input_json["input-graph"].asString();
+  std::string output_result = input_json["output-result"].asString();
+
+  BFSGraph(graph_path, output_result);
+
+  return 0;
 }
 
-void Usage(int argc, char**argv){
-
-fprintf(stderr,"Usage: %s <input_file>\n", argv[0]);
-
-}
 ////////////////////////////////////////////////////////////////////////////////
 //Apply BFS on a Graph using CUDA
 ////////////////////////////////////////////////////////////////////////////////
-void BFSGraph( int argc, char** argv) 
+void BFSGraph(const std::string& file, const std::string& output_result) 
 {
-
-    char *input_f;
-	if(argc!=2){
-	Usage(argc, argv);
-	exit(0);
-	}
-
-  auto begin = std::chrono::high_resolution_clock::now();
 	
-	input_f = argv[1];
 	printf("Reading File\n");
 	//Read in Graph from a file
-	fp = fopen(input_f,"r");
+	fp = fopen(file.c_str(),"r");
 	if(!fp)
 	{
 		printf("Error Reading graph file\n");
@@ -210,7 +213,7 @@ void BFSGraph( int argc, char** argv)
 	cudaMemcpy( h_cost, d_cost, sizeof(int)*no_of_nodes, cudaMemcpyDeviceToHost) ;
 
 	//Store the result into a file
-	FILE *fpo = fopen("result.txt","w");
+	FILE *fpo = fopen(output_result.c_str(),"w");
 	for(int i=0;i<no_of_nodes;i++)
 		fprintf(fpo,"%d) cost:%d\n",i,h_cost[i]);
 	fclose(fpo);
@@ -230,8 +233,4 @@ void BFSGraph( int argc, char** argv)
 	cudaFree(d_updating_graph_mask);
 	cudaFree(d_graph_visited);
 	cudaFree(d_cost);
-
-  auto end = std::chrono::high_resolution_clock::now();
-
-  printf("Time %f", std::chrono::duration_cast<std::chrono::microseconds>(end-begin).count() / 1000.0);
 }
