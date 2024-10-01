@@ -56,7 +56,9 @@ extern "C" int function(mignificient::Invocation invoc)
   Json::Reader reader;
   if (!reader.parse(input_data, input_json)) {
     printf("json error %s", input_data);
-    return -1;
+
+    size_t s = snprintf(reinterpret_cast<char*>(invoc.result.data), invoc.result.capacity, "{ \"result\": \"json error: %s\"}", input_data); 
+    return s;
   }
 
   std::string graph_path = input_json["input-graph"].asString();
@@ -64,7 +66,9 @@ extern "C" int function(mignificient::Invocation invoc)
 
   BFSGraph(graph_path, output_result);
 
-  return 0;
+  size_t s = snprintf(reinterpret_cast<char*>(invoc.result.data), invoc.result.capacity, "{ \"result\": \"success\"}"); 
+
+  return s;
 }
 
 ////////////////////////////////////////////////////////////////////////////////
