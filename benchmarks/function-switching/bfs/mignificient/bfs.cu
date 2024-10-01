@@ -21,9 +21,11 @@
 #include <math.h>
 #include <cuda.h>
 #include <string>
+#include <chrono>
+#include <iostream>
 
-#include <jsoncpp/json/reader.h>
-#include <jsoncpp/json/value.h>
+#include <json/reader.h>
+#include <json/value.h>
 
 #include "function.hpp"
 
@@ -188,6 +190,10 @@ void BFSGraph(const std::string& file, const std::string& output_result)
 	dim3  grid( num_of_blocks, 1, 1);
 	dim3  threads( num_of_threads_per_block, 1, 1);
 
+  //cudaDeviceSynchronize();
+  //auto begin = std::chrono::high_resolution_clock::now();
+
+
 	int k=0;
 	printf("Start traversing the tree\n");
 	bool stop;
@@ -210,6 +216,8 @@ void BFSGraph(const std::string& file, const std::string& output_result)
 	}
 	while(stop);
 
+  //cudaDeviceSynchronize();
+  //auto end = std::chrono::high_resolution_clock::now();
 
 	printf("Kernel Executed %d times\n",k);
 
@@ -223,6 +231,7 @@ void BFSGraph(const std::string& file, const std::string& output_result)
 	fclose(fpo);
 	printf("Result stored in result.txt\n");
 
+  //std::cerr << std::chrono::duration_cast<std::chrono::microseconds>(end-begin).count() / 1000.0 << std::endl;
 
 	// cleanup memory
 	free( h_graph_nodes);
