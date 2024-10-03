@@ -1,0 +1,19 @@
+{
+  "name": "mignificient-orchestrator",
+  "sharing-model": "overlap_cpu_memcpy",
+  "http": {
+    "port": 10000,
+    "threads": 1
+  },
+  "executor": {
+    "type": "bare-metal",
+    "poll-sleep": true,
+    "poll-gpuless-sleep": true,
+    "bare-metal-executor": {
+      "cpp": "/scratch/mcopik/gpus/new_september/build/executor/bin/executor_cpp",
+      "python": ["/users/mcopik/anaconda3/bin/python3.12", "/scratch/mcopik/gpus/new_september/build/executor/bin/python/executor_python.py"],
+      "gpuless-lib": "/scratch/mcopik/gpus/new_september/build/gpuless/libgpuless.so",
+      "gpuless-exec": "/scratch/mcopik/gpus/new_september/build/gpuless/manager_device"
+    }
+  }
+}

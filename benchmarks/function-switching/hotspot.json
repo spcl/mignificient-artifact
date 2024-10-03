@@ -1,5 +1,5 @@
 {
-  "address": "http://127.0.0.1:10000",
+  "address": "http://148.187.105.35:10000",
   "iterations": 10,
   "parallel-requests": 2,
   "mode": "independent",
@@ -7,19 +7,19 @@
   "inputs": [
     {
       "function": "function",
-      "function-path": "/work/serverless/2024/gpus/mignificient-artifact/benchmarks/function-switching/hotspot/mignificient/hotspot.so",
+      "function-path": "SCRIPTDIR/hotspot/mignificient/hotspot.so",
       "modules": [],
       "mig-instance": "7g",
       "gpu-memory": 1024,
-      "input-payload": "{ \"grid-rows\": 512, \"pyramid-height\": 2, \"total-iterations\": 2, \"tfile\": \"/work/serverless/2024/gpus/mignificient-artifact/benchmarks/inputs/hotspot/temp_512\", \"pfile\": \"/work/serverless/2024/gpus/mignificient-artifact/benchmarks/inputs/hotspot/power_512\", \"ofile\": \"/work/serverless/2024/gpus/mignificient-artifact/benchmarks/function-switching/hotspot-1.txt\"}"
+      "input-payload": "{ \"grid-rows\": 512, \"pyramid-height\": 2, \"total-iterations\": 2, \"tfile\": \"SCRIPTDIR/../../benchmarks/inputs/hotspot/temp_512\", \"pfile\": \"SCRIPTDIR/../../benchmarks/inputs/hotspot/power_512\", \"ofile\": \"OUT\"}"
     },
     {
       "function": "function",
-      "function-path": "/work/serverless/2024/gpus/mignificient-artifact/benchmarks/function-switching/hotspot/mignificient/hotspot.so",
+      "function-path": "SCRIPTDIR/hotspot/mignificient/hotspot.so",
       "modules": [],
       "mig-instance": "7g",
       "gpu-memory": 1024,
-      "input-payload": "{ \"grid-rows\": 512, \"pyramid-height\": 2, \"total-iterations\": 2, \"tfile\": \"/work/serverless/2024/gpus/mignificient-artifact/benchmarks/inputs/hotspot/temp_512\", \"pfile\": \"/work/serverless/2024/gpus/mignificient-artifact/benchmarks/inputs/hotspot/power_512\", \"ofile\": \"/work/serverless/2024/gpus/mignificient-artifact/benchmarks/function-switching/hotspot-2.txt\"}"
+      "input-payload": "{ \"grid-rows\": 512, \"pyramid-height\": 2, \"total-iterations\": 2, \"tfile\": \"SCRIPTDIR/../../benchmarks/inputs/hotspot/temp_512\", \"pfile\": \"SCRIPTDIR/../../benchmarks/inputs/hotspot/power_512\", \"ofile\": \"OUT\"}"
     }
   ]
 }

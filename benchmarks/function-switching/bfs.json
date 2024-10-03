@@ -1,0 +1,26 @@
+{
+  "address": "http://148.187.105.35:10000",
+  "iterations": 1,
+  "parallel-requests": 2,
+  "mode": "independent",
+  "different-users": true,
+  "inputs": [
+    {
+      "function": "function",
+      "function-path": "SCRIPTDIR/bfs/mignificient/bfs.so",
+      "modules": [],
+      "mig-instance": "7g",
+      "gpu-memory": 1024,
+      "input-payload": "{ \"input-graph\": \"SCRIPTDIR/../../benchmarks/inputs/bfs/graph1MW_6.txt\", \"output-result\": \"OUT\"}"
+    },
+    {
+      "function": "function",
+      "function-path": "SCRIPTDIR/bfs/mignificient/bfs.so",
+      "modules": [],
+      "mig-instance": "7g",
+      "gpu-memory": 1024,
+      "input-payload": "{ \"input-graph\": \"SCRIPTDIR/../../benchmarks/inputs/bfs/graph1MW_6.txt\", \"output-result\": \"OUT\" }"
+    }
+  ]
+}
+

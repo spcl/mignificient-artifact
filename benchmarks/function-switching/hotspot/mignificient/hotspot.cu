@@ -4,8 +4,8 @@
 #include <assert.h>
 #include <chrono>
 
-#include <jsoncpp/json/reader.h>
-#include <jsoncpp/json/value.h>
+#include <json/reader.h>
+#include <json/value.h>
 
 #include "function.hpp"
 
