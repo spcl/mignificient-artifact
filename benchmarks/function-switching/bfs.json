@@ -1,6 +1,6 @@
 {
   "address": "http://148.187.105.35:10000",
-  "iterations": 1,
+  "iterations": 10,
   "parallel-requests": 2,
   "mode": "independent",
   "different-users": true,
