@@ -1,16 +1,16 @@
 
-import sys
-sys.path.append('/work/serverless/2024/gpus/mignificient-artifact/benchmark-apps/ml-inference/BERT-SQuAD/')
+import sys, os
 
-print("import", flush=True)
 from bert import QA
-print("finish import",flush=True)
 from timeit import default_timer as timer
 
 import torch
-print(torch.__file__)
 
 model = None
+
+SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
+INPUT_DIR = os.path.join(SCRIPT_DIR, os.path.pardir, os.path.pardir, os.path.pardir, 'benchmark-inputs', 'ml-inference', 'BERT-SQuAD')
+sys.path.append(SCRIPT_DIR)
 
 def function(obj):
 
@@ -18,13 +18,13 @@ def function(obj):
 
     if model is None:
 
-        print("model", flush=True)
-        before = timer()
-        model = QA('/work/serverless/2024/gpus/mignificient-artifact/benchmark-apps/ml-inference/BERT-SQuAD/model')
-        after = timer()
-        print("model end", flush=True)
+        #print("model", flush=True)
+        #before = timer()
+        model = QA(os.path.join(INPUT_DIR, 'model'))
+        #after = timer()
+        #print("model end", flush=True)
 
-        print('model eval time:', after - before, flush=True)
+        #print('model eval time:', after - before, flush=True)
 
     start = timer()
 
@@ -37,12 +37,13 @@ def function(obj):
 
     q = 'When did Victoria enact its constitution?'
 
-    print('model predict', flush=True)
+    #print('model predict', flush=True)
     answer = model.predict(doc, q)
     print(answer['answer'], flush=True)
 # print(answer.keys())
 
     end = timer()
-    print(end - start)
+    #print(end - start)
 
-function({})
+if __name__ == "__main__":
+    function({})
