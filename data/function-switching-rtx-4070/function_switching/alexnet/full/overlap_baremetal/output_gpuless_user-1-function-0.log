@@ -1,0 +1,54 @@
+[0;90m2024-10-11 12:57:56.443 [0;1;93m[Warning][m: IPC channel still there, doing an unlink of server-user-1-function-0
+[0;90m2024-10-11 12:57:56.444 [0;1;96m[ Debug ][m: Application registered management segment 0x7bef54d40000 with size 65796264 to id 1
+[0;90m2024-10-11 12:57:56.444 [0;1;96m[ Debug ][m: Application registered payload data segment 0x7bedddb38000 with size 6293584200 to id 2
+[2024-10-11 12:57:56.445] [error] Enabling use of VMM-based allocations in CUDA!
+[2024-10-11 12:57:56.565] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:57:56.565] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:57:56.565] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:57:56.565] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:57:57.491] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:57:57.491] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:57:57.513] [error] Blocking memory operation! Saving position 0 from 1
+[2024-10-11 12:57:57.515] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:57:57.515] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:57:57.515] [error] Finishing trace execution from position 0 from 1, 1
+[2024-10-11 12:57:57.517] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:57:57.517] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:57:57.541] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:57:57.541] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:57:57.544] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:57:57.544] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:57:57.568] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:57:57.568] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:57:57.570] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:57:57.570] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:57:57.594] [error] Blocking memory operation! Saving position 0 from 1
+[2024-10-11 12:57:57.595] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:57:57.595] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:57:57.595] [error] Finishing trace execution from position 0 from 1, 1
+[2024-10-11 12:57:57.597] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:57:57.597] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:57:57.621] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:57:57.621] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:57:57.624] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:57:57.624] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:57:57.647] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:57:57.647] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:57:57.650] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:57:57.650] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:57:57.673] [error] Blocking memory operation! Saving position 0 from 1
+[2024-10-11 12:57:57.673] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:57:57.673] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:57:57.673] [error] Finishing trace execution from position 0 from 1, 1
+[2024-10-11 12:57:57.675] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:57:57.675] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:57:57.699] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:57:57.699] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:57:57.702] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:57:57.702] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:57:57.725] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:57:57.725] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:57:57.728] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:57:57.728] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:57:57.751] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:57:57.751] [info] [ExecutionStatus] Full execution!

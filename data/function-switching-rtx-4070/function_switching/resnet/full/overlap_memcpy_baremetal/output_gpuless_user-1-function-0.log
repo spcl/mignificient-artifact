@@ -1,0 +1,80 @@
+[0;90m2024-10-11 12:55:37.862 [0;1;93m[Warning][m: IPC channel still there, doing an unlink of server-user-1-function-0
+[0;90m2024-10-11 12:55:37.862 [0;1;96m[ Debug ][m: Application registered management segment 0x7d6ae2b40000 with size 65796264 to id 1
+[0;90m2024-10-11 12:55:37.862 [0;1;96m[ Debug ][m: Application registered payload data segment 0x7d696b938000 with size 6293584200 to id 2
+[2024-10-11 12:55:37.862] [error] Enabling use of VMM-based allocations in CUDA!
+[2024-10-11 12:55:37.978] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:55:37.978] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:55:37.978] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:55:37.978] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:55:38.677] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:55:38.677] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:55:38.677] [error] Message from the orchestrator! Code 2
+[2024-10-11 12:55:38.677] [info] [ExecutionStatus] Memory operations!
+[2024-10-11 12:55:38.701] [error] Blocking kernel execution! Saving position 25 from 1414
+[2024-10-11 12:55:38.703] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:55:38.703] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:55:38.703] [error] Finishing trace execution from position 25 from 1414, 1414
+[2024-10-11 12:55:38.706] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:55:38.706] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:55:38.706] [error] Message from the orchestrator! Code 2
+[2024-10-11 12:55:38.706] [info] [ExecutionStatus] Memory operations!
+[2024-10-11 12:55:38.731] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:55:38.731] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:55:38.733] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:55:38.733] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:55:38.733] [error] Message from the orchestrator! Code 2
+[2024-10-11 12:55:38.733] [info] [ExecutionStatus] Memory operations!
+[2024-10-11 12:55:38.757] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:55:38.757] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:55:38.761] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:55:38.761] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:55:38.761] [error] Message from the orchestrator! Code 2
+[2024-10-11 12:55:38.761] [info] [ExecutionStatus] Memory operations!
+[2024-10-11 12:55:38.785] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:55:38.785] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:55:38.789] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:55:38.789] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:55:38.789] [error] Message from the orchestrator! Code 2
+[2024-10-11 12:55:38.789] [info] [ExecutionStatus] Memory operations!
+[2024-10-11 12:55:38.814] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:55:38.814] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:55:38.816] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:55:38.816] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:55:38.816] [error] Message from the orchestrator! Code 2
+[2024-10-11 12:55:38.816] [info] [ExecutionStatus] Memory operations!
+[2024-10-11 12:55:38.842] [error] Blocking kernel execution! Saving position 25 from 1414
+[2024-10-11 12:55:38.842] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:55:38.842] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:55:38.842] [error] Finishing trace execution from position 25 from 1414, 1414
+[2024-10-11 12:55:38.845] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:55:38.845] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:55:38.845] [error] Message from the orchestrator! Code 2
+[2024-10-11 12:55:38.845] [info] [ExecutionStatus] Memory operations!
+[2024-10-11 12:55:38.869] [error] Blocking kernel execution! Saving position 25 from 1414
+[2024-10-11 12:55:38.869] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:55:38.869] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:55:38.869] [error] Finishing trace execution from position 25 from 1414, 1414
+[2024-10-11 12:55:38.872] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:55:38.872] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:55:38.872] [error] Message from the orchestrator! Code 2
+[2024-10-11 12:55:38.872] [info] [ExecutionStatus] Memory operations!
+[2024-10-11 12:55:38.896] [error] Blocking kernel execution! Saving position 25 from 1414
+[2024-10-11 12:55:38.897] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:55:38.897] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:55:38.897] [error] Finishing trace execution from position 25 from 1414, 1414
+[2024-10-11 12:55:38.899] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:55:38.899] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:55:38.899] [error] Message from the orchestrator! Code 2
+[2024-10-11 12:55:38.899] [info] [ExecutionStatus] Memory operations!
+[2024-10-11 12:55:38.923] [error] Blocking kernel execution! Saving position 25 from 1414
+[2024-10-11 12:55:38.924] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:55:38.924] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:55:38.924] [error] Finishing trace execution from position 25 from 1414, 1414
+[2024-10-11 12:55:38.926] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:55:38.926] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:55:38.926] [error] Message from the orchestrator! Code 2
+[2024-10-11 12:55:38.926] [info] [ExecutionStatus] Memory operations!
+[2024-10-11 12:55:38.950] [error] Blocking kernel execution! Saving position 25 from 1414
+[2024-10-11 12:55:38.951] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:55:38.951] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:55:38.951] [error] Finishing trace execution from position 25 from 1414, 1414

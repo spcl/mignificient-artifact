@@ -1,0 +1,11 @@
+{
+  "gpus": [
+    {
+      "uuid": "GPU-bbf7a28e-fe16-398c-9332-05d7e0a6e869",
+      "index": 0,
+      "memory": 12282,
+      "compute_capability": "8.9",
+      "instances": []
+    }
+  ]
+}

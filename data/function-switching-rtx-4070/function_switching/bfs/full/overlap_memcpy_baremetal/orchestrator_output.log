@@ -1,0 +1,15 @@
+[2024-10-11 12:54:08.041] [info] Reading configuration from /work/serverless/2024/gpus/mignificient-artifact/benchmarks/function-switching/config/orchestrator_overlap_memcpy.json, device database from ../devices.json
+[0;90m2024-10-11 12:54:08.041 [0;1;96m[ Debug ][m: Application registered management segment 0x72a023540000 with size 65796264 to id 1
+[0;90m2024-10-11 12:54:08.042 [0;1;96m[ Debug ][m: Application registered payload data segment 0x729eac338000 with size 6293584200 to id 2
+[2024-10-11 12:54:08.042] [info] Listening on port 10000
+[2024-10-11 12:54:09.064] [info] Child process spawned successfully, PID: 319338
+[2024-10-11 12:54:09.064] [info] Child process spawned successfully, PID: 319339
+[2024-10-11 12:54:09.066] [info] Child process spawned successfully, PID: 319340
+[2024-10-11 12:54:09.066] [info] Child process spawned successfully, PID: 319341
+[2024-10-11 12:54:09.074] [error] Received registration from gpuless executor user-1-function-0
+[2024-10-11 12:54:09.076] [error] Received registration from gpuless executor user-0-function-1
+[2024-10-11 12:54:09.201] [error] Received registration from gpuless server user-1-function-0
+[2024-10-11 12:54:09.202] [error] Received registration from gpuless server user-0-function-1
+[2024-10-11 12:54:09.796] [error] Using an existing client user-0-function-1 for user user-0
+[2024-10-11 12:54:15.109] [info] Waiting for HTTP server to close down
+[0;90m2024-10-11 12:54:15.109 [0;1;36m[Verbose][m: RouDi cleaned up resources of mignificient-orchestrator. Shutting down gracefully.

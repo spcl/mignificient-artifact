@@ -1,0 +1,48 @@
+[0;90m2024-10-11 12:55:33.023 [0;1;93m[Warning][m: IPC channel still there, doing an unlink of server-user-0-function-1
+[0;90m2024-10-11 12:55:33.023 [0;1;96m[ Debug ][m: Application registered management segment 0x7cc72df40000 with size 65796264 to id 1
+[0;90m2024-10-11 12:55:33.023 [0;1;96m[ Debug ][m: Application registered payload data segment 0x7cc5b6d38000 with size 6293584200 to id 2
+[2024-10-11 12:55:33.023] [error] Enabling use of VMM-based allocations in CUDA!
+[2024-10-11 12:55:33.729] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:55:33.729] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:55:33.729] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:55:33.729] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:55:34.000] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:55:34.000] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:55:34.000] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:55:34.000] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:55:34.055] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:55:34.055] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:55:34.055] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:55:34.055] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:55:34.108] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:55:34.108] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:55:34.108] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:55:34.108] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:55:34.167] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:55:34.167] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:55:34.167] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:55:34.167] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:55:34.221] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:55:34.221] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:55:34.221] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:55:34.221] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:55:34.276] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:55:34.276] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:55:34.276] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:55:34.276] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:55:34.330] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:55:34.330] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:55:34.330] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:55:34.330] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:55:34.385] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:55:34.385] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:55:34.385] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:55:34.385] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:55:34.439] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:55:34.439] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:55:34.439] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:55:34.439] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:55:34.493] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:55:34.493] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:55:34.493] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:55:34.493] [info] [ExecutionStatus] Full execution!

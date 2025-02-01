@@ -1,0 +1,7 @@
+APP_NAME,Mean Time (ms),Std Dev Time (ms)
+alexnet,15.4,0.5
+bert,40.2,2.5
+bfs,505.3,2.5
+hotspot,92.1,0.8
+resnet,18.0,0.3
+vgg19,23.6,1.0

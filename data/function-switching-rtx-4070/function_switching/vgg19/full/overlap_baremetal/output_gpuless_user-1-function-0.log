@@ -1,0 +1,58 @@
+[0;90m2024-10-11 12:56:49.956 [0;1;93m[Warning][m: IPC channel still there, doing an unlink of server-user-1-function-0
+[0;90m2024-10-11 12:56:49.956 [0;1;96m[ Debug ][m: Application registered management segment 0x795dba140000 with size 65796264 to id 1
+[0;90m2024-10-11 12:56:49.957 [0;1;96m[ Debug ][m: Application registered payload data segment 0x795c42f38000 with size 6293584200 to id 2
+[2024-10-11 12:56:49.957] [error] Enabling use of VMM-based allocations in CUDA!
+[2024-10-11 12:56:50.077] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:56:50.077] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:56:50.077] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:56:50.077] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:56:51.597] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:56:51.597] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:56:51.619] [error] Blocking memory operation! Saving position 0 from 1
+[2024-10-11 12:56:51.624] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:56:51.624] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:56:51.624] [error] Finishing trace execution from position 0 from 1, 1
+[2024-10-11 12:56:51.629] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:56:51.629] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:56:51.652] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:56:51.652] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:56:51.657] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:56:51.657] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:56:51.681] [error] Blocking memory operation! Saving position 0 from 1
+[2024-10-11 12:56:51.681] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:56:51.681] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:56:51.681] [error] Finishing trace execution from position 0 from 1, 1
+[2024-10-11 12:56:51.686] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:56:51.686] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:56:51.710] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:56:51.710] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:56:51.716] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:56:51.716] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:56:51.739] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:56:51.739] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:56:51.744] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:56:51.744] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:56:51.767] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:56:51.767] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:56:51.772] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:56:51.772] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:56:51.794] [error] Blocking memory operation! Saving position 0 from 1
+[2024-10-11 12:56:51.794] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:56:51.794] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:56:51.794] [error] Finishing trace execution from position 0 from 1, 1
+[2024-10-11 12:56:51.799] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:56:51.799] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:56:51.822] [error] Blocking memory operation! Saving position 0 from 1
+[2024-10-11 12:56:51.823] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:56:51.823] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:56:51.823] [error] Finishing trace execution from position 0 from 1, 1
+[2024-10-11 12:56:51.827] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:56:51.827] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:56:51.851] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:56:51.851] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:56:51.856] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:56:51.856] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:56:51.879] [error] Blocking memory operation! Saving position 0 from 1
+[2024-10-11 12:56:51.879] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:56:51.879] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:56:51.879] [error] Finishing trace execution from position 0 from 1, 1

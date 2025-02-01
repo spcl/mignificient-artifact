@@ -1,0 +1,92 @@
+[0;90m2024-10-11 12:53:49.714 [0;1;93m[Warning][m: IPC channel still there, doing an unlink of user-0-function-0
+[0;90m2024-10-11 12:53:49.715 [0;1;96m[ Debug ][m: Application registered management segment 0x743cdcd40000 with size 65796264 to id 1
+[0;90m2024-10-11 12:53:49.715 [0;1;96m[ Debug ][m: Application registered payload data segment 0x743b65b38000 with size 6293584200 to id 2
+[2024-10-11 12:53:49.721] [info] Running on CPU: 5
+[2024-10-11 12:53:49.874] [info] Invoke, data size 142, input string { "input-graph": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-inputs/rodinia/bfs/graph1MW_6.txt", "output-result": "bfs-3.txt"}
+Reading File
+Read File
+Copied Everything to GPU memory
+Start traversing the tree
+Kernel Executed 12 times
+Result stored in result.txt
+[2024-10-11 12:53:50.392] [info] Finished invocation 516.099
+[2024-10-11 12:53:50.926] [info] Invoke, data size 142, input string { "input-graph": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-inputs/rodinia/bfs/graph1MW_6.txt", "output-result": "bfs-3.txt"}
+Reading File
+Read File
+Copied Everything to GPU memory
+Start traversing the tree
+Kernel Executed 12 times
+Result stored in result.txt
+[2024-10-11 12:53:51.433] [info] Finished invocation 506.894
+[2024-10-11 12:53:51.955] [info] Invoke, data size 142, input string { "input-graph": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-inputs/rodinia/bfs/graph1MW_6.txt", "output-result": "bfs-3.txt"}
+Reading File
+Read File
+Copied Everything to GPU memory
+Start traversing the tree
+Kernel Executed 12 times
+Result stored in result.txt
+[2024-10-11 12:53:52.457] [info] Finished invocation 501.049
+[2024-10-11 12:53:52.975] [info] Invoke, data size 142, input string { "input-graph": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-inputs/rodinia/bfs/graph1MW_6.txt", "output-result": "bfs-3.txt"}
+Reading File
+Read File
+Copied Everything to GPU memory
+Start traversing the tree
+Kernel Executed 12 times
+Result stored in result.txt
+[2024-10-11 12:53:53.472] [info] Finished invocation 496.773
+[2024-10-11 12:53:53.982] [info] Invoke, data size 142, input string { "input-graph": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-inputs/rodinia/bfs/graph1MW_6.txt", "output-result": "bfs-3.txt"}
+Reading File
+Read File
+Copied Everything to GPU memory
+Start traversing the tree
+Kernel Executed 12 times
+Result stored in result.txt
+[2024-10-11 12:53:54.480] [info] Finished invocation 496.823
+[2024-10-11 12:53:54.989] [info] Invoke, data size 142, input string { "input-graph": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-inputs/rodinia/bfs/graph1MW_6.txt", "output-result": "bfs-3.txt"}
+Reading File
+Read File
+Copied Everything to GPU memory
+Start traversing the tree
+Kernel Executed 12 times
+Result stored in result.txt
+[2024-10-11 12:53:55.486] [info] Finished invocation 495.998
+[2024-10-11 12:53:56.001] [info] Invoke, data size 142, input string { "input-graph": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-inputs/rodinia/bfs/graph1MW_6.txt", "output-result": "bfs-3.txt"}
+Reading File
+Read File
+Copied Everything to GPU memory
+Start traversing the tree
+Kernel Executed 12 times
+Result stored in result.txt
+[2024-10-11 12:53:56.506] [info] Finished invocation 504.171
+[2024-10-11 12:53:57.022] [info] Invoke, data size 142, input string { "input-graph": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-inputs/rodinia/bfs/graph1MW_6.txt", "output-result": "bfs-3.txt"}
+Reading File
+Read File
+Copied Everything to GPU memory
+Start traversing the tree
+Kernel Executed 12 times
+Result stored in result.txt
+[2024-10-11 12:53:57.521] [info] Finished invocation 498.371
+[2024-10-11 12:53:58.039] [info] Invoke, data size 142, input string { "input-graph": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-inputs/rodinia/bfs/graph1MW_6.txt", "output-result": "bfs-3.txt"}
+Reading File
+Read File
+Copied Everything to GPU memory
+Start traversing the tree
+Kernel Executed 12 times
+Result stored in result.txt
+[2024-10-11 12:53:58.536] [info] Finished invocation 496.764
+[2024-10-11 12:53:59.058] [info] Invoke, data size 142, input string { "input-graph": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-inputs/rodinia/bfs/graph1MW_6.txt", "output-result": "bfs-3.txt"}
+Reading File
+Read File
+Copied Everything to GPU memory
+Start traversing the tree
+Kernel Executed 12 times
+Result stored in result.txt
+[2024-10-11 12:53:59.556] [info] Finished invocation 497.604
+[2024-10-11 12:54:00.072] [info] Invoke, data size 142, input string { "input-graph": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-inputs/rodinia/bfs/graph1MW_6.txt", "output-result": "bfs-3.txt"}
+Reading File
+Read File
+Copied Everything to GPU memory
+Start traversing the tree
+Kernel Executed 12 times
+Result stored in result.txt
+[2024-10-11 12:54:00.572] [info] Finished invocation 499.38

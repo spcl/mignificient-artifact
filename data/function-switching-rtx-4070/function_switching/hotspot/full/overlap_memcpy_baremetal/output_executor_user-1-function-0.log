@@ -1,0 +1,114 @@
+[0;90m2024-10-11 12:54:26.712 [0;1;93m[Warning][m: IPC channel still there, doing an unlink of user-1-function-0
+[0;90m2024-10-11 12:54:26.713 [0;1;96m[ Debug ][m: Application registered management segment 0x771401740000 with size 65796264 to id 1
+[0;90m2024-10-11 12:54:26.714 [0;1;96m[ Debug ][m: Application registered payload data segment 0x77128a538000 with size 6293584200 to id 2
+[2024-10-11 12:54:26.719] [info] Running on CPU: 2
+[2024-10-11 12:54:26.846] [info] Invoke, data size 300, input string { "grid-rows": 512, "pyramid-height": 2, "total-iterations": 2, "tfile": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-inputs/rodinia/hotspot/temp_512", "pfile": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-inputs/rodinia/hotspot/power_512", "ofile": "OUT-hotspot-2.txt"}
+pyramidHeight: 2
+gridSize: [512, 512]
+border:[2, 2]
+blockGrid:[43, 43]
+targetBlock:[12, 12]
+Start computing the transient temperature
+Ending simulation
+total time: 0.09538900
+[2024-10-11 12:54:26.943] [info] Finished invocation 95.41
+[2024-10-11 12:54:26.990] [info] Invoke, data size 300, input string { "grid-rows": 512, "pyramid-height": 2, "total-iterations": 2, "tfile": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-inputs/rodinia/hotspot/temp_512", "pfile": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-inputs/rodinia/hotspot/power_512", "ofile": "OUT-hotspot-2.txt"}
+pyramidHeight: 2
+gridSize: [512, 512]
+border:[2, 2]
+blockGrid:[43, 43]
+targetBlock:[12, 12]
+Start computing the transient temperature
+Ending simulation
+total time: 0.13666100
+[2024-10-11 12:54:27.128] [info] Finished invocation 136.675
+[2024-10-11 12:54:27.135] [info] Invoke, data size 300, input string { "grid-rows": 512, "pyramid-height": 2, "total-iterations": 2, "tfile": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-inputs/rodinia/hotspot/temp_512", "pfile": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-inputs/rodinia/hotspot/power_512", "ofile": "OUT-hotspot-2.txt"}
+pyramidHeight: 2
+gridSize: [512, 512]
+border:[2, 2]
+blockGrid:[43, 43]
+targetBlock:[12, 12]
+Start computing the transient temperature
+Ending simulation
+total time: 0.09232700
+[2024-10-11 12:54:27.228] [info] Finished invocation 92.341
+[2024-10-11 12:54:27.236] [info] Invoke, data size 300, input string { "grid-rows": 512, "pyramid-height": 2, "total-iterations": 2, "tfile": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-inputs/rodinia/hotspot/temp_512", "pfile": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-inputs/rodinia/hotspot/power_512", "ofile": "OUT-hotspot-2.txt"}
+pyramidHeight: 2
+gridSize: [512, 512]
+border:[2, 2]
+blockGrid:[43, 43]
+targetBlock:[12, 12]
+Start computing the transient temperature
+Ending simulation
+total time: 0.09096800
+[2024-10-11 12:54:27.328] [info] Finished invocation 90.982
+[2024-10-11 12:54:27.335] [info] Invoke, data size 300, input string { "grid-rows": 512, "pyramid-height": 2, "total-iterations": 2, "tfile": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-inputs/rodinia/hotspot/temp_512", "pfile": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-inputs/rodinia/hotspot/power_512", "ofile": "OUT-hotspot-2.txt"}
+pyramidHeight: 2
+gridSize: [512, 512]
+border:[2, 2]
+blockGrid:[43, 43]
+targetBlock:[12, 12]
+Start computing the transient temperature
+Ending simulation
+total time: 0.09383400
+[2024-10-11 12:54:27.430] [info] Finished invocation 93.848
+[2024-10-11 12:54:27.437] [info] Invoke, data size 300, input string { "grid-rows": 512, "pyramid-height": 2, "total-iterations": 2, "tfile": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-inputs/rodinia/hotspot/temp_512", "pfile": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-inputs/rodinia/hotspot/power_512", "ofile": "OUT-hotspot-2.txt"}
+pyramidHeight: 2
+gridSize: [512, 512]
+border:[2, 2]
+blockGrid:[43, 43]
+targetBlock:[12, 12]
+Start computing the transient temperature
+Ending simulation
+total time: 0.09099100
+[2024-10-11 12:54:27.529] [info] Finished invocation 91.002
+[2024-10-11 12:54:27.536] [info] Invoke, data size 300, input string { "grid-rows": 512, "pyramid-height": 2, "total-iterations": 2, "tfile": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-inputs/rodinia/hotspot/temp_512", "pfile": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-inputs/rodinia/hotspot/power_512", "ofile": "OUT-hotspot-2.txt"}
+pyramidHeight: 2
+gridSize: [512, 512]
+border:[2, 2]
+blockGrid:[43, 43]
+targetBlock:[12, 12]
+Start computing the transient temperature
+Ending simulation
+total time: 0.09401400
+[2024-10-11 12:54:27.631] [info] Finished invocation 94.025
+[2024-10-11 12:54:27.639] [info] Invoke, data size 300, input string { "grid-rows": 512, "pyramid-height": 2, "total-iterations": 2, "tfile": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-inputs/rodinia/hotspot/temp_512", "pfile": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-inputs/rodinia/hotspot/power_512", "ofile": "OUT-hotspot-2.txt"}
+pyramidHeight: 2
+gridSize: [512, 512]
+border:[2, 2]
+blockGrid:[43, 43]
+targetBlock:[12, 12]
+Start computing the transient temperature
+Ending simulation
+total time: 0.09426900
+[2024-10-11 12:54:27.734] [info] Finished invocation 94.285
+[2024-10-11 12:54:27.741] [info] Invoke, data size 300, input string { "grid-rows": 512, "pyramid-height": 2, "total-iterations": 2, "tfile": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-inputs/rodinia/hotspot/temp_512", "pfile": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-inputs/rodinia/hotspot/power_512", "ofile": "OUT-hotspot-2.txt"}
+pyramidHeight: 2
+gridSize: [512, 512]
+border:[2, 2]
+blockGrid:[43, 43]
+targetBlock:[12, 12]
+Start computing the transient temperature
+Ending simulation
+total time: 0.09246600
+[2024-10-11 12:54:27.835] [info] Finished invocation 92.483
+[2024-10-11 12:54:27.842] [info] Invoke, data size 300, input string { "grid-rows": 512, "pyramid-height": 2, "total-iterations": 2, "tfile": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-inputs/rodinia/hotspot/temp_512", "pfile": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-inputs/rodinia/hotspot/power_512", "ofile": "OUT-hotspot-2.txt"}
+pyramidHeight: 2
+gridSize: [512, 512]
+border:[2, 2]
+blockGrid:[43, 43]
+targetBlock:[12, 12]
+Start computing the transient temperature
+Ending simulation
+total time: 0.09165600
+[2024-10-11 12:54:27.934] [info] Finished invocation 91.668
+[2024-10-11 12:54:27.942] [info] Invoke, data size 300, input string { "grid-rows": 512, "pyramid-height": 2, "total-iterations": 2, "tfile": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-inputs/rodinia/hotspot/temp_512", "pfile": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-inputs/rodinia/hotspot/power_512", "ofile": "OUT-hotspot-2.txt"}
+pyramidHeight: 2
+gridSize: [512, 512]
+border:[2, 2]
+blockGrid:[43, 43]
+targetBlock:[12, 12]
+Start computing the transient temperature
+Ending simulation
+total time: 0.09123400
+[2024-10-11 12:54:28.035] [info] Finished invocation 91.246

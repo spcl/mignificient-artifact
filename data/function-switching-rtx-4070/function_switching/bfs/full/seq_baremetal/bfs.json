@@ -1,0 +1,26 @@
+{
+  "address": "http://127.0.0.1:10000",
+  "iterations": 10,
+  "parallel-requests": 2,
+  "mode": "independent",
+  "different-users": true,
+  "inputs": [
+    {
+      "function": "function",
+      "function-path": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-apps/rodinia/bfs/mignificient-elf-only/bfs.so",
+      "modules": [],
+      "mig-instance": "7g",
+      "gpu-memory": 1024,
+      "input-payload": "{ \"input-graph\": \"/work/serverless/2024/gpus/mignificient-artifact/benchmark-inputs/rodinia/bfs/graph1MW_6.txt\", \"output-result\": \"bfs-3.txt\"}"
+    },
+    {
+      "function": "function",
+      "function-path": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-apps/rodinia/bfs/mignificient-elf-only/bfs.so",
+      "modules": [],
+      "mig-instance": "7g",
+      "gpu-memory": 1024,
+      "input-payload": "{ \"input-graph\": \"/work/serverless/2024/gpus/mignificient-artifact/benchmark-inputs/rodinia/bfs/graph1MW_6.txt\", \"output-result\": \"bfs-4.txt\"}"
+    }
+  ]
+}
+

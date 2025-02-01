@@ -1,0 +1,92 @@
+[0;90m2024-10-11 12:56:52.931 [0;1;93m[Warning][m: IPC channel still there, doing an unlink of server-user-0-function-1
+[0;90m2024-10-11 12:56:52.931 [0;1;96m[ Debug ][m: Application registered management segment 0x7d701c140000 with size 65796264 to id 1
+[0;90m2024-10-11 12:56:52.932 [0;1;96m[ Debug ][m: Application registered payload data segment 0x7d6ea4f38000 with size 6293584200 to id 2
+[2024-10-11 12:56:52.932] [error] Enabling use of VMM-based allocations in CUDA!
+[2024-10-11 12:56:53.046] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:56:53.046] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:56:53.046] [error] Message from the orchestrator! Code 2
+[2024-10-11 12:56:53.046] [info] [ExecutionStatus] Memory operations!
+[2024-10-11 12:56:54.162] [error] Blocking kernel execution! Saving position 6 from 9
+[2024-10-11 12:56:54.175] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:56:54.175] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:56:54.175] [error] Finishing trace execution from position 6 from 9, 9
+[2024-10-11 12:56:54.207] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:56:54.207] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:56:54.207] [error] Message from the orchestrator! Code 2
+[2024-10-11 12:56:54.207] [info] [ExecutionStatus] Memory operations!
+[2024-10-11 12:56:54.232] [error] Blocking kernel execution! Saving position 17 from 372
+[2024-10-11 12:56:54.235] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:56:54.235] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:56:54.235] [error] Finishing trace execution from position 17 from 372, 372
+[2024-10-11 12:56:54.238] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:56:54.238] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:56:54.238] [error] Message from the orchestrator! Code 2
+[2024-10-11 12:56:54.238] [info] [ExecutionStatus] Memory operations!
+[2024-10-11 12:56:54.262] [error] Blocking kernel execution! Saving position 17 from 372
+[2024-10-11 12:56:54.264] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:56:54.264] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:56:54.264] [error] Finishing trace execution from position 17 from 372, 372
+[2024-10-11 12:56:54.267] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:56:54.267] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:56:54.267] [error] Message from the orchestrator! Code 2
+[2024-10-11 12:56:54.267] [info] [ExecutionStatus] Memory operations!
+[2024-10-11 12:56:54.291] [error] Blocking kernel execution! Saving position 17 from 372
+[2024-10-11 12:56:54.291] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:56:54.291] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:56:54.291] [error] Finishing trace execution from position 17 from 372, 372
+[2024-10-11 12:56:54.295] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:56:54.295] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:56:54.295] [error] Message from the orchestrator! Code 2
+[2024-10-11 12:56:54.295] [info] [ExecutionStatus] Memory operations!
+[2024-10-11 12:56:54.319] [error] Blocking kernel execution! Saving position 17 from 372
+[2024-10-11 12:56:54.319] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:56:54.319] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:56:54.319] [error] Finishing trace execution from position 17 from 372, 372
+[2024-10-11 12:56:54.323] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:56:54.323] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:56:54.323] [error] Message from the orchestrator! Code 2
+[2024-10-11 12:56:54.323] [info] [ExecutionStatus] Memory operations!
+[2024-10-11 12:56:54.347] [error] Blocking kernel execution! Saving position 17 from 372
+[2024-10-11 12:56:54.347] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:56:54.347] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:56:54.347] [error] Finishing trace execution from position 17 from 372, 372
+[2024-10-11 12:56:54.351] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:56:54.351] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:56:54.351] [error] Message from the orchestrator! Code 2
+[2024-10-11 12:56:54.351] [info] [ExecutionStatus] Memory operations!
+[2024-10-11 12:56:54.374] [error] Blocking kernel execution! Saving position 17 from 372
+[2024-10-11 12:56:54.374] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:56:54.374] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:56:54.374] [error] Finishing trace execution from position 17 from 372, 372
+[2024-10-11 12:56:54.378] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:56:54.378] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:56:54.378] [error] Message from the orchestrator! Code 2
+[2024-10-11 12:56:54.378] [info] [ExecutionStatus] Memory operations!
+[2024-10-11 12:56:54.401] [error] Blocking kernel execution! Saving position 17 from 372
+[2024-10-11 12:56:54.401] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:56:54.401] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:56:54.401] [error] Finishing trace execution from position 17 from 372, 372
+[2024-10-11 12:56:54.405] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:56:54.405] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:56:54.405] [error] Message from the orchestrator! Code 2
+[2024-10-11 12:56:54.405] [info] [ExecutionStatus] Memory operations!
+[2024-10-11 12:56:54.428] [error] Blocking kernel execution! Saving position 17 from 372
+[2024-10-11 12:56:54.429] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:56:54.429] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:56:54.429] [error] Finishing trace execution from position 17 from 372, 372
+[2024-10-11 12:56:54.432] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:56:54.432] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:56:54.432] [error] Message from the orchestrator! Code 2
+[2024-10-11 12:56:54.432] [info] [ExecutionStatus] Memory operations!
+[2024-10-11 12:56:54.456] [error] Blocking kernel execution! Saving position 17 from 372
+[2024-10-11 12:56:54.456] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:56:54.456] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:56:54.456] [error] Finishing trace execution from position 17 from 372, 372
+[2024-10-11 12:56:54.460] [error] Message from the orchestrator! Code 1
+[2024-10-11 12:56:54.460] [info] [ExecutionStatus] CPU execution!
+[2024-10-11 12:56:54.460] [error] Message from the orchestrator! Code 2
+[2024-10-11 12:56:54.460] [info] [ExecutionStatus] Memory operations!
+[2024-10-11 12:56:54.483] [error] Blocking kernel execution! Saving position 17 from 372
+[2024-10-11 12:56:54.483] [error] Message from the orchestrator! Code 3
+[2024-10-11 12:56:54.483] [info] [ExecutionStatus] Full execution!
+[2024-10-11 12:56:54.483] [error] Finishing trace execution from position 17 from 372, 372

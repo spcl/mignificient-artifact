@@ -1,0 +1,19 @@
+APP_NAME,MODE,Mean Time (ms),Std Dev Time (ms)
+alexnet,overlap_baremetal,26.2,0.7
+alexnet,overlap_memcpy_baremetal,26.4,0.9
+alexnet,seq_baremetal,49.2,5.5
+bert,overlap_baremetal,46.5,3.9
+bert,overlap_memcpy_baremetal,41.1,3.1
+bert,seq_baremetal,65.8,7.5
+bfs,overlap_baremetal,515.9,18.2
+bfs,overlap_memcpy_baremetal,528.2,14.6
+bfs,seq_baremetal,990.5,112.0
+hotspot,overlap_baremetal,102.9,10.1
+hotspot,overlap_memcpy_baremetal,103.0,9.9
+hotspot,seq_baremetal,195.1,22.2
+resnet,overlap_baremetal,28.3,1.9
+resnet,overlap_memcpy_baremetal,27.5,0.7
+resnet,seq_baremetal,53.3,6.0
+vgg19,overlap_baremetal,28.5,1.2
+vgg19,overlap_memcpy_baremetal,27.8,1.0
+vgg19,seq_baremetal,54.5,6.5

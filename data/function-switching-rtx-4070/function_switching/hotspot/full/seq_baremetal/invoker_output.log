@@ -1,0 +1,42 @@
+[2024-10-11 12:54:20.939] [info] Reading configuration from hotspot.json
+[2024-10-11 12:54:21.422] [info] Finished invocation. Result OK Body { "result": "success"}
+[2024-10-11 12:54:21.522] [info] Finished invocation. Result OK Body { "result": "success"}
+[2024-10-11 12:54:21.624] [info] Finished invocation. Result OK Body { "result": "success"}
+[2024-10-11 12:54:21.724] [info] Finished invocation. Result OK Body { "result": "success"}
+[2024-10-11 12:54:21.825] [info] Finished invocation. Result OK Body { "result": "success"}
+[2024-10-11 12:54:21.923] [info] Finished invocation. Result OK Body { "result": "success"}
+[2024-10-11 12:54:22.023] [info] Finished invocation. Result OK Body { "result": "success"}
+[2024-10-11 12:54:22.122] [info] Finished invocation. Result OK Body { "result": "success"}
+[2024-10-11 12:54:22.224] [info] Finished invocation. Result OK Body { "result": "success"}
+[2024-10-11 12:54:22.322] [info] Finished invocation. Result OK Body { "result": "success"}
+[2024-10-11 12:54:22.421] [info] Finished invocation. Result OK Body { "result": "success"}
+[2024-10-11 12:54:22.520] [info] Finished invocation. Result OK Body { "result": "success"}
+[2024-10-11 12:54:22.620] [info] Finished invocation. Result OK Body { "result": "success"}
+[2024-10-11 12:54:22.720] [info] Finished invocation. Result OK Body { "result": "success"}
+[2024-10-11 12:54:22.820] [info] Finished invocation. Result OK Body { "result": "success"}
+[2024-10-11 12:54:22.919] [info] Finished invocation. Result OK Body { "result": "success"}
+[2024-10-11 12:54:23.019] [info] Finished invocation. Result OK Body { "result": "success"}
+[2024-10-11 12:54:23.121] [info] Finished invocation. Result OK Body { "result": "success"}
+[2024-10-11 12:54:23.223] [info] Finished invocation. Result OK Body { "result": "success"}
+[2024-10-11 12:54:23.321] [info] Finished invocation. Result OK Body { "result": "success"}
+[2024-10-11 12:54:23.321] [info] Total time: 2.0
+[2024-10-11 12:54:23.321] [info] Client 0, Invocation 0, Time 282042
+[2024-10-11 12:54:23.321] [info] Client 0, Invocation 1, Time 101156
+[2024-10-11 12:54:23.321] [info] Client 0, Invocation 2, Time 202339
+[2024-10-11 12:54:23.321] [info] Client 0, Invocation 3, Time 200222
+[2024-10-11 12:54:23.321] [info] Client 0, Invocation 4, Time 198011
+[2024-10-11 12:54:23.321] [info] Client 0, Invocation 5, Time 200883
+[2024-10-11 12:54:23.321] [info] Client 0, Invocation 6, Time 197789
+[2024-10-11 12:54:23.321] [info] Client 0, Invocation 7, Time 199121
+[2024-10-11 12:54:23.321] [info] Client 0, Invocation 8, Time 199741
+[2024-10-11 12:54:23.321] [info] Client 0, Invocation 9, Time 199055
+[2024-10-11 12:54:23.321] [info] Client 1, Invocation 0, Time 203387
+[2024-10-11 12:54:23.321] [info] Client 1, Invocation 1, Time 200730
+[2024-10-11 12:54:23.321] [info] Client 1, Invocation 2, Time 202061
+[2024-10-11 12:54:23.321] [info] Client 1, Invocation 3, Time 199289
+[2024-10-11 12:54:23.321] [info] Client 1, Invocation 4, Time 198789
+[2024-10-11 12:54:23.321] [info] Client 1, Invocation 5, Time 199975
+[2024-10-11 12:54:23.321] [info] Client 1, Invocation 6, Time 198469
+[2024-10-11 12:54:23.321] [info] Client 1, Invocation 7, Time 199257
+[2024-10-11 12:54:23.321] [info] Client 1, Invocation 8, Time 199273
+[2024-10-11 12:54:23.321] [info] Client 1, Invocation 9, Time 201629
