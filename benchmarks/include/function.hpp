@@ -5,6 +5,18 @@
 #include <cstddef>
 #include <cstdint>
 
+extern "C" void* mignificient_malloc(size_t size)
+{
+  //std::cerr << "can't!" << std::endl;
+  abort();
+}
+
+extern "C" void* mignificient_free(void*)
+{
+  //std::cerr << "can't!" << std::endl;
+  abort();
+}
+
 namespace mignificient {
 
   namespace executor {
