@@ -8,6 +8,10 @@
 Please check `ld-preload` inside function configs - if torch has dependency on OpenMP,
 it will have to be preloaded.
 
+```
+pip install --no-deps torch==1.12.0+cu116 torchvision==0.13.0+cu116 numpy==1.26.4 --extra-index-url https://download.pytorch.org/whl/cu116
+```
+
 ## Execution
 
 1. Paths to the artifact directory are hardcoded, and they need to be changed in *.json files.
