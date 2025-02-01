@@ -7,13 +7,18 @@
   },
   "executor": {
     "type": "bare-metal",
+    "use-vmm": true,
     "poll-sleep": true,
     "poll-gpuless-sleep": true,
+    "cpu-bind-executor": false,
+    "cpu-bind-gpuless": false,
+    "cpu-bind-gpuless-separate": false,
     "bare-metal-executor": {
-      "cpp": "/scratch/mcopik/gpus/new_september/build/executor/bin/executor_cpp",
-      "python": ["/users/mcopik/anaconda3/bin/python3.12", "/scratch/mcopik/gpus/new_september/build/executor/bin/python/executor_python.py"],
-      "gpuless-lib": "/scratch/mcopik/gpus/new_september/build/gpuless/libgpuless.so",
-      "gpuless-exec": "/scratch/mcopik/gpus/new_september/build/gpuless/manager_device"
+      "cpp": "/work/serverless/2024/gpus/mignificient/build_116_release/executor/bin/executor_cpp",
+      "python": ["/opt/miniconda3/envs/cuda_116_pytorch/bin/python3.9", "/work/serverless/2024/gpus/mignificient/build_116_release/executor/bin/executor_python.py"],
+      "pythonpath": "/work/serverless/2024/gpus/mignificient/build_116_release/executor/",
+      "gpuless-lib": "/work/serverless/2024/gpus/mignificient/build_116_release/gpuless/libgpuless.so",
+      "gpuless-exec": "/work/serverless/2024/gpus/mignificient/build_116_release/gpuless/manager_device"
     }
   }
 }

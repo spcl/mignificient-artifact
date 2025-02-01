@@ -1,0 +1,32 @@
+{
+  "address": "http://127.0.0.1:10000",
+  "iterations": 10,
+  "parallel-requests": 2,
+  "mode": "independent",
+  "different-users": true,
+  "inputs": [
+    {
+      "function-language": "python",
+      "function": "function",
+      "function-path": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-apps/ml-inference/alexnet/functions.py",
+      "cubin-analysis": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-apps/ml-inference/cubin.txt",
+      "ld-preload": "/opt/miniconda3/envs/cuda_116_pytorch/lib/python3.9/site-packages/torch/lib/../../../../libiomp5.so",
+      "modules": [],
+      "mig-instance": "7g",
+      "gpu-memory": 1024,
+      "input-payload": "{ \"input-graph\": \"/work/serverless/2024/gpus/mignificient-artifact/benchmarks/function-switching/../../benchmarks/inputs/bfs/graph1MW_6.txt\", \"output-result\": \"bfs-3.txt\"}"
+    },
+    {
+      "function-language": "python",
+      "function": "function",
+      "function-path": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-apps/ml-inference/alexnet/functions.py",
+      "cubin-analysis": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-apps/ml-inference/cubin.txt",
+      "ld-preload": "/opt/miniconda3/envs/cuda_116_pytorch/lib/python3.9/site-packages/torch/lib/../../../../libiomp5.so",
+      "modules": [],
+      "mig-instance": "7g",
+      "gpu-memory": 1024,
+      "input-payload": "{ \"input-graph\": \"/work/serverless/2024/gpus/mignificient-artifact/benchmarks/function-switching/../../benchmarks/inputs/bfs/graph1MW_6.txt\", \"output-result\": \"bfs-3.txt\"}"
+    }
+  ]
+}
+
