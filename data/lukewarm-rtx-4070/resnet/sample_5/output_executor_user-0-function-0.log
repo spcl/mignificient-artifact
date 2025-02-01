@@ -1,0 +1,8 @@
+[0;90m2024-10-11 14:14:39.888 [0;1;93m[Warning][m: IPC channel still there, doing an unlink of user-0-function-0
+[0;90m2024-10-11 14:14:39.889 [0;1;96m[ Debug ][m: Application registered management segment 0x79c46b740000 with size 65796264 to id 1
+[0;90m2024-10-11 14:14:39.890 [0;1;96m[ Debug ][m: Application registered payload data segment 0x79c2f4538000 with size 6293584200 to id 2
+model eval time: 0.10716073506046087
+RESULT 258 0.8733609318733215
+RESULT 258 0.8733609318733215
+RESULT 258 0.8733609318733215
+RESULT 258 0.8733609318733215
