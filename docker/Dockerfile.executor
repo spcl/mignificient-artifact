@@ -1,7 +1,7 @@
 FROM spcleth/mignificient:base
 
 ADD mignificient /source
-RUN apt-get install -y gdb valgrind
-RUN mkdir build && cd build && pybind11_DIR=/usr/local/lib/python3.8/dist-packages/pybind11 /cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug ../source/ && make -j16
+#RUN apt-get install -y gdb valgrind
+RUN mkdir build && cd build && pybind11_DIR=/usr/local/lib/python3.8/dist-packages/pybind11 /cmake/bin/cmake -DCMAKE_BUILD_TYPE=Release ../source/ && make -j16
 
 RUN groupadd -g 1000 mcopik && useradd mcopik -u 1000 -g 1000 -m -s /bin/bash
