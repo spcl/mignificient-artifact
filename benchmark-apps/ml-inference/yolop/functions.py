@@ -103,7 +103,7 @@ def function(obj):
 #inference
 
     end = timer()
-    print(end - start)
+    #print(end - start)
 
 if __name__ == "__main__":
     function({})

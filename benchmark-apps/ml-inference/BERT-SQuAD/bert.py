@@ -36,6 +36,7 @@ class QA:
         self.model.to(self.device)
         self.model.eval()
         end = timer()
+        # THIS is needs to be uncommented for swapping benchmark
         print("eval", end-begin)
 
 

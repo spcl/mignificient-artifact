@@ -51,11 +51,15 @@ def function(obj):
     top_catid = top_catid[0].item()
     top_prob = top_prob[0].item()
 
-    print("RESULT", top_prob, top_catid)
+    print("RESULT", top_prob, top_catid, flush=True)
 
     #end = timer()
     #print("TIME", end - start)
 
 #function({})
 if __name__ == "__main__":
-    function({})
+    for i in range(11):
+        start = timer()
+        function({})
+        end = timer()
+        print("Time:", end-start)

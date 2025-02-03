@@ -1,0 +1,7 @@
+FROM nvidia/cuda:11.6.1-cudnn8-devel-centos7
+
+RUN yum -y install -y libatomic centos-release-scl scl-utils
+RUN yum -y install -y devtoolset-7
+RUN scl enable devtoolset-7 bash
+RUN yum -y groupinstall "Development Tools"
+

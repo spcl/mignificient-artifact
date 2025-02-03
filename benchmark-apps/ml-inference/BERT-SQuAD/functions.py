@@ -1,5 +1,7 @@
 
 import sys, os
+SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
+sys.path.append(SCRIPT_DIR)
 
 from bert import QA
 from timeit import default_timer as timer
@@ -8,9 +10,7 @@ import torch
 
 model = None
 
-SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 INPUT_DIR = os.path.join(SCRIPT_DIR, os.path.pardir, os.path.pardir, os.path.pardir, 'benchmark-inputs', 'ml-inference', 'BERT-SQuAD')
-sys.path.append(SCRIPT_DIR)
 
 def function(obj):
 
@@ -46,4 +46,8 @@ def function(obj):
     #print(end - start)
 
 if __name__ == "__main__":
-    function({})
+    for i in range(11):
+        start = timer()
+        function({})
+        end = timer()
+        print("Time:", end-start)
