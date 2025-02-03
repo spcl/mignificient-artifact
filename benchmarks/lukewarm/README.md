@@ -14,6 +14,8 @@ it will have to be preloaded.
 
 1a. Uncomment the line printing model evaluation time inside `functions.py` for ResNet and inside `bert.py` for BERT-SQuAD.
 
+1b. Inside's MIGnificient gpuless, change in line 518 - uncomment swapping in `src/trace/manager/manager_device.cpp`.
+
 2. To run swapping, execute the following scripts. Data will be produced in `../../data/lukewarm-rtx-4070/`.
 It will make three requests, where one of them will involve swapping out and swapping in.
 The experiment will be repeated ten times.
