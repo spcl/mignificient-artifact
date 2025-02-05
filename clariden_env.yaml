@@ -1,0 +1,46 @@
+name: mig_dev
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - gcc=13
+  - gxx=13
+  - gfortran=13
+  - cmake
+  - make
+  - ninja
+  - pkg-config
+  - binutils
+  - ipykernel
+  - matplotlib
+  - numpy=1.26.0
+  - pandas
+  - pathlib
+  - python=3.10
+  - scipy
+  - statsmodels
+  - sympy
+  - nvidia::cuda-toolkit=12.4.1
+  - conda-forge::cuda-compiler
+  - numba
+  - datasets
+  - pyarrow
+  - regex
+  - sentencepiece
+  - pybind11
+  - seaborn
+  - libacl
+  - gcc_linux-64
+  - gxx_linux-64
+  - jsoncpp
+  - transformers
+  - cudnn
+  - opencv
+  - pip
+  - pip:
+    - --index-url https://download.pytorch.org/whl/cu124
+    - torch
+    - torchvision
+    - torchaudio
+    - git+https://github.com/justheuristic/prefetch_generator.git
+    - git+https://github.com/rbgirshick/yacs.git

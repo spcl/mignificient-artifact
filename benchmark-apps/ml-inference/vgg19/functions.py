@@ -1,6 +1,6 @@
 
 #import sys
-#sys.path.append('/work/serverless/2024/gpus/mignificient-artifact/benchmark-apps/ml-inference/vgg19//')
+#sys.path.append('/capstor/scratch/cscs/ctianche/projects/mig/mignificient-artifact/benchmark-apps/ml-inference/vgg19//')
 #
 #print("import", flush=True)
 import os
@@ -30,7 +30,7 @@ def function(obj):
         #print(after - before)
 
     #start = timer()
-    #input_image = Image.open('/work/serverless/2024/gpus/mignificient-artifact/benchmark-apps/ml-inference/vgg19/dog.jpg')
+    #input_image = Image.open('/capstor/scratch/cscs/ctianche/projects/mig/mignificient-artifact/benchmark-apps/ml-inference/vgg19/dog.jpg')
     input_image = Image.open(os.path.join(INPUT_DIR, 'dog.jpg'))
     preprocess = transforms.Compose([
         transforms.Resize(256),

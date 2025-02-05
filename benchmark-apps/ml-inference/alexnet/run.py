@@ -16,7 +16,7 @@ after = timer()
 print('model eval time:')
 print(after - before)
 
-input_image = Image.open('/work/serverless/2024/gpus/mignificient-artifact/benchmark-apps/ml-inference/alexnet/dog.jpg')
+input_image = Image.open('/capstor/scratch/cscs/ctianche/projects/mig/mignificient-artifact/benchmark-apps/ml-inference/alexnet/dog.jpg')
 preprocess = transforms.Compose([
     transforms.Resize(256),
     transforms.CenterCrop(224),
