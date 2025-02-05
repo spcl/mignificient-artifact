@@ -13,14 +13,14 @@ dependencies:
   - binutils
   - ipykernel
   - matplotlib
-  - numpy=1.26.0
+  - numpy
   - pandas
   - pathlib
   - python=3.10
   - scipy
   - statsmodels
   - sympy
-  - nvidia::cuda-toolkit=12.4.1
+  - nvidia::cuda-toolkit=12.6
   - conda-forge::cuda-compiler
   - numba
   - datasets
@@ -38,7 +38,7 @@ dependencies:
   - opencv
   - pip
   - pip:
-    - --index-url https://download.pytorch.org/whl/cu124
+    - --index-url https://download.pytorch.org/whl/cu126
     - torch
     - torchvision
     - torchaudio
