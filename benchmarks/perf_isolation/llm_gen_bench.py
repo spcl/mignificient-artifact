@@ -46,13 +46,18 @@ class GPUInstanceManager:
                 raise RuntimeError(f"Failed to create GPU instance: {result.stderr}")
             print(result.stdout)
         
-    def setup_mps(self):
+    def setup_mps(self, num_instances):
         # Stop any existing MPS daemon
         subprocess.run(['sudo', 'nvidia-smi', '-i', '0', '-mig', '0'], capture_output=True)
         subprocess.run(['sudo', 'nvidia-smi', '-i', '0', '-c', 'EXCLUSIVE_PROCESS'], capture_output=True)
         
         # Start MPS daemon
         os.environ['CUDA_VISIBLE_DEVICES'] = '0'  # Use first GPU
+        instance_to_sm_ratio = {2: 3/7, 3: 2/7, 4: 1/7, 7: 1/7}
+        if self.mode == 'mps_limit_sm':
+            sm_ratio = int(instance_to_sm_ratio.get(num_instances) * 100)
+            os.environ['CUDA_MPS_ACTIVE_THREAD_PERCENTAGE'] = str(sm_ratio)
+            print(f"Setting CUDA_MPS_ACTIVE_THREAD_PERCENTAGE to {sm_ratio}")
         subprocess.run(['nvidia-cuda-mps-control', '-d'])
         print("Started MPS")
         
@@ -63,7 +68,10 @@ class GPUInstanceManager:
             print("Destroyed all MIG instances")
         else:
             # subprocess.run(['nvidia-cuda-mps-control', '-d'])
-            subprocess.run('echo quit | nvidia-cuda-mps-control', shell=True) 
+            subprocess.run('echo quit | nvidia-cuda-mps-control', shell=True)
+            if self.mode == 'mps_limit_sm':
+                if 'CUDA_MPS_ACTIVE_THREAD_PERCENTAGE' in os.environ:
+                    del os.environ['CUDA_MPS_ACTIVE_THREAD_PERCENTAGE']
             print("Stopped MPS")
             subprocess.run(['sudo', 'nvidia-smi', '-i', '0', '-c', 'DEFAULT'], capture_output=True)
             subprocess.run(['sudo', 'nvidia-smi', '-i', '0', '-mig', '1'], capture_output=True)
@@ -123,7 +131,7 @@ if __name__ == '__main__':
     multiprocessing.set_start_method('spawn')
     
     parser = argparse.ArgumentParser()
-    parser.add_argument('--mode', choices=['mig', 'mps'], required=True)
+    parser.add_argument('--mode', choices=['mig', 'mps', 'mps_limit_sm'], required=True)
     parser.add_argument('--num_instances', type=int, default=2)
     parser.add_argument('--model_name', type=str, default="facebook/opt-2.7b")
     parser.add_argument('--max_generation_length', type=int, default=256)
@@ -136,7 +144,7 @@ if __name__ == '__main__':
             result = subprocess.run(['nvidia-smi', '-L'], capture_output=True, text=True)
             gpu_ids = [x for x in re.findall(r'(MIG-[a-f0-9-]+)', result.stdout)]
         else:
-            manager.setup_mps()
+            manager.setup_mps(args.num_instances)
             # For MPS, we just use sequential IDs
             gpu_ids = list(range(args.num_instances))
         
@@ -152,7 +160,7 @@ if __name__ == '__main__':
             print()
         
         # append results to a file
-        with open('results.csv', 'a') as f:
+        with open('results_mps_limit_sm.csv', 'a') as f:
             for instance_id, result in results:
                 for latency in result['latencies']:
                     f.write(f"{args.model_name},{args.max_generation_length},{args.mode},{args.num_instances},{instance_id},{latency}\n")
