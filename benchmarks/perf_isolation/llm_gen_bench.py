@@ -11,8 +11,8 @@ import subprocess
 import signal
 import atexit
 
-# append LD_LIBRARY_PATH with /home/ctianche/miniconda3/envs/mig_dev/lib
-os.environ['LD_LIBRARY_PATH'] = f'/home/ctianche/miniconda3/envs/mig_dev/lib:{os.environ.get("LD_LIBRARY_PATH", "")}'
+# append LD_LIBRARY_PATH with conda env
+os.environ['LD_LIBRARY_PATH'] = f'/home/yyuejian/miniconda3/envs/mig_dev/lib:{os.environ.get("LD_LIBRARY_PATH", "")}'
 
 class GPUInstanceManager:
     def __init__(self, mode):
@@ -125,7 +125,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--mode', choices=['mig', 'mps'], required=True)
     parser.add_argument('--num_instances', type=int, default=2)
-    parser.add_argument('--model_name', type=str, default="facebook/opt-2.7b")
+    parser.add_argument('--model_name', type=str, default="deepseek-ai/DeepSeek-R1-Distill-Qwen-7B")
     parser.add_argument('--max_generation_length', type=int, default=256)
     args = parser.parse_args()
     
@@ -152,6 +152,9 @@ if __name__ == '__main__':
             print()
         
         # append results to a file
+        if not os.path.isfile("results.csv"):
+            with open("results.csv", "w") as f:
+                f.write("model_name,max_generation_length,mode,num_instances,instance_id,time_mean,time_std,time_p99\n")
         with open('results.csv', 'a') as f:
             for instance_id, result in results:
                 for latency in result['latencies']:
