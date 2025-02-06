@@ -74,7 +74,7 @@ class IsolationTest:
         self.model_name = model_name
         self.max_generation_length = max_generation_length
         
-    def run_inference(self, num_iterations=4):
+    def run_inference(self, num_iterations=16):
         # For MIG mode, set specific GPU
         if 'MIG' in str(self.uu_id):
             os.environ['CUDA_VISIBLE_DEVICES'] = str(self.uu_id)
@@ -86,6 +86,11 @@ class IsolationTest:
         input_text = "Please tell me a story of roughly 2000 words."
         inputs = tokenizer(input_text, return_tensors="pt").to(device)
         
+        # warmup
+        for _ in range(4):
+            with torch.no_grad():
+                model.generate(**inputs, max_length=self.max_generation_length)
+
         latencies = []
         for _ in range(num_iterations):
             start_time = time.time()
@@ -94,10 +99,7 @@ class IsolationTest:
             latencies.append(time.time() - start_time)
             
         return {
-            'mean': np.mean(latencies),
-            'std': np.std(latencies),
-            'p99': np.percentile(latencies, 99),
-            'uu_id': self.uu_id
+            "latencies": latencies
         }
 
 def run_concurrent_tests(num_instances, gpu_ids, model_name, max_generation_length):
@@ -142,17 +144,18 @@ if __name__ == '__main__':
         
         print(f"\nResults for {args.mode.upper()} with {args.num_instances} instances:")
         print("-" * 50)
-        for instance_id, metrics in results:
+        for instance_id, result in results:
             print(f"Instance {instance_id}:")
-            print(f"Mean latency: {metrics['mean']:.3f}s")
-            print(f"Std deviation: {metrics['std']:.3f}s")
-            print(f"P99 latency: {metrics['p99']:.3f}s")
+            print(f"Mean latency: {np.mean(result['latencies']):.3f}s")
+            print(f"Std deviation: {np.std(result['latencies']):.3f}s")
+            print(f"P99 latency: {np.percentile(result['latencies'], 99):.3f}s")
             print()
         
         # append results to a file
         with open('results.csv', 'a') as f:
-            for instance_id, metrics in results:
-                f.write(f"{args.model_name},{args.max_generation_length},{args.mode},{args.num_instances},{instance_id},{metrics['mean']},{metrics['std']},{metrics['p99']}\n")
+            for instance_id, result in results:
+                for latency in result['latencies']:
+                    f.write(f"{args.model_name},{args.max_generation_length},{args.mode},{args.num_instances},{instance_id},{latency}\n")
                 
             
     finally:
