@@ -44,15 +44,18 @@ class GPUInstanceManager:
                                  capture_output=True, text=True)
             if result.returncode != 0:
                 raise RuntimeError(f"Failed to create GPU instance: {result.stderr}")
-            print(result.stdout)
         
-    def setup_mps(self):
+    def setup_mps(self,num_instances, with_env):
         # Stop any existing MPS daemon
         subprocess.run(['sudo', 'nvidia-smi', '-i', '0', '-mig', '0'], capture_output=True)
         subprocess.run(['sudo', 'nvidia-smi', '-i', '0', '-c', 'EXCLUSIVE_PROCESS'], capture_output=True)
         
         # Start MPS daemon
         os.environ['CUDA_VISIBLE_DEVICES'] = '0'  # Use first GPU
+        if with_env:
+            os.environ['CUDA_MPS_ACTIVE_THREAD_PERCENTAGE'] = '43'
+        else:
+            os.environ['CUDA_MPS_ACTIVE_THREAD_PERCENTAGE'] = '100'
         subprocess.run(['nvidia-cuda-mps-control', '-d'])
         print("Started MPS")
         
@@ -97,25 +100,40 @@ class IsolationTest:
             'mean': np.mean(latencies),
             'std': np.std(latencies),
             'p99': np.percentile(latencies, 99),
-            'uu_id': self.uu_id
+            'uu_id': self.uu_id,
+            'latencies': latencies
         }
 
-def run_concurrent_tests(num_instances, gpu_ids, model_name, max_generation_length):
+def run_concurrent_tests(num_instances, gpu_ids, model_name, max_generation_length, mode, with_env):
     tests = []
     for gpu_id in gpu_ids:
         test = IsolationTest(uu_id=gpu_id, model_name=model_name, max_generation_length=max_generation_length)
         tests.append(test)
     
     results = []
+    raw_latencies = []  # New list for raw data
+    
     with concurrent.futures.ProcessPoolExecutor(max_workers=num_instances) as executor:
         future_to_test = {executor.submit(test.run_inference): i 
                          for i, test in enumerate(tests)}
         
         for future in concurrent.futures.as_completed(future_to_test):
             instance_id = future_to_test[future]
-            results.append((instance_id, future.result()))
+            result = future.result()
+            print(result)
+            results.append((instance_id, result))
+            raw_latencies.append((instance_id, result['latencies']))  # Save raw latencies
     
-    return sorted(results, key=lambda x: x[0])
+    # Save raw data to file
+    csv_name = 'raw_latencies_with_env.csv' if with_env else 'raw_latencies_no_env.csv'
+    with open(csv_name, 'a') as f:
+        if os.path.getsize(csv_name) == 0:
+            f.write("model_name,max_length,mode,num_instances,instance_id,iteration,latency\n")
+        for instance_id, latencies in raw_latencies:
+            for iter_num, latency in enumerate(latencies):
+                f.write(f"{args.model_name},{max_generation_length},{args.mode},{num_instances},{instance_id},{iter_num},{latency}\n")
+
+    return results
 
 if __name__ == '__main__':
     multiprocessing.set_start_method('spawn')
@@ -125,6 +143,7 @@ if __name__ == '__main__':
     parser.add_argument('--num_instances', type=int, default=2)
     parser.add_argument('--model_name', type=str, default="deepseek-ai/DeepSeek-R1-Distill-Qwen-7B")
     parser.add_argument('--max_generation_length', type=int, default=256)
+    parser.add_argument('--with_env', type=bool, default=False)
     args = parser.parse_args()
     
     manager = GPUInstanceManager(args.mode)
@@ -134,11 +153,11 @@ if __name__ == '__main__':
             result = subprocess.run(['nvidia-smi', '-L'], capture_output=True, text=True)
             gpu_ids = [x for x in re.findall(r'(MIG-[a-f0-9-]+)', result.stdout)]
         else:
-            manager.setup_mps()
+            manager.setup_mps(args.num_instances,args.with_env)
             # For MPS, we just use sequential IDs
             gpu_ids = list(range(args.num_instances))
         
-        results = run_concurrent_tests(args.num_instances, gpu_ids, args.model_name, args.max_generation_length)
+        results = run_concurrent_tests(args.num_instances, gpu_ids, args.model_name, args.max_generation_length,args.mode,args.with_env)
         
         print(f"\nResults for {args.mode.upper()} with {args.num_instances} instances:")
         print("-" * 50)
