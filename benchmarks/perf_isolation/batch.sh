@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-for mode in mig mps; do
+for mode in mig mps mps_limit_sm; do
     for instances in 2 3 4 7; do
         for model_name in facebook/opt-125m facebook/opt-350m facebook/opt-2.7b; do
             for max_generation_length in 32 128 512; do
