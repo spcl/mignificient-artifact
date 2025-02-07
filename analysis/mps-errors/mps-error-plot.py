@@ -32,6 +32,13 @@ def plot_series_graph(x, y):
             temp.append(y[j + 3 * i])
         data.append(temp)
 
+    num_entries = len(x)
+    for i in range(num_entries):
+
+        print('No errors', np.round(np.mean(data[i][0]),2))
+        print('4 errors', np.round(np.mean(data[i][1]),2))
+        print('8 errors', np.round(np.mean(data[i][2]),2))
+
     plt.figure(figsize=(5, 3))
     
     num_entries = len(x)
