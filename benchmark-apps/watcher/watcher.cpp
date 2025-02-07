@@ -171,7 +171,7 @@ int main(int argc, char *argv[]) {
     nvmlReturn_t result = nvmlDeviceGetMigMode(device, &MIG, &pending_mode);
     if (result != NVML_SUCCESS) {
       std::cerr << "Failed to get MIG mode: " << nvmlErrorString(result) << std::endl;
-      return 1;
+      MIG = 0;
     } 
 
     // Print header in CSV format
@@ -203,4 +203,5 @@ int main(int argc, char *argv[]) {
 
   return 0;
 }
+
 
