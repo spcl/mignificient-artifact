@@ -12,7 +12,7 @@ import signal
 import atexit
 
 # append LD_LIBRARY_PATH with conda env
-os.environ['LD_LIBRARY_PATH'] = f'/home/yyuejian/miniconda3/envs/mig_dev/lib:{os.environ.get("LD_LIBRARY_PATH", "")}'
+os.environ['LD_LIBRARY_PATH'] = f'/home/ctianche/miniconda3/envs/mig_dev/lib:{os.environ.get("LD_LIBRARY_PATH", "")}'
 
 class GPUInstanceManager:
     def __init__(self, mode):
@@ -162,7 +162,7 @@ if __name__ == '__main__':
         # append results to a file
         if not os.path.isfile("results.csv"):
             with open("results.csv", "w") as f:
-                f.write("model_name,max_generation_length,mode,num_instances,instance_id,time_mean,time_std,time_p99\n")
+                f.write("model_name,max_generation_length,mode,num_instances,instance_id,latency\n")
         with open('results.csv', 'a') as f:
             for instance_id, result in results:
                 for latency in result['latencies']:
