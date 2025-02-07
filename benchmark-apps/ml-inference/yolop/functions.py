@@ -10,6 +10,7 @@ from pathlib import Path
 from PIL import Image
 from torchvision import transforms
 from timeit import default_timer as timer
+import time
 
 conf_thres = 0.25
 iou_thres = 0.45
@@ -37,8 +38,9 @@ def function(obj):
     global model
 
     if model is None:
-        model = torch.hub.load('hustvl/yolop', 'yolop', pretrained=True)
-        #model = torch.load(os.path.join(INPUT_DIR, 'yolop.pt'))
+        # model = torch.hub.load('hustvl/yolop', 'yolop', pretrained=True)
+        # torch.save(model, "../../../benchmark-inputs/ml-inference/yolop/yolop.pt")
+        model = torch.load(os.path.join(INPUT_DIR, 'yolop.pt'), weights_only=False)
         before = timer()
         model.eval()
         model.to(device)
@@ -106,4 +108,8 @@ def function(obj):
     #print(end - start)
 
 if __name__ == "__main__":
-    function({})
+    for i in range(11):
+        start = time.time_ns()
+        function({})
+        end = time.time_ns()
+        print(f"Start: {start}, time: {(end-start)/1e9}")

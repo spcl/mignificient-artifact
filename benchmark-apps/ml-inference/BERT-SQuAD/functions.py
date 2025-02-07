@@ -5,6 +5,7 @@ sys.path.append(SCRIPT_DIR)
 
 from bert import QA
 from timeit import default_timer as timer
+import time
 
 import torch
 
@@ -26,8 +27,6 @@ def function(obj):
 
         #print('model eval time:', after - before, flush=True)
 
-    start = timer()
-
     doc = "Victoria has a written constitution enacted in 1975, but based on the 1855 colonial constitution, passed by " \
         "the United Kingdom Parliament as the Victoria Constitution Act 1855, which establishes the Parliament as the " \
         "state's law-making body for matters coming under state responsibility. The Victorian Constitution can be " \
@@ -38,16 +37,15 @@ def function(obj):
     q = 'When did Victoria enact its constitution?'
 
     #print('model predict', flush=True)
+    start = timer()
     answer = model.predict(doc, q)
-    print(answer['answer'], flush=True)
-# print(answer.keys())
-
     end = timer()
-    #print(end - start)
+    #print(answer['answer'], flush=True)
+    print(end - start)
 
 if __name__ == "__main__":
     for i in range(11):
-        start = timer()
+        start = time.time_ns()
         function({})
-        end = timer()
-        print("Time:", end-start)
+        end = time.time_ns()
+        print(f"Start: {start}, time: {(end-start)/1e9}")

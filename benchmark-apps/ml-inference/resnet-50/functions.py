@@ -3,6 +3,7 @@ import torch
 from PIL import Image
 from torchvision import transforms
 from timeit import default_timer as timer
+import time
 
 model = None
 
@@ -18,7 +19,7 @@ def function(obj):
         #print("Model load", flush=True)
         #model = torch.hub.load('pytorch/vision:v0.10.0', 'resnet50', pretrained=True)
         before = timer()
-        model = torch.load(os.path.join(INPUT_DIR, 'resnet-50.pt'))
+        model = torch.load(os.path.join(INPUT_DIR, 'resnet-50.pt'), weights_only=False)
 # model = torch.hub.load('pytorch/vision:v0.10.0', 'resnext101_32x8d', pretrained=True)
 # model = torch.load('resnext50_32x4d.pt')
 
@@ -62,7 +63,7 @@ def function(obj):
 if __name__ == "__main__":
 
     for i in range(11):
-        start = timer()
+        start = time.time_ns()
         function({})
-        end = timer()
-        print("Time:", end-start)
+        end = time.time_ns()
+        print(f"Start: {start}, time: {(end-start)/1e9}")

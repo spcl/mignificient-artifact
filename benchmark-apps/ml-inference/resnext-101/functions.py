@@ -1,15 +1,14 @@
-import torch
 import os
+import torch
 from PIL import Image
 from torchvision import transforms
 from timeit import default_timer as timer
 import time
 
-import sys
-
 model = None
+
 SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
-INPUT_DIR = os.path.join(SCRIPT_DIR, os.path.pardir, os.path.pardir, os.path.pardir, 'benchmark-inputs', 'ml-inference', 'alexnet')
+INPUT_DIR = os.path.join(SCRIPT_DIR, os.path.pardir, os.path.pardir, os.path.pardir, 'benchmark-inputs', 'ml-inference', 'resnext-101')
 
 def function(obj):
 
@@ -18,17 +17,27 @@ def function(obj):
     if model is None:
 
         #print("Model load", flush=True)
-        #model = torch.hub.load('pytorch/vision:v0.10.0', 'alexnet', pretrained=True)
-        model = torch.load(os.path.join(INPUT_DIR, 'alexnet.pt'), weights_only=False)
-        #before = timer()
-        model.eval()
-        model.to('cuda')
-        #after = timer()
+        #model = torch.hub.load('pytorch/vision:v0.10.0', 'resnet50', pretrained=True)
+        # model = torch.hub.load('pytorch/vision:v0.10.0', 'resnext101_32x8d', pretrained=True)
+        # torch.save(model, "../../../benchmark-inputs/ml-inference/resnext-101/resnext-101.pt")
+        before = timer()
+        model = torch.load(os.path.join(INPUT_DIR, 'resnext-101.pt'), weights_only=False)
+# model = torch.hub.load('pytorch/vision:v0.10.0', 'resnext101_32x8d', pretrained=True)
+# model = torch.load('resnext50_32x4d.pt')
 
-        #print('model eval time:', flush=True)
+        #print("Model done", flush=True)
+        model.eval()
+        #print("Model finished", flush=True)
+        model.to('cuda')
+        #print("Model finished to CUDA", flush=True)
+        torch.cuda.get_device_properties('cuda')
+        after = timer()
+
+        # UNCOMMENT FOR swapping benchmark
+        #print('model eval time:', after-before, flush=True)
         #print(after - before)
 
-    #start = timer()
+    start = timer()
 
     input_image = Image.open(os.path.join(INPUT_DIR, 'dog.jpg'))
     preprocess = transforms.Compose([
@@ -38,7 +47,7 @@ def function(obj):
         transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
     ])
     input_tensor = preprocess(input_image)
-    input_batch = input_tensor.unsqueeze(0) # create a mini-batch as expected by the model
+    input_batch = input_tensor.unsqueeze(0)  # create a mini-batch as expected by the model
 
     input_batch = input_batch.to('cuda')
 
@@ -50,10 +59,8 @@ def function(obj):
     top_prob, top_catid = torch.topk(probabilities, 1)
     top_catid = top_catid[0].item()
     top_prob = top_prob[0].item()
-    print("RESULT", top_prob, top_catid, flush=True)
 
-    #end = timer()
-    #print(end - start)
+    print("RESULT", top_catid, top_prob, flush=True)
 
 if __name__ == "__main__":
 
