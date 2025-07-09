@@ -1,0 +1,17 @@
+{
+  "address": "http://127.0.0.1:10000",
+  "iterations": 1,
+  "parallel-requests": 1,
+  "mode": "independent",
+  "different-users": true,
+  "inputs": [
+    {
+      "function": "function",
+      "function-path": "/work/serverless/2024/gpus/mignificient-artifact/benchmark-apps/microbenchmarks/memcpy_async/latency_func.so",
+      "modules": [],
+      "mig-instance": "7g",
+      "gpu-memory": 1024,
+      "input-payload": "{ \"size\": 10000000, \"iters\": 10}"
+    }
+  ]
+}
