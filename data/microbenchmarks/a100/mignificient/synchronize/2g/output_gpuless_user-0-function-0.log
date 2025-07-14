@@ -1,10 +1,10 @@
-[18:00:26:524:524452] Running on CPU: 1
-[0;90m2025-07-14 18:00:26.528 [0;1;92m[Info ][m: Domain ID: 0
-[18:00:26:528:528195] Enabling use of VMM-based allocations in CUDA!
-[18:00:26:840:840833] Message from the orchestrator! Code 1
-[18:00:26:840:840871] [ExecutionStatus] CPU execution!
-[18:00:26:840:840877] Message from the orchestrator! Code 3
-[18:00:26:840:840880] [ExecutionStatus] Full execution!
+[18:24:10:583:583857] Running on CPU: 1
+[0;90m2025-07-14 18:24:10.587 [0;1;92m[Info ][m: Domain ID: 0
+[18:24:10:587:587694] Enabling use of VMM-based allocations in CUDA!
+[18:24:10:922:922833] Message from the orchestrator! Code 1
+[18:24:10:922:922844] [ExecutionStatus] CPU execution!
+[18:24:10:922:922848] Message from the orchestrator! Code 3
+[18:24:10:922:922851] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -2007,12 +2007,10 @@ Request  0
 Request  0
 Request  0
 Request  0
-Request  0
-[18:00:26:921:921833] Message from the orchestrator! Code 1
-[18:00:26:921:921842] [ExecutionStatus] CPU execution!
-[18:00:26:921:921847] Message from the orchestrator! Code 3
-[18:00:26:921:921850] [ExecutionStatus] Full execution!
-Request  0
+[18:24:11:004:004834] Message from the orchestrator! Code 1
+[18:24:11:004:004845] [ExecutionStatus] CPU execution!
+[18:24:11:004:004850] Message from the orchestrator! Code 3
+[18:24:11:004:004853] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0

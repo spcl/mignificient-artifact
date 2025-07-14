@@ -1,11 +1,10 @@
-[18:00:32:400:400669] Running on CPU: 129
-[0;90m2025-07-14 18:00:32.402 [0;1;93m[Warn ][m: IPC channel still there, doing an unlink of 'iox1_0_u_server-user-0-function-0'
-[0;90m2025-07-14 18:00:32.404 [0;1;92m[Info ][m: Domain ID: 0
-[18:00:32:404:404470] Enabling use of VMM-based allocations in CUDA!
-[18:00:32:793:793826] Message from the orchestrator! Code 1
-[18:00:32:793:793837] [ExecutionStatus] CPU execution!
-[18:00:32:793:793840] Message from the orchestrator! Code 3
-[18:00:32:793:793841] [ExecutionStatus] Full execution!
+[18:24:16:504:504943] Running on CPU: 1
+[0;90m2025-07-14 18:24:16.508 [0;1;92m[Info ][m: Domain ID: 0
+[18:24:16:508:508744] Enabling use of VMM-based allocations in CUDA!
+[18:24:16:899:899831] Message from the orchestrator! Code 1
+[18:24:16:899:899844] [ExecutionStatus] CPU execution!
+[18:24:16:899:899848] Message from the orchestrator! Code 3
+[18:24:16:899:899850] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -2008,12 +2007,10 @@ Request  0
 Request  0
 Request  0
 Request  0
-Request  0
-[18:00:32:880:880851] Message from the orchestrator! Code 1
-[18:00:32:880:880860] [ExecutionStatus] CPU execution!
-[18:00:32:880:880865] Message from the orchestrator! Code 3
-[18:00:32:880:880868] [ExecutionStatus] Full execution!
-Request  0
+[18:24:16:982:982833] Message from the orchestrator! Code 1
+[18:24:16:982:982842] [ExecutionStatus] CPU execution!
+[18:24:16:982:982847] Message from the orchestrator! Code 3
+[18:24:16:982:982849] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0

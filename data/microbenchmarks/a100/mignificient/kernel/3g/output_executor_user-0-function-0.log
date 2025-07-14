@@ -1,14 +1,13 @@
-[0;90m2025-07-14 18:00:29.867 [0;1;93m[Warn ][m: IPC channel still there, doing an unlink of 'iox1_0_u_user-0-function-0'
-[0;90m2025-07-14 18:00:29.869 [0;1;92m[Info ][m: Domain ID: 0
-[2025-07-14 18:00:29.872] [info] Running on CPU: 129
-[18:00:30:248:248382] Invoke, data size 15, input string {"iters": 1000}
+[0;90m2025-07-14 21:03:44.655 [0;1;92m[Info ][m: Domain ID: 0
+[2025-07-14 21:03:44.658] [info] Running on CPU: 128
+[21:03:45:032:032059] Invoke, data size 15, input string {"iters": 1000}
 Iters 1000
 Iters 1000
-[18:00:30:300:300717] Finished invocation 50.849
-[18:00:30:313:313880] Invoke, data size 15, input string {"iters": 1000}
+[21:03:45:068:068879] Finished invocation 35.441
+[21:03:45:082:082222] Invoke, data size 15, input string {"iters": 1000}
 Iters 1000
 Iters 1000
-[18:00:30:365:365192] Finished invocation 50.87
+[21:03:45:118:118019] Finished invocation 35.329
 Empty payload, quit
-synchronize_time=0.093099s
-Total serialize_total_time 0.004221
+synchronize_time=0.055977s
+Total serialize_total_time 0.0068
