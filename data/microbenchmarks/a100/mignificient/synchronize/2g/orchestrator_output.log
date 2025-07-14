@@ -1,0 +1,9 @@
+[2025-07-14 16:45:37.284] [info] Reading configuration from orchestrator_config.json, device database from tools/devices.json
+[0;90m2025-07-14 16:45:37.288 [0;1;92m[Info ][m: Domain ID: 0
+[2025-07-14 16:45:37.288] [info] Listening on port 10000
+[2025-07-14 16:45:39.289] [info] Child process spawned successfully, PID: 134950
+[2025-07-14 16:45:39.290] [info] Child process spawned successfully, PID: 134951
+[2025-07-14 16:45:39.307] [error] Received registration from gpuless executor user-0-function-0
+[2025-07-14 16:45:39.642] [error] Received registration from gpuless server user-0-function-0
+[2025-07-14 16:45:39.726] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 16:45:39.813] [info] Waiting for HTTP server to close down

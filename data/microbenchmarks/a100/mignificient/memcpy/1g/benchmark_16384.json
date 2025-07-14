@@ -1,0 +1,17 @@
+{
+  "address": "http://127.0.0.1:10000",
+  "iterations": 1,
+  "parallel-requests": 1,
+  "mode": "independent",
+  "different-users": true,
+  "inputs": [
+    {
+      "function": "function",
+      "function-path": "/scratch/mcopik/gpus/new_july_2025/mignificient-artifact/benchmarks/microbenchmark/../../benchmark-apps/microbenchmarks/memcpy/latency_func.so",
+      "modules": [],
+      "mig-instance": "1g",
+      "gpu-memory": 1024,
+      "input-payload": "{\"size\": 16384, \"iters\": 1000}"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+[2025-07-14 16:45:12.325] [info] Reading configuration from orchestrator_config.json, device database from tools/devices.json
+[0;90m2025-07-14 16:45:12.326 [0;1;93m[Warn ][m: IPC channel still there, doing an unlink of 'iox1_0_u_mignificient-orchestrator'
+[0;90m2025-07-14 16:45:12.358 [0;1;92m[Info ][m: Domain ID: 0
+[2025-07-14 16:45:12.358] [info] Listening on port 10000
+[2025-07-14 16:45:14.332] [info] Child process spawned successfully, PID: 134432
+[2025-07-14 16:45:14.334] [info] Child process spawned successfully, PID: 134433
+[2025-07-14 16:45:14.349] [error] Received registration from gpuless executor user-0-function-0
+[2025-07-14 16:45:14.847] [error] Received registration from gpuless server user-0-function-0
+[2025-07-14 16:45:14.914] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 16:45:14.984] [info] Waiting for HTTP server to close down
