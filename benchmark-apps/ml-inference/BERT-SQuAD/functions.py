@@ -46,8 +46,16 @@ def function(obj):
     #print(end - start)
 
 if __name__ == "__main__":
-    for i in range(11):
+
+    import sys
+
+    results = []
+    for i in range(int(sys.argv[1]) + 1):
         start = timer()
         function({})
         end = timer()
-        print("Time:", end-start)
+
+        results.append(end - start)
+        # print("Time:", end - start)
+    for i, val in enumerate(results[1:]):
+        print(f"{i},{val}")
