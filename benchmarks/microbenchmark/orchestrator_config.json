@@ -1,0 +1,24 @@
+{
+  "name": "mignificient-orchestrator",
+  "sharing-model": "sequential",
+  "http": {
+    "port": 10000,
+    "threads": 1
+  },
+  "executor": {
+    "type": "bare-metal",
+    "use-vmm": true,
+    "poll-sleep": true,
+    "poll-gpuless-sleep": true,
+    "cpu-bind-executor": false,
+    "cpu-bind-gpuless": false,
+    "cpu-bind-gpuless-separate": false,
+    "bare-metal-executor": {
+      "cpp": "/scratch/mcopik/gpus/new_july_2025/build_release/executor/bin/executor_cpp",
+      "python": ["/users/mcopik/anaconda3/bin/python3.12", "/scratch/mcopik/gpus/new_july_2025/build_release/executor/bin/executor_python.py"],
+      "pythonpath": "/scratch/mcopik/gpus/new_july_2025/build_release/executor/",
+      "gpuless-lib": "/scratch/mcopik/gpus/new_july_2025/build_release/gpuless/libgpuless.so",
+      "gpuless-exec": "/scratch/mcopik/gpus/new_july_2025/build_release/gpuless/manager_device"
+    }
+  }
+}
