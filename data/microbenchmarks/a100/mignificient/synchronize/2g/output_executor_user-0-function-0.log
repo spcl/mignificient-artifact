@@ -1,13 +1,13 @@
-[0;90m2025-07-14 17:48:08.402 [0;1;92m[Info ][m: Domain ID: 0
-[2025-07-14 17:48:08.405] [info] Running on CPU: 129
-[17:48:08:733:733691] Invoke, data size 15, input string {"iters": 1000}
+[0;90m2025-07-14 18:00:26.528 [0;1;92m[Info ][m: Domain ID: 0
+[2025-07-14 18:00:26.531] [info] Running on CPU: 129
+[18:00:26:848:848516] Invoke, data size 15, input string {"iters": 1000}
 Iters 1000
 Iters 1000
-[17:48:08:803:803116] Finished invocation 68.016
-[17:48:08:816:816245] Invoke, data size 15, input string {"iters": 1000}
+[18:00:26:917:917889] Finished invocation 67.963
+[18:00:26:931:931003] Invoke, data size 15, input string {"iters": 1000}
 Iters 1000
 Iters 1000
-[17:48:08:884:884772] Finished invocation 68.178
+[18:00:26:999:999260] Finished invocation 67.907
 Empty payload, quit
-synchronize_time=0.125257s
-Total serialize_total_time 0.006633
+synchronize_time=0.124824s
+Total serialize_total_time 0.006676
