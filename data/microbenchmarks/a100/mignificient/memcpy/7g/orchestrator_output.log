@@ -1,35 +1,35 @@
-[2025-07-14 16:55:11.927] [info] Reading configuration from orchestrator_config.json, device database from tools/devices.json
-[0;90m2025-07-14 16:55:11.931 [0;1;92m[Info ][m: Domain ID: 0
-[2025-07-14 16:55:11.931] [info] Listening on port 10000
-[2025-07-14 16:55:13.932] [info] Child process spawned successfully, PID: 137238
-[2025-07-14 16:55:13.933] [info] Child process spawned successfully, PID: 137239
-[2025-07-14 16:55:13.949] [error] Received registration from gpuless executor user-0-function-0
-[2025-07-14 16:55:14.509] [error] Received registration from gpuless server user-0-function-0
-[2025-07-14 16:55:14.581] [error] Using an existing client user-0-function-0 for user user-0
-[2025-07-14 16:55:14.663] [error] Using an existing client user-0-function-0 for user user-0
-[2025-07-14 16:55:14.732] [error] Using an existing client user-0-function-0 for user user-0
-[2025-07-14 16:55:14.813] [error] Using an existing client user-0-function-0 for user user-0
-[2025-07-14 16:55:14.883] [error] Using an existing client user-0-function-0 for user user-0
-[2025-07-14 16:55:14.964] [error] Using an existing client user-0-function-0 for user user-0
-[2025-07-14 16:55:15.034] [error] Using an existing client user-0-function-0 for user user-0
-[2025-07-14 16:55:15.115] [error] Using an existing client user-0-function-0 for user user-0
-[2025-07-14 16:55:15.185] [error] Using an existing client user-0-function-0 for user user-0
-[2025-07-14 16:55:15.268] [error] Using an existing client user-0-function-0 for user user-0
-[2025-07-14 16:55:15.338] [error] Using an existing client user-0-function-0 for user user-0
-[2025-07-14 16:55:15.421] [error] Using an existing client user-0-function-0 for user user-0
-[2025-07-14 16:55:15.493] [error] Using an existing client user-0-function-0 for user user-0
-[2025-07-14 16:55:15.578] [error] Using an existing client user-0-function-0 for user user-0
-[2025-07-14 16:55:15.651] [error] Using an existing client user-0-function-0 for user user-0
-[2025-07-14 16:55:15.737] [error] Using an existing client user-0-function-0 for user user-0
-[2025-07-14 16:55:15.813] [error] Using an existing client user-0-function-0 for user user-0
-[2025-07-14 16:55:15.900] [error] Using an existing client user-0-function-0 for user user-0
-[2025-07-14 16:55:16.007] [error] Using an existing client user-0-function-0 for user user-0
-[2025-07-14 16:55:16.125] [error] Using an existing client user-0-function-0 for user user-0
-[2025-07-14 16:55:16.342] [error] Using an existing client user-0-function-0 for user user-0
-[2025-07-14 16:55:16.575] [error] Using an existing client user-0-function-0 for user user-0
-[2025-07-14 16:55:16.960] [error] Using an existing client user-0-function-0 for user user-0
-[2025-07-14 16:55:17.343] [error] Using an existing client user-0-function-0 for user user-0
-[2025-07-14 16:55:17.955] [error] Using an existing client user-0-function-0 for user user-0
-[2025-07-14 16:55:18.571] [error] Using an existing client user-0-function-0 for user user-0
-[2025-07-14 16:55:20.170] [error] Using an existing client user-0-function-0 for user user-0
-[2025-07-14 16:55:21.787] [info] Waiting for HTTP server to close down
+[2025-07-14 17:44:00.203] [info] Reading configuration from orchestrator_config.json, device database from tools/devices.json
+[0;90m2025-07-14 17:44:00.206 [0;1;92m[Info ][m: Domain ID: 0
+[2025-07-14 17:44:00.207] [info] Listening on port 10000
+[2025-07-14 17:44:02.208] [info] Child process spawned successfully, PID: 144798
+[2025-07-14 17:44:02.209] [info] Child process spawned successfully, PID: 144799
+[2025-07-14 17:44:02.226] [error] Received registration from gpuless executor user-0-function-0
+[2025-07-14 17:44:02.792] [error] Received registration from gpuless server user-0-function-0
+[2025-07-14 17:44:02.865] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 17:44:02.948] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 17:44:03.018] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 17:44:03.099] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 17:44:03.170] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 17:44:03.251] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 17:44:03.322] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 17:44:03.403] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 17:44:03.474] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 17:44:03.557] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 17:44:03.628] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 17:44:03.712] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 17:44:03.785] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 17:44:03.869] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 17:44:03.943] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 17:44:04.029] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 17:44:04.106] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 17:44:04.194] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 17:44:04.300] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 17:44:04.419] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 17:44:04.637] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 17:44:04.871] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 17:44:05.257] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 17:44:05.647] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 17:44:06.260] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 17:44:06.881] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 17:44:08.485] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 17:44:10.112] [info] Waiting for HTTP server to close down

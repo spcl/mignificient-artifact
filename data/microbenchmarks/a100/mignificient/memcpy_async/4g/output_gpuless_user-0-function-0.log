@@ -1,10 +1,10 @@
-[16:46:01:496:496139] Running on CPU: 129
-[0;90m2025-07-14 16:46:01.500 [0;1;92m[Info ][m: Domain ID: 0
-[16:46:01:500:500228] Enabling use of VMM-based allocations in CUDA!
-[16:46:01:936:936827] Message from the orchestrator! Code 1
-[16:46:01:936:936838] [ExecutionStatus] CPU execution!
-[16:46:01:936:936843] Message from the orchestrator! Code 3
-[16:46:01:936:936845] [ExecutionStatus] Full execution!
+[17:48:30:622:622936] Running on CPU: 1
+[0;90m2025-07-14 17:48:30.626 [0;1;92m[Info ][m: Domain ID: 0
+[17:48:30:626:626888] Enabling use of VMM-based allocations in CUDA!
+[17:48:31:055:055825] Message from the orchestrator! Code 1
+[17:48:31:055:055838] [ExecutionStatus] CPU execution!
+[17:48:31:055:055843] Message from the orchestrator! Code 3
+[17:48:31:055:055846] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -410,14 +410,14 @@ Request  0
 Request  0
 Request  0
 Request  0
-[16:46:01:958:958950] Message from the orchestrator! Code 1
-[16:46:01:958:958956] [ExecutionStatus] CPU execution!
-[16:46:01:958:958960] Message from the orchestrator! Code 3
-[16:46:01:958:958961] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
 Request  0
+[17:48:31:079:079501] Message from the orchestrator! Code 1
+[17:48:31:079:079509] [ExecutionStatus] CPU execution!
+[17:48:31:079:079512] Message from the orchestrator! Code 3
+[17:48:31:079:079513] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -818,10 +818,6 @@ Request  0
 Request  0
 Request  0
 Request  0
-[16:46:01:997:997658] Message from the orchestrator! Code 1
-[16:46:01:997:997667] [ExecutionStatus] CPU execution!
-[16:46:01:997:997671] Message from the orchestrator! Code 3
-[16:46:01:997:997672] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -830,6 +826,10 @@ Request  0
 Request  0
 Request  0
 Request  0
+[17:48:31:118:118009] Message from the orchestrator! Code 1
+[17:48:31:118:118018] [ExecutionStatus] CPU execution!
+[17:48:31:118:118023] Message from the orchestrator! Code 3
+[17:48:31:118:118024] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -1226,10 +1226,6 @@ Request  0
 Request  0
 Request  0
 Request  0
-[16:46:02:023:023018] Message from the orchestrator! Code 1
-[16:46:02:023:023027] [ExecutionStatus] CPU execution!
-[16:46:02:023:023030] Message from the orchestrator! Code 3
-[16:46:02:023:023032] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -1242,6 +1238,10 @@ Request  0
 Request  0
 Request  0
 Request  0
+[17:48:31:143:143273] Message from the orchestrator! Code 1
+[17:48:31:143:143279] [ExecutionStatus] CPU execution!
+[17:48:31:143:143281] Message from the orchestrator! Code 3
+[17:48:31:143:143282] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -1634,10 +1634,6 @@ Request  0
 Request  0
 Request  0
 Request  0
-[16:46:02:060:060293] Message from the orchestrator! Code 1
-[16:46:02:060:060302] [ExecutionStatus] CPU execution!
-[16:46:02:060:060306] Message from the orchestrator! Code 3
-[16:46:02:060:060308] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -1654,6 +1650,10 @@ Request  0
 Request  0
 Request  0
 Request  0
+[17:48:31:180:180628] Message from the orchestrator! Code 1
+[17:48:31:180:180639] [ExecutionStatus] CPU execution!
+[17:48:31:180:180643] Message from the orchestrator! Code 3
+[17:48:31:180:180644] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -2042,10 +2042,6 @@ Request  0
 Request  0
 Request  0
 Request  0
-[16:46:02:085:085982] Message from the orchestrator! Code 1
-[16:46:02:085:085988] [ExecutionStatus] CPU execution!
-[16:46:02:085:085991] Message from the orchestrator! Code 3
-[16:46:02:085:085993] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -2066,6 +2062,10 @@ Request  0
 Request  0
 Request  0
 Request  0
+[17:48:31:205:205818] Message from the orchestrator! Code 1
+[17:48:31:205:205826] [ExecutionStatus] CPU execution!
+[17:48:31:205:205829] Message from the orchestrator! Code 3
+[17:48:31:205:205831] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -2450,10 +2450,6 @@ Request  0
 Request  0
 Request  0
 Request  0
-[16:46:02:122:122603] Message from the orchestrator! Code 1
-[16:46:02:122:122613] [ExecutionStatus] CPU execution!
-[16:46:02:122:122617] Message from the orchestrator! Code 3
-[16:46:02:122:122618] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -2478,6 +2474,10 @@ Request  0
 Request  0
 Request  0
 Request  0
+[17:48:31:243:243081] Message from the orchestrator! Code 1
+[17:48:31:243:243092] [ExecutionStatus] CPU execution!
+[17:48:31:243:243095] Message from the orchestrator! Code 3
+[17:48:31:243:243130] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -2858,10 +2858,6 @@ Request  0
 Request  0
 Request  0
 Request  0
-[16:46:02:147:147908] Message from the orchestrator! Code 1
-[16:46:02:147:147913] [ExecutionStatus] CPU execution!
-[16:46:02:147:147916] Message from the orchestrator! Code 3
-[16:46:02:147:147917] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -2890,6 +2886,10 @@ Request  0
 Request  0
 Request  0
 Request  0
+[17:48:31:268:268447] Message from the orchestrator! Code 1
+[17:48:31:268:268452] [ExecutionStatus] CPU execution!
+[17:48:31:268:268455] Message from the orchestrator! Code 3
+[17:48:31:268:268456] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -3266,10 +3266,6 @@ Request  0
 Request  0
 Request  0
 Request  0
-[16:46:02:184:184742] Message from the orchestrator! Code 1
-[16:46:02:184:184752] [ExecutionStatus] CPU execution!
-[16:46:02:184:184755] Message from the orchestrator! Code 3
-[16:46:02:184:184757] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -3302,6 +3298,10 @@ Request  0
 Request  0
 Request  0
 Request  0
+[17:48:31:305:305595] Message from the orchestrator! Code 1
+[17:48:31:305:305605] [ExecutionStatus] CPU execution!
+[17:48:31:305:305608] Message from the orchestrator! Code 3
+[17:48:31:305:305610] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -3674,10 +3674,6 @@ Request  0
 Request  0
 Request  0
 Request  0
-[16:46:02:210:210175] Message from the orchestrator! Code 1
-[16:46:02:210:210181] [ExecutionStatus] CPU execution!
-[16:46:02:210:210184] Message from the orchestrator! Code 3
-[16:46:02:210:210185] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -3714,6 +3710,10 @@ Request  0
 Request  0
 Request  0
 Request  0
+[17:48:31:331:331106] Message from the orchestrator! Code 1
+[17:48:31:331:331113] [ExecutionStatus] CPU execution!
+[17:48:31:331:331116] Message from the orchestrator! Code 3
+[17:48:31:331:331117] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -4082,10 +4082,6 @@ Request  0
 Request  0
 Request  0
 Request  0
-[16:46:02:247:247569] Message from the orchestrator! Code 1
-[16:46:02:247:247580] [ExecutionStatus] CPU execution!
-[16:46:02:247:247583] Message from the orchestrator! Code 3
-[16:46:02:247:247585] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -4126,6 +4122,10 @@ Request  0
 Request  0
 Request  0
 Request  0
+[17:48:31:368:368514] Message from the orchestrator! Code 1
+[17:48:31:368:368524] [ExecutionStatus] CPU execution!
+[17:48:31:368:368528] Message from the orchestrator! Code 3
+[17:48:31:368:368529] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -4490,10 +4490,6 @@ Request  0
 Request  0
 Request  0
 Request  0
-[16:46:02:273:273185] Message from the orchestrator! Code 1
-[16:46:02:273:273191] [ExecutionStatus] CPU execution!
-[16:46:02:273:273195] Message from the orchestrator! Code 3
-[16:46:02:273:273196] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -4538,6 +4534,10 @@ Request  0
 Request  0
 Request  0
 Request  0
+[17:48:31:394:394056] Message from the orchestrator! Code 1
+[17:48:31:394:394063] [ExecutionStatus] CPU execution!
+[17:48:31:394:394067] Message from the orchestrator! Code 3
+[17:48:31:394:394069] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -4898,10 +4898,6 @@ Request  0
 Request  0
 Request  0
 Request  0
-[16:46:02:310:310656] Message from the orchestrator! Code 1
-[16:46:02:310:310664] [ExecutionStatus] CPU execution!
-[16:46:02:310:310668] Message from the orchestrator! Code 3
-[16:46:02:310:310669] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -4950,6 +4946,10 @@ Request  0
 Request  0
 Request  0
 Request  0
+[17:48:31:430:430867] Message from the orchestrator! Code 1
+[17:48:31:430:430877] [ExecutionStatus] CPU execution!
+[17:48:31:430:430880] Message from the orchestrator! Code 3
+[17:48:31:430:430882] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -5306,10 +5306,6 @@ Request  0
 Request  0
 Request  0
 Request  0
-[16:46:02:336:336064] Message from the orchestrator! Code 1
-[16:46:02:336:336070] [ExecutionStatus] CPU execution!
-[16:46:02:336:336073] Message from the orchestrator! Code 3
-[16:46:02:336:336074] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -5362,6 +5358,10 @@ Request  0
 Request  0
 Request  0
 Request  0
+[17:48:31:456:456726] Message from the orchestrator! Code 1
+[17:48:31:456:456733] [ExecutionStatus] CPU execution!
+[17:48:31:456:456737] Message from the orchestrator! Code 3
+[17:48:31:456:456739] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -5714,10 +5714,6 @@ Request  0
 Request  0
 Request  0
 Request  0
-[16:46:02:373:373261] Message from the orchestrator! Code 1
-[16:46:02:373:373270] [ExecutionStatus] CPU execution!
-[16:46:02:373:373274] Message from the orchestrator! Code 3
-[16:46:02:373:373275] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -5774,6 +5770,10 @@ Request  0
 Request  0
 Request  0
 Request  0
+[17:48:31:493:493924] Message from the orchestrator! Code 1
+[17:48:31:493:493935] [ExecutionStatus] CPU execution!
+[17:48:31:493:493939] Message from the orchestrator! Code 3
+[17:48:31:493:493940] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -6122,10 +6122,6 @@ Request  0
 Request  0
 Request  0
 Request  0
-[16:46:02:399:399117] Message from the orchestrator! Code 1
-[16:46:02:399:399123] [ExecutionStatus] CPU execution!
-[16:46:02:399:399126] Message from the orchestrator! Code 3
-[16:46:02:399:399127] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -6186,6 +6182,10 @@ Request  0
 Request  0
 Request  0
 Request  0
+[17:48:31:519:519616] Message from the orchestrator! Code 1
+[17:48:31:519:519622] [ExecutionStatus] CPU execution!
+[17:48:31:519:519624] Message from the orchestrator! Code 3
+[17:48:31:519:519626] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -6530,10 +6530,6 @@ Request  0
 Request  0
 Request  0
 Request  0
-[16:46:02:437:437013] Message from the orchestrator! Code 1
-[16:46:02:437:437024] [ExecutionStatus] CPU execution!
-[16:46:02:437:437027] Message from the orchestrator! Code 3
-[16:46:02:437:437028] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -6598,6 +6594,10 @@ Request  0
 Request  0
 Request  0
 Request  0
+[17:48:31:557:557687] Message from the orchestrator! Code 1
+[17:48:31:557:557698] [ExecutionStatus] CPU execution!
+[17:48:31:557:557702] Message from the orchestrator! Code 3
+[17:48:31:557:557704] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -6938,10 +6938,6 @@ Request  0
 Request  0
 Request  0
 Request  0
-[16:46:02:462:462826] Message from the orchestrator! Code 1
-[16:46:02:462:462833] [ExecutionStatus] CPU execution!
-[16:46:02:462:462835] Message from the orchestrator! Code 3
-[16:46:02:462:462837] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -7010,6 +7006,10 @@ Request  0
 Request  0
 Request  0
 Request  0
+[17:48:31:584:584005] Message from the orchestrator! Code 1
+[17:48:31:584:584011] [ExecutionStatus] CPU execution!
+[17:48:31:584:584015] Message from the orchestrator! Code 3
+[17:48:31:584:584016] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -7346,10 +7346,6 @@ Request  0
 Request  0
 Request  0
 Request  0
-[16:46:02:500:500400] Message from the orchestrator! Code 1
-[16:46:02:500:500409] [ExecutionStatus] CPU execution!
-[16:46:02:500:500413] Message from the orchestrator! Code 3
-[16:46:02:500:500415] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -7422,6 +7418,10 @@ Request  0
 Request  0
 Request  0
 Request  0
+[17:48:31:621:621483] Message from the orchestrator! Code 1
+[17:48:31:621:621494] [ExecutionStatus] CPU execution!
+[17:48:31:621:621497] Message from the orchestrator! Code 3
+[17:48:31:621:621498] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -7754,10 +7754,6 @@ Request  0
 Request  0
 Request  0
 Request  0
-[16:46:02:529:529889] Message from the orchestrator! Code 1
-[16:46:02:529:529896] [ExecutionStatus] CPU execution!
-[16:46:02:529:529898] Message from the orchestrator! Code 3
-[16:46:02:529:529900] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -7834,6 +7830,10 @@ Request  0
 Request  0
 Request  0
 Request  0
+[17:48:31:651:651389] Message from the orchestrator! Code 1
+[17:48:31:651:651395] [ExecutionStatus] CPU execution!
+[17:48:31:651:651398] Message from the orchestrator! Code 3
+[17:48:31:651:651400] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -8162,10 +8162,6 @@ Request  0
 Request  0
 Request  0
 Request  0
-[16:46:02:570:570936] Message from the orchestrator! Code 1
-[16:46:02:570:570945] [ExecutionStatus] CPU execution!
-[16:46:02:570:570948] Message from the orchestrator! Code 3
-[16:46:02:570:570949] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -8246,6 +8242,10 @@ Request  0
 Request  0
 Request  0
 Request  0
+[17:48:31:692:692600] Message from the orchestrator! Code 1
+[17:48:31:692:692609] [ExecutionStatus] CPU execution!
+[17:48:31:692:692612] Message from the orchestrator! Code 3
+[17:48:31:692:692614] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -8570,10 +8570,6 @@ Request  0
 Request  0
 Request  0
 Request  0
-[16:46:02:612:612528] Message from the orchestrator! Code 1
-[16:46:02:612:612535] [ExecutionStatus] CPU execution!
-[16:46:02:612:612539] Message from the orchestrator! Code 3
-[16:46:02:612:612541] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -8658,6 +8654,10 @@ Request  0
 Request  0
 Request  0
 Request  0
+[17:48:31:734:734626] Message from the orchestrator! Code 1
+[17:48:31:734:734633] [ExecutionStatus] CPU execution!
+[17:48:31:734:734635] Message from the orchestrator! Code 3
+[17:48:31:734:734637] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -8978,10 +8978,6 @@ Request  0
 Request  0
 Request  0
 Request  0
-[16:46:02:664:664699] Message from the orchestrator! Code 1
-[16:46:02:664:664710] [ExecutionStatus] CPU execution!
-[16:46:02:664:664713] Message from the orchestrator! Code 3
-[16:46:02:664:664715] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -9070,6 +9066,10 @@ Request  0
 Request  0
 Request  0
 Request  0
+[17:48:31:787:787628] Message from the orchestrator! Code 1
+[17:48:31:787:787638] [ExecutionStatus] CPU execution!
+[17:48:31:787:787642] Message from the orchestrator! Code 3
+[17:48:31:787:787644] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -9386,10 +9386,6 @@ Request  0
 Request  0
 Request  0
 Request  0
-[16:46:02:727:727642] Message from the orchestrator! Code 1
-[16:46:02:727:727650] [ExecutionStatus] CPU execution!
-[16:46:02:727:727653] Message from the orchestrator! Code 3
-[16:46:02:727:727656] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -9482,6 +9478,10 @@ Request  0
 Request  0
 Request  0
 Request  0
+[17:48:31:852:852522] Message from the orchestrator! Code 1
+[17:48:31:852:852529] [ExecutionStatus] CPU execution!
+[17:48:31:852:852531] Message from the orchestrator! Code 3
+[17:48:31:852:852533] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -9794,10 +9794,6 @@ Request  0
 Request  0
 Request  0
 Request  0
-[16:46:02:795:795383] Message from the orchestrator! Code 1
-[16:46:02:795:795394] [ExecutionStatus] CPU execution!
-[16:46:02:795:795397] Message from the orchestrator! Code 3
-[16:46:02:795:795399] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -9894,6 +9890,10 @@ Request  0
 Request  0
 Request  0
 Request  0
+[17:48:31:921:921076] Message from the orchestrator! Code 1
+[17:48:31:921:921087] [ExecutionStatus] CPU execution!
+[17:48:31:921:921091] Message from the orchestrator! Code 3
+[17:48:31:921:921092] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -10202,10 +10202,6 @@ Request  0
 Request  0
 Request  0
 Request  0
-[16:46:02:878:878455] Message from the orchestrator! Code 1
-[16:46:02:878:878462] [ExecutionStatus] CPU execution!
-[16:46:02:878:878466] Message from the orchestrator! Code 3
-[16:46:02:878:878468] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -10306,6 +10302,10 @@ Request  0
 Request  0
 Request  0
 Request  0
+[17:48:32:009:009826] Message from the orchestrator! Code 1
+[17:48:32:009:009838] [ExecutionStatus] CPU execution!
+[17:48:32:009:009842] Message from the orchestrator! Code 3
+[17:48:32:009:009844] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -10610,10 +10610,6 @@ Request  0
 Request  0
 Request  0
 Request  0
-[16:46:02:969:969975] Message from the orchestrator! Code 1
-[16:46:02:969:969986] [ExecutionStatus] CPU execution!
-[16:46:02:969:969989] Message from the orchestrator! Code 3
-[16:46:02:969:969990] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -10718,6 +10714,10 @@ Request  0
 Request  0
 Request  0
 Request  0
+[17:48:32:098:098745] Message from the orchestrator! Code 1
+[17:48:32:098:098790] [ExecutionStatus] CPU execution!
+[17:48:32:098:098794] Message from the orchestrator! Code 3
+[17:48:32:098:098795] [ExecutionStatus] Full execution!
 Request  0
 Request  0
 Request  0
@@ -11018,10 +11018,122 @@ Request  0
 Request  0
 Request  0
 Request  0
-[16:46:03:142:142833] Message from the orchestrator! Code 1
-[16:46:03:142:142844] [ExecutionStatus] CPU execution!
-[16:46:03:142:142850] Message from the orchestrator! Code 3
-[16:46:03:142:142852] [ExecutionStatus] Full execution!
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+Request  0
+[17:48:32:272:272831] Message from the orchestrator! Code 1
+[17:48:32:272:272840] [ExecutionStatus] CPU execution!
+[17:48:32:272:272845] Message from the orchestrator! Code 3
+[17:48:32:272:272847] [ExecutionStatus] Full execution!
+Request  0
+Request  0
+Request  0
+Request  0
 Request  0
 Request  0
 Request  0
