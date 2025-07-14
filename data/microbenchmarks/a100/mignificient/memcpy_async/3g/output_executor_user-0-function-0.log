@@ -1,117 +1,118 @@
-[0;90m2025-07-14 17:48:20.695 [0;1;92m[Info ][m: Domain ID: 0
-[2025-07-14 17:48:20.699] [info] Running on CPU: 129
-[17:48:21:105:105125] Invoke, data size 25, input string {"size": 1, "iters": 100}
-Input size 1, iters 100
-Iters 100
-[17:48:21:118:118212] Finished invocation 11.798
-[17:48:21:131:131305] Invoke, data size 25, input string {"size": 1, "iters": 100}
-Input size 1, iters 100
-Iters 100
-[17:48:21:143:143483] Finished invocation 11.889
-[17:48:21:168:168921] Invoke, data size 25, input string {"size": 4, "iters": 100}
-Input size 4, iters 100
-Iters 100
-[17:48:21:181:181118] Finished invocation 11.699
-[17:48:21:194:194196] Invoke, data size 25, input string {"size": 4, "iters": 100}
-Input size 4, iters 100
-Iters 100
-[17:48:21:206:206218] Finished invocation 11.737
-[17:48:21:231:231112] Invoke, data size 27, input string {"size": 128, "iters": 100}
-Input size 128, iters 100
-Iters 100
-[17:48:21:243:243413] Finished invocation 11.822
-[17:48:21:256:256582] Invoke, data size 27, input string {"size": 128, "iters": 100}
-Input size 128, iters 100
-Iters 100
-[17:48:21:268:268542] Finished invocation 11.683
-[17:48:21:293:293778] Invoke, data size 27, input string {"size": 512, "iters": 100}
-Input size 512, iters 100
-Iters 100
-[17:48:21:306:306027] Finished invocation 11.892
-[17:48:21:319:319370] Invoke, data size 27, input string {"size": 512, "iters": 100}
-Input size 512, iters 100
-Iters 100
-[17:48:21:331:331555] Finished invocation 11.821
-[17:48:21:356:356609] Invoke, data size 28, input string {"size": 1024, "iters": 100}
-Input size 1024, iters 100
-Iters 100
-[17:48:21:368:368910] Finished invocation 11.93
-[17:48:21:382:382120] Invoke, data size 28, input string {"size": 1024, "iters": 100}
-Input size 1024, iters 100
-Iters 100
-[17:48:21:394:394251] Finished invocation 11.769
-[17:48:21:419:419276] Invoke, data size 28, input string {"size": 2048, "iters": 100}
-Input size 2048, iters 100
-Iters 100
-[17:48:21:431:431424] Finished invocation 11.8
-[17:48:21:444:444744] Invoke, data size 28, input string {"size": 2048, "iters": 100}
-Input size 2048, iters 100
-Iters 100
-[17:48:21:457:457041] Finished invocation 11.917
-[17:48:21:481:481963] Invoke, data size 28, input string {"size": 4096, "iters": 100}
-Input size 4096, iters 100
-Iters 100
-[17:48:21:494:494251] Finished invocation 11.944
-[17:48:21:507:507611] Invoke, data size 28, input string {"size": 4096, "iters": 100}
-Input size 4096, iters 100
-Iters 100
-[17:48:21:519:519850] Finished invocation 11.888
-[17:48:21:544:544553] Invoke, data size 28, input string {"size": 8192, "iters": 100}
-Input size 8192, iters 100
-Iters 100
-[17:48:21:557:557019] Finished invocation 12.104
-[17:48:21:570:570394] Invoke, data size 28, input string {"size": 8192, "iters": 100}
-Input size 8192, iters 100
-Iters 100
-[17:48:21:582:582853] Finished invocation 12.102
-[17:48:21:607:607449] Invoke, data size 29, input string {"size": 16384, "iters": 100}
-Input size 16384, iters 100
-Iters 100
-[17:48:21:620:620377] Finished invocation 12.434
-[17:48:21:633:633396] Invoke, data size 29, input string {"size": 16384, "iters": 100}
-Input size 16384, iters 100
-Iters 100
-[17:48:21:646:646351] Finished invocation 12.561
-[17:48:21:671:671213] Invoke, data size 30, input string {"size": 131072, "iters": 100}
-Input size 131072, iters 100
-Iters 100
-[17:48:21:687:687714] Finished invocation 16.017
-[17:48:21:700:700827] Invoke, data size 30, input string {"size": 131072, "iters": 100}
-Input size 131072, iters 100
-Iters 100
-[17:48:21:717:717006] Finished invocation 15.826
-[17:48:21:741:741806] Invoke, data size 30, input string {"size": 524288, "iters": 100}
-Input size 524288, iters 100
-Iters 100
-[17:48:21:770:770704] Finished invocation 28.485
-[17:48:21:783:783874] Invoke, data size 30, input string {"size": 524288, "iters": 100}
-Input size 524288, iters 100
-Iters 100
-[17:48:21:812:812001] Finished invocation 27.639
-[17:48:21:836:836852] Invoke, data size 31, input string {"size": 1048576, "iters": 100}
-Input size 1048576, iters 100
-Iters 100
-[17:48:21:886:886779] Finished invocation 49.445
-[17:48:21:899:899911] Invoke, data size 31, input string {"size": 1048576, "iters": 100}
-Input size 1048576, iters 100
-Iters 100
-[17:48:21:943:943538] Finished invocation 43.177
-[17:48:21:968:968212] Invoke, data size 31, input string {"size": 2097152, "iters": 100}
-Input size 2097152, iters 100
-Iters 100
-[17:48:22:039:039636] Finished invocation 70.957
-[17:48:22:052:052906] Invoke, data size 31, input string {"size": 2097152, "iters": 100}
-Input size 2097152, iters 100
-Iters 100
-[17:48:22:120:120879] Finished invocation 67.572
-[17:48:22:145:145701] Invoke, data size 31, input string {"size": 5242880, "iters": 100}
-Input size 5242880, iters 100
-Iters 100
-[17:48:22:297:297916] Finished invocation 151.757
-[17:48:22:311:311283] Invoke, data size 31, input string {"size": 5242880, "iters": 100}
-Input size 5242880, iters 100
-Iters 100
-[17:48:22:457:457307] Finished invocation 145.64
+[0;90m2025-07-14 18:10:41.560 [0;1;93m[Warn ][m: IPC channel still there, doing an unlink of 'iox1_0_u_user-0-function-0'
+[0;90m2025-07-14 18:10:41.563 [0;1;92m[Info ][m: Domain ID: 0
+[2025-07-14 18:10:41.566] [info] Running on CPU: 129
+[18:10:41:963:963865] Invoke, data size 26, input string {"size": 1, "iters": 1000}
+Input size 1, iters 1000
+Iters 1000
+[18:10:42:063:063936] Finished invocation 98.709
+[18:10:42:077:077081] Invoke, data size 26, input string {"size": 1, "iters": 1000}
+Input size 1, iters 1000
+Iters 1000
+[18:10:42:176:176097] Finished invocation 98.541
+[18:10:42:201:201564] Invoke, data size 26, input string {"size": 4, "iters": 1000}
+Input size 4, iters 1000
+Iters 1000
+[18:10:42:301:301589] Finished invocation 99.532
+[18:10:42:314:314713] Invoke, data size 26, input string {"size": 4, "iters": 1000}
+Input size 4, iters 1000
+Iters 1000
+[18:10:42:413:413794] Finished invocation 98.694
+[18:10:42:438:438516] Invoke, data size 28, input string {"size": 128, "iters": 1000}
+Input size 128, iters 1000
+Iters 1000
+[18:10:42:538:538594] Finished invocation 99.575
+[18:10:42:551:551673] Invoke, data size 28, input string {"size": 128, "iters": 1000}
+Input size 128, iters 1000
+Iters 1000
+[18:10:42:651:651031] Finished invocation 98.981
+[18:10:42:675:675704] Invoke, data size 28, input string {"size": 512, "iters": 1000}
+Input size 512, iters 1000
+Iters 1000
+[18:10:42:775:775122] Finished invocation 98.891
+[18:10:42:788:788216] Invoke, data size 28, input string {"size": 512, "iters": 1000}
+Input size 512, iters 1000
+Iters 1000
+[18:10:42:887:887409] Finished invocation 98.834
+[18:10:42:911:911981] Invoke, data size 29, input string {"size": 1024, "iters": 1000}
+Input size 1024, iters 1000
+Iters 1000
+[18:10:43:012:012218] Finished invocation 99.737
+[18:10:43:025:025349] Invoke, data size 29, input string {"size": 1024, "iters": 1000}
+Input size 1024, iters 1000
+Iters 1000
+[18:10:43:125:125321] Finished invocation 99.512
+[18:10:43:150:150012] Invoke, data size 29, input string {"size": 2048, "iters": 1000}
+Input size 2048, iters 1000
+Iters 1000
+[18:10:43:250:250910] Finished invocation 100.41
+[18:10:43:264:264042] Invoke, data size 29, input string {"size": 2048, "iters": 1000}
+Input size 2048, iters 1000
+Iters 1000
+[18:10:43:365:365745] Finished invocation 101.233
+[18:10:43:390:390443] Invoke, data size 29, input string {"size": 4096, "iters": 1000}
+Input size 4096, iters 1000
+Iters 1000
+[18:10:43:493:493063] Finished invocation 102.122
+[18:10:43:506:506096] Invoke, data size 29, input string {"size": 4096, "iters": 1000}
+Input size 4096, iters 1000
+Iters 1000
+[18:10:43:608:608931] Finished invocation 102.359
+[18:10:43:633:633544] Invoke, data size 29, input string {"size": 8192, "iters": 1000}
+Input size 8192, iters 1000
+Iters 1000
+[18:10:43:738:738480] Finished invocation 104.446
+[18:10:43:751:751613] Invoke, data size 29, input string {"size": 8192, "iters": 1000}
+Input size 8192, iters 1000
+Iters 1000
+[18:10:43:857:857495] Finished invocation 105.396
+[18:10:43:882:882128] Invoke, data size 30, input string {"size": 16384, "iters": 1000}
+Input size 16384, iters 1000
+Iters 1000
+[18:10:43:991:991092] Finished invocation 108.426
+[18:10:44:004:004185] Invoke, data size 30, input string {"size": 16384, "iters": 1000}
+Input size 16384, iters 1000
+Iters 1000
+[18:10:44:112:112538] Finished invocation 107.921
+[18:10:44:137:137001] Invoke, data size 31, input string {"size": 131072, "iters": 1000}
+Input size 131072, iters 1000
+Iters 1000
+[18:10:44:278:278265] Finished invocation 140.759
+[18:10:44:291:291400] Invoke, data size 31, input string {"size": 131072, "iters": 1000}
+Input size 131072, iters 1000
+Iters 1000
+[18:10:44:433:433216] Finished invocation 141.319
+[18:10:44:457:457664] Invoke, data size 31, input string {"size": 524288, "iters": 1000}
+Input size 524288, iters 1000
+Iters 1000
+[18:10:44:715:715313] Finished invocation 257.16
+[18:10:44:728:728475] Invoke, data size 31, input string {"size": 524288, "iters": 1000}
+Input size 524288, iters 1000
+Iters 1000
+[18:10:44:985:985378] Finished invocation 256.403
+[18:10:45:009:009976] Invoke, data size 32, input string {"size": 1048576, "iters": 1000}
+Input size 1048576, iters 1000
+Iters 1000
+[18:10:45:426:426408] Finished invocation 415.903
+[18:10:45:439:439676] Invoke, data size 32, input string {"size": 1048576, "iters": 1000}
+Input size 1048576, iters 1000
+Iters 1000
+[18:10:45:850:850659] Finished invocation 410.59
+[18:10:45:875:875603] Invoke, data size 32, input string {"size": 2097152, "iters": 1000}
+Input size 2097152, iters 1000
+Iters 1000
+[18:10:46:528:528138] Finished invocation 652.075
+[18:10:46:541:541434] Invoke, data size 32, input string {"size": 2097152, "iters": 1000}
+Input size 2097152, iters 1000
+Iters 1000
+[18:10:47:181:181832] Finished invocation 640.006
+[18:10:47:206:206318] Invoke, data size 32, input string {"size": 5242880, "iters": 1000}
+Input size 5242880, iters 1000
+Iters 1000
+[18:10:48:653:653056] Finished invocation 1446.285
+[18:10:48:666:666282] Invoke, data size 32, input string {"size": 5242880, "iters": 1000}
+Input size 5242880, iters 1000
+Iters 1000
+[18:10:50:102:102045] Finished invocation 1435.374
 Empty payload, quit
-synchronize_time=0.585988s
-Total serialize_total_time 0.020388
+synchronize_time=5.58186s
+Total serialize_total_time 0.183964

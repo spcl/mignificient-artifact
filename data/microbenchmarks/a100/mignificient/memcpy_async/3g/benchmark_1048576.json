@@ -11,7 +11,7 @@
       "modules": [],
       "mig-instance": "3g",
       "gpu-memory": 1024,
-      "input-payload": "{\"size\": 1048576, \"iters\": 100}"
+      "input-payload": "{\"size\": 1048576, \"iters\": 1000}"
     }
   ]
 }

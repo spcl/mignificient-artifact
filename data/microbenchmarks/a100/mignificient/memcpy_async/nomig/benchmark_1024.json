@@ -11,7 +11,7 @@
       "modules": [],
       "mig-instance": "nomig",
       "gpu-memory": 1024,
-      "input-payload": "{\"size\": 1024, \"iters\": 100}"
+      "input-payload": "{\"size\": 1024, \"iters\": 1000}"
     }
   ]
 }
