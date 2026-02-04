@@ -1,0 +1,19 @@
+{
+  "address": "http://127.0.0.1:10000",
+  "iterations": 100,
+  "parallel-requests": 1,
+  "mode": "independent",
+  "different-users": true,
+  "inputs": [
+    {
+      "function-language": "python",
+      "function": "function",
+      "function-path": "/scratch/mcopik/gpus/new_july_2025/mignificient-artifact/benchmarks/benchmark-runtime/../../benchmark-apps/ml-inference/resnet-50/functions.py",
+      "cubin-analysis": "/scratch/mcopik/gpus/new_july_2025/mignificient-artifact/benchmarks/benchmark-runtime/../../benchmark-apps/ml-inference/resnet-50/cubin.txt",
+      "modules": [],
+      "mig-instance": "nomig",
+      "gpu-memory": 1024,
+      "input-payload": "{\"iters\": 100}"
+    }
+  ]
+}
