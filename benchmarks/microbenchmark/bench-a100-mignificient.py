@@ -40,22 +40,22 @@ mig_configs = {
 }
 
 benchmark_configs = {
-    #'kernel': {
-    #    'has_sizes': False,
-    #    'iters': 1000,
-    #    'sizes': None
-    #},
-    #'synchronize': {
-    #    'has_sizes': False,
-    #    'iters': 1000,
-    #    'sizes': None
-    #},
-    #'memcpy_async': {
-    #    'has_sizes': True,
-    #    'name': 'latency',
-    #    'iters': 100,
-    #    'sizes': [1, 4, 128, 512, 1024, 2048, 4096, 8192, 16384, 131072, 524288, 1048576, 2097152, 5242880]
-    #},
+    'kernel': {
+        'has_sizes': False,
+        'iters': 1000,
+        'sizes': None
+    },
+    'synchronize': {
+        'has_sizes': False,
+        'iters': 1000,
+        'sizes': None
+    },
+    'memcpy_async': {
+        'has_sizes': True,
+        'name': 'latency',
+        'iters': 1000,
+        'sizes': [1, 4, 128, 512, 1024, 2048, 4096, 8192, 16384, 131072, 524288, 1048576, 2097152, 5242880]
+    },
     'memcpy': {
         'has_sizes': True,
         'name': 'latency',

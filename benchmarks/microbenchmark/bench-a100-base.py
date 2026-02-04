@@ -23,7 +23,7 @@ print(os.environ['LD_LIBRARY_PATH'])
 
 SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 bench_dir = os.path.join(SCRIPT_DIR, os.path.pardir, os.path.pardir, 'benchmark-apps', 'microbenchmarks')
-data_dir = os.path.join(SCRIPT_DIR, os.path.pardir, os.path.pardir, 'data', 'microbenchmarks', 'a100')
+data_dir = os.path.join(SCRIPT_DIR, os.path.pardir, os.path.pardir, 'data', 'microbenchmarks', 'a100', 'native')
 
 mig_configs = {
     'nomig': None,  # Full GPU
