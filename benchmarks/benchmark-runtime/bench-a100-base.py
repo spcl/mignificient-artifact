@@ -22,8 +22,8 @@ os.environ['LD_LIBRARY_PATH'] = ld_library_path
 print(os.environ['LD_LIBRARY_PATH'])
 
 SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
-bench_dir = os.path.join(SCRIPT_DIR, os.path.pardir, os.path.pardir, 'benchmark-apps', 'microbenchmarks')
-data_dir = os.path.join(SCRIPT_DIR, os.path.pardir, os.path.pardir, 'data', 'microbenchmarks', 'a100', 'native')
+bench_dir = os.path.join(SCRIPT_DIR, os.path.pardir, os.path.pardir, 'benchmark-apps')
+data_dir = os.path.join(SCRIPT_DIR, os.path.pardir, os.path.pardir, 'data', 'benchmark-runtime', 'a100', 'native')
 
 mig_configs = {
     'nomig': None,  # Full GPU
@@ -34,7 +34,12 @@ mig_configs = {
     '7g': '0'       # 7g.40gb
 }
 
-benchmarks = ['kernel', 'synchronize', 'memcpy_async', 'memcpy']
+benchmark_configs = {
+    "vgg19": {"has_sizes": False, "iters": 100, "sizes": None},
+    "resnet": {"has_sizes": False, "iters": 100, "sizes": None},
+    "bert": {"has_sizes": False, "iters": 100, "sizes": None},
+    "alexnet": {"has_sizes": False, "iters": 100, "sizes": None},
+}
 
 def get_gpuid(dev):
     cmd = f'nvidia-smi -L | grep "GPU {dev}:" | sed -rn "s/.*GPU-([a-f0-9-]*).*/\\1/p"'
@@ -44,7 +49,7 @@ def get_gpuid(dev):
 
 def setup_directories():
     """Create necessary directories for results"""
-    for benchmark in benchmarks:
+    for benchmark in benchmark_configs:
         for mig in mig_configs.keys():
             dir_path = os.path.join(data_dir, benchmark, mig)
             os.makedirs(dir_path, exist_ok=True)
@@ -52,8 +57,7 @@ def setup_directories():
 def run_benchmark(gpu_id, mig_id, mig_name, benchmark):
     program = os.path.join(SCRIPT_DIR, f'{benchmark}.sh')
     
-    dir_path = os.path.join(data_dir, benchmark, mig_name)
-    cmd_str = f'{program} {dir_path}'
+    cmd_str = f'{program} {bench_dir}'
     
     # Set up CUDA_VISIBLE_DEVICES
     if mig_id is None:  # Full GPU
@@ -62,7 +66,7 @@ def run_benchmark(gpu_id, mig_id, mig_name, benchmark):
         env_prefix = f'CUDA_VISIBLE_DEVICES=MIG-GPU-{gpu_id}/{mig_id}/0'
     
     # Run the benchmark
-    full_cmd = f'{env_prefix} {cmd_str}'
+    full_cmd = f'{env_prefix} /bin/bash {cmd_str}'
     return cmd(full_cmd)
 
 def main():
@@ -86,10 +90,13 @@ def main():
             instance_id = cmd(f'sudo nvidia-smi mig -i {device} -cgi {profile_id} -C | head -n1 | sed -rn "s/.*instance ID[ ]+([0-9]*).*/\\1/p"')
         
         # Run each benchmark
-        for benchmark in benchmarks:
+        for benchmark, cfg in benchmark_configs.items():
             print(f"  Running {benchmark}...")
             
             run_benchmark(gpu_uuid, instance_id if mig_config != 'nomig' else None, mig_config, benchmark)
+
+            dir_path = os.path.join(data_dir, benchmark, mig_config)
+            shutil.move("result.csv", dir_path)
             
         # Cleanup MIG configuration
         if mig_config != 'nomig':

@@ -25,43 +25,25 @@ os.environ['LD_LIBRARY_PATH'] = ld_library_path
 print(os.environ['LD_LIBRARY_PATH'])
 
 SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
-bench_dir = os.path.join(SCRIPT_DIR, os.path.pardir, os.path.pardir, 'benchmark-apps', 'microbenchmarks')
-data_dir = os.path.join(SCRIPT_DIR, os.path.pardir, os.path.pardir, 'data', 'microbenchmarks', 'a100')
+bench_dir = os.path.join(SCRIPT_DIR, os.path.pardir, os.path.pardir, 'benchmark-apps', 'ml-inference')
+data_dir = os.path.join(SCRIPT_DIR, os.path.pardir, os.path.pardir, 'data', 'benchmark-runtime', 'a100')
 REPO_DIR = os.environ.get('REPO_DIR')
 BUILD_DIR = os.environ.get('BUILD_DIR')
 
 mig_configs = {
     'nomig': None,  # Full GPU
-    '1g': '19',     # 1g.5gb
-    '2g': '14',     # 2g.10gb
-    '3g': '9',      # 3g.20gb
-    '4g': '5',      # 4g.20gb
-    '7g': '0'       # 7g.40gb
+    #'1g': '19',     # 1g.5gb
+    #'2g': '14',     # 2g.10gb
+    #'3g': '9',      # 3g.20gb
+    #'4g': '5',      # 4g.20gb
+    #'7g': '0'       # 7g.40gb
 }
 
 benchmark_configs = {
-    'kernel': {
-        'has_sizes': False,
-        'iters': 1000,
-        'sizes': None
-    },
-    'synchronize': {
-        'has_sizes': False,
-        'iters': 1000,
-        'sizes': None
-    },
-    'memcpy_async': {
-        'has_sizes': True,
-        'name': 'latency',
-        'iters': 1000,
-        'sizes': [1, 4, 128, 512, 1024, 2048, 4096, 8192, 16384, 131072, 524288, 1048576, 2097152, 5242880]
-    },
-    'memcpy': {
-        'has_sizes': True,
-        'name': 'latency',
-        'iters': 1000,
-        'sizes': [1, 4, 128, 512, 1024, 2048, 4096, 8192, 16384, 131072, 524288, 1048576, 2097152, 5242880]
-    }
+    "vgg19": {"has_sizes": False, "iters": 100, "sizes": None},
+    "resnet": {"name": "resnet-50", "has_sizes": False, "iters": 100, "sizes": None},
+    "bert": {"has_sizes": False, "name": "BERT-SQuAD", "iters": 100, "sizes": None},
+    "alexnet": {"has_sizes": False, "iters": 100, "sizes": None},
 }
 
 def get_gpuid(dev):
@@ -82,9 +64,11 @@ def create_benchmark_json(benchmark, mig_name, size=None):
     config = benchmark_configs[benchmark]
     
     if 'name' in config:
-        function_path = os.path.join(bench_dir, benchmark, f"{config['name']}_func.so")
+        cubin_path  = os.path.join(bench_dir, config['name'], f"cubin.txt")
+        function_path = os.path.join(bench_dir, config['name'], f"functions.py")
     else:
-        function_path = os.path.join(bench_dir, benchmark, f"{benchmark}_func.so")
+        function_path = os.path.join(bench_dir, benchmark, f"functions.py")
+        cubin_path  = os.path.join(bench_dir, benchmark, f"cubin.txt")
     
     # Create input payload
     if size is not None:
@@ -94,14 +78,16 @@ def create_benchmark_json(benchmark, mig_name, size=None):
     
     benchmark_json = {
         "address": "http://127.0.0.1:10000",
-        "iterations": 1,
+        "iterations": 100,
         "parallel-requests": 1,
         "mode": "independent",
         "different-users": True,
         "inputs": [
             {
+                "function-language": "python",
                 "function": "function",
                 "function-path": function_path,
+                "cubin-analysis": cubin_path,
                 "modules": [],
                 "mig-instance": mig_name,
                 "gpu-memory": 1024,
@@ -114,10 +100,12 @@ def create_benchmark_json(benchmark, mig_name, size=None):
     print("Create benchmark.json")
     with open("benchmark.json", "w") as f:
         json.dump(benchmark_json, f, indent=2)
+        print(benchmark_json)
+        print(os.path.exists("benchmark.json"))
 
 def start_orchestrator():
     """Start the orchestrator process"""
-    orchestrator_cmd = f"{BUILD_DIR}/orchestrator/orchestrator orchestrator_config.json tools/devices.json"
+    orchestrator_cmd = f"{BUILD_DIR}/orchestrator/orchestrator orchestrator_config_ault.json tools/devices.json"
     
     with open("orchestrator_output.log", "w") as log_file:
         process = subprocess.Popen(
@@ -202,24 +190,24 @@ def run_benchmark(gpu_id, mig_id, mig_name, benchmark):
             create_benchmark_json(benchmark, mig_name)
             
             # Run invoker
+            print(os.path.exists("benchmark.json"))
             result = run_invoker("benchmark.json", "result.csv")
             if result.returncode != 0:
                 print(f"        Error running invoker: {result.stderr}")
                 print(result.stdout)
                 print(result.stderr)
 
+            print(os.path.realpath(os.path.curdir), os.path.exists("benchmark.json"))
             print(f"      Done {benchmark}...")
             
-            result_filename = f"result.csv"
-            result_path = os.path.join(dir_path, result_filename)
-            shutil.move("result.txt", result_path)
-
-            result_path = os.path.join(dir_path, "invocation.csv")
+            result_path = os.path.join(dir_path)
             shutil.move("result.csv", result_path)
 
-            print(f"        Results saved to {result_path}")
+            #result_path = os.path.join(dir_path, "invocation.csv")
+            #shutil.move("result.csv", result_path)
 
-            shutil.move("benchmark.json", os.path.join(dir_path, "benchmark.json"))
+            print(f"        Results saved to {result_path}")
+            #shutil.move("benchmark.json", os.path.join(dir_path, "benchmark.json"))
         
         # Kill orchestrator
         print(f"    Stopping orchestrator for {benchmark}...")
@@ -237,11 +225,6 @@ def run_benchmark(gpu_id, mig_id, mig_name, benchmark):
             os.environ['CUDA_VISIBLE_DEVICES'] = old_cuda_devices
         elif 'CUDA_VISIBLE_DEVICES' in os.environ:
             del os.environ['CUDA_VISIBLE_DEVICES']
-        
-        # Clean up temporary files
-        for temp_file in ["benchmark.json", "result.csv", "orchestrator_output.log"]:
-            if os.path.exists(temp_file):
-                os.remove(temp_file)
 
 def main():
     setup_directories()

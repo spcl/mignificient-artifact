@@ -1,7 +1,7 @@
 #include <fstream>
 
-#include <jsoncpp/json/reader.h>
-#include <jsoncpp/json/value.h>
+#include <json/reader.h>
+#include <json/value.h>
 
 #include "benchmark.hpp"
 #include "function.hpp"

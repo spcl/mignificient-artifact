@@ -24,6 +24,9 @@ std::vector<long long int> execute_benchmark(int iters) {
 
   results.reserve(iters);
 
+  empty_kernel<<<{128, 1, 1}, {256, 1, 1}>>>();
+  CUDA_CHECK(cudaDeviceSynchronize());
+
   for (int i = 0; i < iters; ++i) {
     empty_kernel<<<{128, 1, 1}, {256, 1, 1}>>>();
     // usleep(20);
