@@ -1,0 +1,18 @@
+[2025-07-14 21:51:36.823] [info] Reading configuration from /work/serverless/2024/gpus/mignificient_fast/build_release/config/orchestrator.json, device database from /work/serverless/2024/gpus/mignificient_fast/mignificient/logs/devices.json
+[0;90m2025-07-14 21:51:36.825 [0;1;92m[Info ][m: Domain ID: 0
+[2025-07-14 21:51:36.825] [info] Listening on port 10000
+[2025-07-14 21:51:40.523] [info] Child process spawned successfully, PID: 474295
+[2025-07-14 21:51:40.524] [info] Child process spawned successfully, PID: 474296
+[2025-07-14 21:51:40.593] [error] Received registration from gpuless executor user-0-function-0
+[2025-07-14 21:51:40.638] [error] Received registration from gpuless server user-0-function-0
+[2025-07-14 21:51:41.679] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 21:51:41.702] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 21:51:41.724] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 21:51:41.745] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 21:51:41.766] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 21:51:41.789] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 21:51:41.810] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 21:51:41.831] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 21:51:41.851] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 21:51:41.871] [error] Using an existing client user-0-function-0 for user user-0
+[2025-07-14 21:54:46.220] [info] Waiting for HTTP server to close down

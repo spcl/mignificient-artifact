@@ -1,0 +1,48 @@
+[21:51:40:534:534388] Running on CPU: 1
+[0;90m2025-07-14 21:51:40.534 [0;1;93m[Warn ][m: IPC channel still there, doing an unlink of 'iox1_0_u_server-user-0-function-0'
+[0;90m2025-07-14 21:51:40.535 [0;1;92m[Info ][m: Domain ID: 0
+[21:51:40:535:535865] Enabling use of VMM-based allocations in CUDA!
+[21:51:40:638:638361] Message from the orchestrator! Code 1
+[21:51:40:638:638392] [ExecutionStatus] CPU execution!
+[21:51:40:638:638393] Message from the orchestrator! Code 3
+[21:51:40:638:638394] [ExecutionStatus] Full execution!
+[21:51:41:679:679406] Message from the orchestrator! Code 1
+[21:51:41:679:679424] [ExecutionStatus] CPU execution!
+[21:51:41:679:679426] Message from the orchestrator! Code 3
+[21:51:41:679:679427] [ExecutionStatus] Full execution!
+[21:51:41:702:702730] Message from the orchestrator! Code 1
+[21:51:41:702:702744] [ExecutionStatus] CPU execution!
+[21:51:41:702:702745] Message from the orchestrator! Code 3
+[21:51:41:702:702746] [ExecutionStatus] Full execution!
+[21:51:41:724:724295] Message from the orchestrator! Code 1
+[21:51:41:724:724308] [ExecutionStatus] CPU execution!
+[21:51:41:724:724310] Message from the orchestrator! Code 3
+[21:51:41:724:724311] [ExecutionStatus] Full execution!
+[21:51:41:745:745514] Message from the orchestrator! Code 1
+[21:51:41:745:745526] [ExecutionStatus] CPU execution!
+[21:51:41:745:745527] Message from the orchestrator! Code 3
+[21:51:41:745:745528] [ExecutionStatus] Full execution!
+[21:51:41:766:766905] Message from the orchestrator! Code 1
+[21:51:41:766:766922] [ExecutionStatus] CPU execution!
+[21:51:41:766:766923] Message from the orchestrator! Code 3
+[21:51:41:766:766924] [ExecutionStatus] Full execution!
+[21:51:41:789:789886] Message from the orchestrator! Code 1
+[21:51:41:789:789901] [ExecutionStatus] CPU execution!
+[21:51:41:789:789903] Message from the orchestrator! Code 3
+[21:51:41:789:789904] [ExecutionStatus] Full execution!
+[21:51:41:811:811118] Message from the orchestrator! Code 1
+[21:51:41:811:811129] [ExecutionStatus] CPU execution!
+[21:51:41:811:811131] Message from the orchestrator! Code 3
+[21:51:41:811:811132] [ExecutionStatus] Full execution!
+[21:51:41:831:831446] Message from the orchestrator! Code 1
+[21:51:41:831:831458] [ExecutionStatus] CPU execution!
+[21:51:41:831:831459] Message from the orchestrator! Code 3
+[21:51:41:831:831460] [ExecutionStatus] Full execution!
+[21:51:41:851:851599] Message from the orchestrator! Code 1
+[21:51:41:851:851611] [ExecutionStatus] CPU execution!
+[21:51:41:851:851613] Message from the orchestrator! Code 3
+[21:51:41:851:851614] [ExecutionStatus] Full execution!
+[21:51:41:871:871637] Message from the orchestrator! Code 1
+[21:51:41:871:871647] [ExecutionStatus] CPU execution!
+[21:51:41:871:871649] Message from the orchestrator! Code 3
+[21:51:41:871:871650] [ExecutionStatus] Full execution!

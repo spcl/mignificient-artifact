@@ -1,0 +1,20 @@
+[2026-02-10 12:23:13.469] [info] Initialize backend iceoryx2
+0 [I] "Config::global_config()" 
+| Using config file at "/home/mcopik/.config/iceoryx2/iceoryx2.toml" 
+[2026-02-10 12:23:13.470] [info] Created iceoryx2 Node for executor
+notify orchestrator 
+Model load 12:23:13.831567
+Model loaded 12:23:13.916772
+[12:23:14:579:579061] [MemcpyStats] H2D: count=321 bytes=103043144 time=11275.6us | D2H: count=2 bytes=12 time=0.2us
+[12:23:14:597:597933] [MemcpyStats] H2D: count=1 bytes=602112 time=40.4us | D2H: count=2 bytes=12 time=0.2us
+[12:23:14:616:616224] [MemcpyStats] H2D: count=1 bytes=602112 time=36.5us | D2H: count=2 bytes=12 time=0.2us
+[12:23:14:634:634228] [MemcpyStats] H2D: count=1 bytes=602112 time=40.2us | D2H: count=2 bytes=12 time=0.4us
+[12:23:14:651:651809] [MemcpyStats] H2D: count=1 bytes=602112 time=39.7us | D2H: count=2 bytes=12 time=0.1us
+[12:23:14:669:669552] [MemcpyStats] H2D: count=1 bytes=602112 time=37.6us | D2H: count=2 bytes=12 time=0.5us
+[12:23:14:687:687715] [MemcpyStats] H2D: count=1 bytes=602112 time=47.1us | D2H: count=2 bytes=12 time=0.1us
+[12:23:14:705:705183] [MemcpyStats] H2D: count=1 bytes=602112 time=36.5us | D2H: count=2 bytes=12 time=0.2us
+[12:23:14:722:722944] [MemcpyStats] H2D: count=1 bytes=602112 time=40.6us | D2H: count=2 bytes=12 time=0.2us
+[12:23:14:740:740275] [MemcpyStats] H2D: count=1 bytes=602112 time=39.9us | D2H: count=2 bytes=12 time=0.2us
+[12:23:14:757:757296] [MemcpyStats] H2D: count=1 bytes=602112 time=37.7us | D2H: count=2 bytes=12 time=0.2us
+[12:24:48:300:300731] Failed to receive notification from orchestrator!
+Empty payload, quit

@@ -1,0 +1,18 @@
+[2026-02-10 12:32:19.090] [info] Initialize backend iceoryx2
+0 [I] "Config::global_config()" 
+| Using config file at "/home/mcopik/.config/iceoryx2/iceoryx2.toml" 
+[2026-02-10 12:32:19.091] [info] Created iceoryx2 Node for executor
+notify orchestrator 
+Model load 12:32:23.437569
+Model loaded 12:32:23.863805
+[12:32:24:611:611220] [MemcpyStats] H2D: count=397 bytes=1340584976 time=144446.4us | D2H: count=3 bytes=3080 time=0.8us
+[12:32:24:636:636375] [MemcpyStats] H2D: count=4 bytes=9224 time=0.5us | D2H: count=3 bytes=3080 time=0.8us
+[12:32:24:660:660856] [MemcpyStats] H2D: count=4 bytes=9224 time=0.4us | D2H: count=3 bytes=3080 time=1.1us
+[12:32:24:684:684139] [MemcpyStats] H2D: count=4 bytes=9224 time=0.9us | D2H: count=3 bytes=3080 time=1.9us
+[12:32:24:708:708747] [MemcpyStats] H2D: count=4 bytes=9224 time=0.5us | D2H: count=3 bytes=3080 time=0.9us
+[12:32:24:732:732751] [MemcpyStats] H2D: count=4 bytes=9224 time=0.4us | D2H: count=3 bytes=3080 time=1.6us
+[12:32:24:756:756806] [MemcpyStats] H2D: count=4 bytes=9224 time=0.5us | D2H: count=3 bytes=3080 time=0.6us
+[12:32:24:780:780216] [MemcpyStats] H2D: count=4 bytes=9224 time=0.5us | D2H: count=3 bytes=3080 time=0.6us
+[12:32:24:804:804216] [MemcpyStats] H2D: count=4 bytes=9224 time=0.6us | D2H: count=3 bytes=3080 time=0.8us
+[12:32:24:827:827926] [MemcpyStats] H2D: count=4 bytes=9224 time=0.6us | D2H: count=3 bytes=3080 time=0.9us
+[12:32:24:851:851779] [MemcpyStats] H2D: count=4 bytes=9224 time=0.4us | D2H: count=3 bytes=3080 time=0.9us

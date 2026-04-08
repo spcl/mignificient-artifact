@@ -1,0 +1,736 @@
+[12:23:13:389:389586] Running on CPU: 15
+[12:23:13:389:389787] GPUless server using iceoryx2 backend
+[12:23:13:389:389798] GPUless server polling mode: wait, interval: 100us
+[12:23:13:389:389808] GPUless server buffer config: request=1048576B, response=1048576B, capacity=200
+[0;90m2026-02-10 12:23:13.391 [0;1;93m[Warn ][m: IPC channel still there, doing an unlink of 'iox1_0_u_server-user-0-resnet-0'
+[0;90m2026-02-10 12:23:13.396 [0;1;92m[Info ][m: Domain ID: 0
+[12:23:13:396:396364] Enabling use of VMM-based allocations in CUDA!
+[12:23:13:482:482848] MemoryStore: max GPU memory set to 1073741824 bytes (1024.00 MB)
+[12:23:13:538:538821] Starting iceoryx2 server loop for user user-0-resnet-0
+0 [I] "Config::global_config()" 
+| Using config file at "/home/mcopik/.config/iceoryx2/iceoryx2.toml" 
+[12:23:13:541:541111] Message from the orchestrator! Code 1
+[12:23:13:541:541122] [ExecutionStatus] CPU execution!
+[12:23:13:541:541123] Memory Report: alocated_mallocs: 0 peak_mallocs: 0 nvml_used: 406847488
+[12:23:13:541:541124] Memory Report: nvml_calls: 0 nvml_total_time: 0.0 nvml_max_time: 0.0
+[12:23:13:541:541126] Message from the orchestrator! Code 3
+[12:23:13:541:541126] [ExecutionStatus] Full execution!
+[12:23:14:579:579067] Message from the orchestrator! Code 14
+[12:23:14:579:579085] Received INVOCATION_FINISH, running final memory check
+[12:23:14:579:579411] Memory consistency check passed: 960495616 bytes
+[12:23:14:579:579414] Memory Report: alocated_mallocs: 148897792 peak_mallocs: 148897792 nvml_used: 960495616
+[12:23:14:579:579417] Memory Report: nvml_calls: 61 nvml_total_time: 6002.000000000001 nvml_max_time: 499.872
+[12:23:14:579:579505] Message from the orchestrator! Code 1
+[12:23:14:579:579506] [ExecutionStatus] CPU execution!
+[12:23:14:579:579507] Memory Report: alocated_mallocs: 148897792 peak_mallocs: 148897792 nvml_used: 960495616
+[12:23:14:579:579508] Memory Report: nvml_calls: 61 nvml_total_time: 6002.000000000001 nvml_max_time: 499.872
+[12:23:14:579:579509] Message from the orchestrator! Code 3
+[12:23:14:579:579510] [ExecutionStatus] Full execution!
+[12:23:14:597:597964] Message from the orchestrator! Code 14
+[12:23:14:597:597971] Received INVOCATION_FINISH, running final memory check
+[12:23:14:598:598082] Memory consistency check passed: 960495616 bytes
+[12:23:14:598:598085] Memory Report: alocated_mallocs: 148897792 peak_mallocs: 148897792 nvml_used: 960495616
+[12:23:14:598:598087] Memory Report: nvml_calls: 86 nvml_total_time: 7978.306000000001 nvml_max_time: 499.872
+[12:23:14:598:598288] Message from the orchestrator! Code 1
+[12:23:14:598:598289] [ExecutionStatus] CPU execution!
+[12:23:14:598:598290] Memory Report: alocated_mallocs: 148897792 peak_mallocs: 148897792 nvml_used: 960495616
+[12:23:14:598:598291] Memory Report: nvml_calls: 86 nvml_total_time: 7978.306000000001 nvml_max_time: 499.872
+[12:23:14:598:598293] Message from the orchestrator! Code 3
+[12:23:14:598:598293] [ExecutionStatus] Full execution!
+[12:23:14:616:616249] Message from the orchestrator! Code 14
+[12:23:14:616:616257] Received INVOCATION_FINISH, running final memory check
+[12:23:14:616:616371] Memory consistency check passed: 960495616 bytes
+[12:23:14:616:616374] Memory Report: alocated_mallocs: 148897792 peak_mallocs: 148897792 nvml_used: 960495616
+[12:23:14:616:616376] Memory Report: nvml_calls: 109 nvml_total_time: 9727.711000000003 nvml_max_time: 499.872
+[12:23:14:616:616562] Message from the orchestrator! Code 1
+[12:23:14:616:616563] [ExecutionStatus] CPU execution!
+[12:23:14:616:616564] Memory Report: alocated_mallocs: 148897792 peak_mallocs: 148897792 nvml_used: 960495616
+[12:23:14:616:616565] Memory Report: nvml_calls: 109 nvml_total_time: 9727.711000000003 nvml_max_time: 499.872
+[12:23:14:616:616566] Message from the orchestrator! Code 3
+[12:23:14:616:616567] [ExecutionStatus] Full execution!
+[12:23:14:634:634243] Message from the orchestrator! Code 14
+[12:23:14:634:634251] Received INVOCATION_FINISH, running final memory check
+[12:23:14:634:634366] Memory consistency check passed: 960495616 bytes
+[12:23:14:634:634370] Memory Report: alocated_mallocs: 148897792 peak_mallocs: 148897792 nvml_used: 960495616
+[12:23:14:634:634381] Memory Report: nvml_calls: 132 nvml_total_time: 11505.07 nvml_max_time: 499.872
+[12:23:14:634:634530] Message from the orchestrator! Code 1
+[12:23:14:634:634531] [ExecutionStatus] CPU execution!
+[12:23:14:634:634531] Memory Report: alocated_mallocs: 148897792 peak_mallocs: 148897792 nvml_used: 960495616
+[12:23:14:634:634532] Memory Report: nvml_calls: 132 nvml_total_time: 11505.07 nvml_max_time: 499.872
+[12:23:14:634:634533] Message from the orchestrator! Code 3
+[12:23:14:634:634534] [ExecutionStatus] Full execution!
+[12:23:14:651:651834] Message from the orchestrator! Code 14
+[12:23:14:651:651841] Received INVOCATION_FINISH, running final memory check
+[12:23:14:651:651957] Memory consistency check passed: 960495616 bytes
+[12:23:14:651:651960] Memory Report: alocated_mallocs: 148897792 peak_mallocs: 148897792 nvml_used: 960495616
+[12:23:14:651:651962] Memory Report: nvml_calls: 155 nvml_total_time: 13204.954000000002 nvml_max_time: 499.872
+[12:23:14:652:652161] Message from the orchestrator! Code 1
+[12:23:14:652:652162] [ExecutionStatus] CPU execution!
+[12:23:14:652:652163] Memory Report: alocated_mallocs: 148897792 peak_mallocs: 148897792 nvml_used: 960495616
+[12:23:14:652:652163] Memory Report: nvml_calls: 155 nvml_total_time: 13204.954000000002 nvml_max_time: 499.872
+[12:23:14:652:652165] Message from the orchestrator! Code 3
+[12:23:14:652:652165] [ExecutionStatus] Full execution!
+[12:23:14:669:669615] Message from the orchestrator! Code 14
+[12:23:14:669:669624] Received INVOCATION_FINISH, running final memory check
+[12:23:14:669:669735] Memory consistency check passed: 960495616 bytes
+[12:23:14:669:669736] Memory Report: alocated_mallocs: 148897792 peak_mallocs: 148897792 nvml_used: 960495616
+[12:23:14:669:669738] Memory Report: nvml_calls: 178 nvml_total_time: 14895.717999999999 nvml_max_time: 499.872
+[12:23:14:669:669832] Message from the orchestrator! Code 1
+[12:23:14:669:669833] [ExecutionStatus] CPU execution!
+[12:23:14:669:669834] Memory Report: alocated_mallocs: 148897792 peak_mallocs: 148897792 nvml_used: 960495616
+[12:23:14:669:669834] Memory Report: nvml_calls: 178 nvml_total_time: 14895.717999999999 nvml_max_time: 499.872
+[12:23:14:669:669836] Message from the orchestrator! Code 3
+[12:23:14:669:669836] [ExecutionStatus] Full execution!
+[12:23:14:687:687739] Message from the orchestrator! Code 14
+[12:23:14:687:687748] Received INVOCATION_FINISH, running final memory check
+[12:23:14:687:687818] Memory consistency check passed: 960495616 bytes
+[12:23:14:687:687820] Memory Report: alocated_mallocs: 148897792 peak_mallocs: 148897792 nvml_used: 960495616
+[12:23:14:687:687822] Memory Report: nvml_calls: 199 nvml_total_time: 16767.015000000003 nvml_max_time: 499.872
+[12:23:14:687:687990] Message from the orchestrator! Code 1
+[12:23:14:687:687992] [ExecutionStatus] CPU execution!
+[12:23:14:687:687992] Memory Report: alocated_mallocs: 148897792 peak_mallocs: 148897792 nvml_used: 960495616
+[12:23:14:687:687993] Memory Report: nvml_calls: 199 nvml_total_time: 16767.015000000003 nvml_max_time: 499.872
+[12:23:14:687:687994] Message from the orchestrator! Code 3
+[12:23:14:687:687995] [ExecutionStatus] Full execution!
+[12:23:14:705:705247] Message from the orchestrator! Code 14
+[12:23:14:705:705257] Received INVOCATION_FINISH, running final memory check
+[12:23:14:705:705370] Memory consistency check passed: 960495616 bytes
+[12:23:14:705:705373] Memory Report: alocated_mallocs: 148897792 peak_mallocs: 148897792 nvml_used: 960495616
+[12:23:14:705:705375] Memory Report: nvml_calls: 223 nvml_total_time: 18588.148 nvml_max_time: 499.872
+[12:23:14:705:705498] Message from the orchestrator! Code 1
+[12:23:14:705:705499] [ExecutionStatus] CPU execution!
+[12:23:14:705:705500] Memory Report: alocated_mallocs: 148897792 peak_mallocs: 148897792 nvml_used: 960495616
+[12:23:14:705:705500] Memory Report: nvml_calls: 223 nvml_total_time: 18588.148 nvml_max_time: 499.872
+[12:23:14:705:705502] Message from the orchestrator! Code 3
+[12:23:14:705:705502] [ExecutionStatus] Full execution!
+[12:23:14:722:722969] Message from the orchestrator! Code 14
+[12:23:14:722:722982] Received INVOCATION_FINISH, running final memory check
+[12:23:14:723:723101] Memory consistency check passed: 960495616 bytes
+[12:23:14:723:723103] Memory Report: alocated_mallocs: 148897792 peak_mallocs: 148897792 nvml_used: 960495616
+[12:23:14:723:723106] Memory Report: nvml_calls: 246 nvml_total_time: 20372.787000000004 nvml_max_time: 499.872
+[12:23:14:723:723226] Message from the orchestrator! Code 1
+[12:23:14:723:723226] [ExecutionStatus] CPU execution!
+[12:23:14:723:723227] Memory Report: alocated_mallocs: 148897792 peak_mallocs: 148897792 nvml_used: 960495616
+[12:23:14:723:723227] Memory Report: nvml_calls: 246 nvml_total_time: 20372.787000000004 nvml_max_time: 499.872
+[12:23:14:723:723229] Message from the orchestrator! Code 3
+[12:23:14:723:723230] [ExecutionStatus] Full execution!
+[12:23:14:740:740297] Message from the orchestrator! Code 14
+[12:23:14:740:740307] Received INVOCATION_FINISH, running final memory check
+[12:23:14:740:740424] Memory consistency check passed: 960495616 bytes
+[12:23:14:740:740427] Memory Report: alocated_mallocs: 148897792 peak_mallocs: 148897792 nvml_used: 960495616
+[12:23:14:740:740430] Memory Report: nvml_calls: 269 nvml_total_time: 22130.043999999994 nvml_max_time: 499.872
+[12:23:14:740:740520] Message from the orchestrator! Code 1
+[12:23:14:740:740521] [ExecutionStatus] CPU execution!
+[12:23:14:740:740521] Memory Report: alocated_mallocs: 148897792 peak_mallocs: 148897792 nvml_used: 960495616
+[12:23:14:740:740522] Memory Report: nvml_calls: 269 nvml_total_time: 22130.043999999994 nvml_max_time: 499.872
+[12:23:14:740:740524] Message from the orchestrator! Code 3
+[12:23:14:740:740524] [ExecutionStatus] Full execution!
+[12:23:14:757:757314] Message from the orchestrator! Code 14
+[12:23:14:757:757322] Received INVOCATION_FINISH, running final memory check
+[12:23:14:757:757432] Memory consistency check passed: 960495616 bytes
+[12:23:14:757:757435] Memory Report: alocated_mallocs: 148897792 peak_mallocs: 148897792 nvml_used: 960495616
+[12:23:14:757:757437] Memory Report: nvml_calls: 293 nvml_total_time: 23829.971999999987 nvml_max_time: 499.872
+[12:24:29:160:160566] Message from the orchestrator! Code 4
+[12:24:29:160:160607] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:29:224:224637] [Gpuless] SWAP_OFF completed: 148897792 bytes in 64022.0 us
+[12:24:29:234:234440] Message from the orchestrator! Code 5
+[12:24:29:234:234452] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:29:258:258848] [Gpuless] SWAP_IN completed: 148897792 bytes in 24392.0 us
+[12:24:29:268:268782] Message from the orchestrator! Code 4
+[12:24:29:268:268792] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:29:312:312631] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43833.0 us
+[12:24:29:323:323005] Message from the orchestrator! Code 5
+[12:24:29:323:323017] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:29:346:346740] [Gpuless] SWAP_IN completed: 148897792 bytes in 23718.0 us
+[12:24:29:355:355878] Message from the orchestrator! Code 4
+[12:24:29:355:355885] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:29:399:399684] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43793.0 us
+[12:24:29:410:410532] Message from the orchestrator! Code 5
+[12:24:29:410:410548] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:29:435:435386] [Gpuless] SWAP_IN completed: 148897792 bytes in 24833.0 us
+[12:24:29:445:445616] Message from the orchestrator! Code 4
+[12:24:29:445:445625] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:29:488:488347] [Gpuless] SWAP_OFF completed: 148897792 bytes in 42717.0 us
+[12:24:29:499:499305] Message from the orchestrator! Code 5
+[12:24:29:499:499317] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:29:523:523159] [Gpuless] SWAP_IN completed: 148897792 bytes in 23837.0 us
+[12:24:29:533:533455] Message from the orchestrator! Code 4
+[12:24:29:533:533467] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:29:577:577604] [Gpuless] SWAP_OFF completed: 148897792 bytes in 44122.0 us
+[12:24:29:587:587592] Message from the orchestrator! Code 5
+[12:24:29:587:587601] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:29:611:611204] [Gpuless] SWAP_IN completed: 148897792 bytes in 23598.0 us
+[12:24:29:621:621627] Message from the orchestrator! Code 4
+[12:24:29:621:621633] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:29:664:664411] [Gpuless] SWAP_OFF completed: 148897792 bytes in 42774.0 us
+[12:24:29:674:674146] Message from the orchestrator! Code 5
+[12:24:29:674:674154] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:29:697:697531] [Gpuless] SWAP_IN completed: 148897792 bytes in 23372.0 us
+[12:24:29:706:706694] Message from the orchestrator! Code 4
+[12:24:29:706:706706] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:29:749:749542] [Gpuless] SWAP_OFF completed: 148897792 bytes in 42831.0 us
+[12:24:29:758:758468] Message from the orchestrator! Code 5
+[12:24:29:758:758475] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:29:781:781737] [Gpuless] SWAP_IN completed: 148897792 bytes in 23258.0 us
+[12:24:29:791:791950] Message from the orchestrator! Code 4
+[12:24:29:791:791961] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:29:834:834895] [Gpuless] SWAP_OFF completed: 148897792 bytes in 42929.0 us
+[12:24:29:844:844744] Message from the orchestrator! Code 5
+[12:24:29:844:844750] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:29:869:869580] [Gpuless] SWAP_IN completed: 148897792 bytes in 24824.0 us
+[12:24:29:880:880446] Message from the orchestrator! Code 4
+[12:24:29:880:880462] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:29:923:923943] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43475.0 us
+[12:24:29:933:933815] Message from the orchestrator! Code 5
+[12:24:29:933:933823] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:29:957:957318] [Gpuless] SWAP_IN completed: 148897792 bytes in 23490.0 us
+[12:24:29:967:967050] Message from the orchestrator! Code 4
+[12:24:29:967:967060] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:30:010:010142] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43077.0 us
+[12:24:30:019:019898] Message from the orchestrator! Code 5
+[12:24:30:019:019907] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:30:043:043710] [Gpuless] SWAP_IN completed: 148897792 bytes in 23798.0 us
+[12:24:30:054:054195] Message from the orchestrator! Code 4
+[12:24:30:054:054206] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:30:098:098186] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43975.0 us
+[12:24:30:108:108793] Message from the orchestrator! Code 5
+[12:24:30:108:108801] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:30:132:132531] [Gpuless] SWAP_IN completed: 148897792 bytes in 23726.0 us
+[12:24:30:141:141620] Message from the orchestrator! Code 4
+[12:24:30:141:141630] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:30:186:186963] [Gpuless] SWAP_OFF completed: 148897792 bytes in 45328.0 us
+[12:24:30:197:197377] Message from the orchestrator! Code 5
+[12:24:30:197:197387] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:30:221:221057] [Gpuless] SWAP_IN completed: 148897792 bytes in 23666.0 us
+[12:24:30:231:231144] Message from the orchestrator! Code 4
+[12:24:30:231:231153] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:30:274:274445] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43287.0 us
+[12:24:30:284:284392] Message from the orchestrator! Code 5
+[12:24:30:284:284401] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:30:308:308134] [Gpuless] SWAP_IN completed: 148897792 bytes in 23728.0 us
+[12:24:30:318:318603] Message from the orchestrator! Code 4
+[12:24:30:318:318613] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:30:361:361985] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43367.0 us
+[12:24:30:372:372960] Message from the orchestrator! Code 5
+[12:24:30:372:372968] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:30:396:396756] [Gpuless] SWAP_IN completed: 148897792 bytes in 23776.0 us
+[12:24:30:407:407663] Message from the orchestrator! Code 4
+[12:24:30:407:407671] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:30:450:450949] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43273.0 us
+[12:24:30:460:460794] Message from the orchestrator! Code 5
+[12:24:30:460:460802] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:30:484:484254] [Gpuless] SWAP_IN completed: 148897792 bytes in 23449.0 us
+[12:24:30:493:493922] Message from the orchestrator! Code 4
+[12:24:30:493:493936] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:30:537:537278] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43337.0 us
+[12:24:30:546:546792] Message from the orchestrator! Code 5
+[12:24:30:546:546800] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:30:571:571813] [Gpuless] SWAP_IN completed: 148897792 bytes in 25008.0 us
+[12:24:30:580:580861] Message from the orchestrator! Code 4
+[12:24:30:580:580869] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:30:623:623855] [Gpuless] SWAP_OFF completed: 148897792 bytes in 42981.0 us
+[12:24:30:634:634189] Message from the orchestrator! Code 5
+[12:24:30:634:634198] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:30:657:657823] [Gpuless] SWAP_IN completed: 148897792 bytes in 23620.0 us
+[12:24:30:666:666913] Message from the orchestrator! Code 4
+[12:24:30:666:666923] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:30:710:710633] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43705.0 us
+[12:24:30:720:720134] Message from the orchestrator! Code 5
+[12:24:30:720:720142] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:30:743:743778] [Gpuless] SWAP_IN completed: 148897792 bytes in 23633.0 us
+[12:24:30:753:753658] Message from the orchestrator! Code 4
+[12:24:30:753:753665] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:30:797:797106] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43435.0 us
+[12:24:30:807:807324] Message from the orchestrator! Code 5
+[12:24:30:807:807332] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:30:830:830867] [Gpuless] SWAP_IN completed: 148897792 bytes in 23529.0 us
+[12:24:30:841:841270] Message from the orchestrator! Code 4
+[12:24:30:841:841280] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:30:885:885249] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43965.0 us
+[12:24:30:895:895290] Message from the orchestrator! Code 5
+[12:24:30:895:895297] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:30:918:918669] [Gpuless] SWAP_IN completed: 148897792 bytes in 23367.0 us
+[12:24:30:929:929252] Message from the orchestrator! Code 4
+[12:24:30:929:929262] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:30:972:972483] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43216.0 us
+[12:24:30:982:982081] Message from the orchestrator! Code 5
+[12:24:30:982:982092] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:31:006:006205] [Gpuless] SWAP_IN completed: 148897792 bytes in 24108.0 us
+[12:24:31:015:015076] Message from the orchestrator! Code 4
+[12:24:31:015:015086] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:31:059:059680] [Gpuless] SWAP_OFF completed: 148897792 bytes in 44589.0 us
+[12:24:31:069:069478] Message from the orchestrator! Code 5
+[12:24:31:069:069487] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:31:093:093196] [Gpuless] SWAP_IN completed: 148897792 bytes in 23705.0 us
+[12:24:31:103:103518] Message from the orchestrator! Code 4
+[12:24:31:103:103527] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:31:147:147175] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43643.0 us
+[12:24:31:157:157524] Message from the orchestrator! Code 5
+[12:24:31:157:157532] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:31:181:181222] [Gpuless] SWAP_IN completed: 148897792 bytes in 23686.0 us
+[12:24:31:191:191627] Message from the orchestrator! Code 4
+[12:24:31:191:191636] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:31:234:234984] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43337.0 us
+[12:24:31:245:245746] Message from the orchestrator! Code 5
+[12:24:31:245:245753] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:31:269:269781] [Gpuless] SWAP_IN completed: 148897792 bytes in 24023.0 us
+[12:24:31:280:280362] Message from the orchestrator! Code 4
+[12:24:31:280:280372] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:31:324:324244] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43866.0 us
+[12:24:31:334:334480] Message from the orchestrator! Code 5
+[12:24:31:334:334490] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:31:358:358062] [Gpuless] SWAP_IN completed: 148897792 bytes in 23568.0 us
+[12:24:31:368:368721] Message from the orchestrator! Code 4
+[12:24:31:368:368732] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:31:413:413907] [Gpuless] SWAP_OFF completed: 148897792 bytes in 45169.0 us
+[12:24:31:424:424862] Message from the orchestrator! Code 5
+[12:24:31:424:424873] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:31:448:448356] [Gpuless] SWAP_IN completed: 148897792 bytes in 23480.0 us
+[12:24:31:458:458275] Message from the orchestrator! Code 4
+[12:24:31:458:458283] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:31:501:501775] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43487.0 us
+[12:24:31:511:511417] Message from the orchestrator! Code 5
+[12:24:31:511:511426] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:31:535:535125] [Gpuless] SWAP_IN completed: 148897792 bytes in 23695.0 us
+[12:24:31:544:544738] Message from the orchestrator! Code 4
+[12:24:31:544:544749] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:31:589:589269] [Gpuless] SWAP_OFF completed: 148897792 bytes in 44515.0 us
+[12:24:31:598:598618] Message from the orchestrator! Code 5
+[12:24:31:598:598626] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:31:622:622000] [Gpuless] SWAP_IN completed: 148897792 bytes in 23370.0 us
+[12:24:31:632:632312] Message from the orchestrator! Code 4
+[12:24:31:632:632317] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:31:675:675943] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43621.0 us
+[12:24:31:686:686916] Message from the orchestrator! Code 5
+[12:24:31:686:686926] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:31:710:710705] [Gpuless] SWAP_IN completed: 148897792 bytes in 23775.0 us
+[12:24:31:721:721233] Message from the orchestrator! Code 4
+[12:24:31:721:721242] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:31:765:765976] [Gpuless] SWAP_OFF completed: 148897792 bytes in 44728.0 us
+[12:24:31:776:776382] Message from the orchestrator! Code 5
+[12:24:31:776:776391] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:31:800:800431] [Gpuless] SWAP_IN completed: 148897792 bytes in 24035.0 us
+[12:24:31:809:809730] Message from the orchestrator! Code 4
+[12:24:31:809:809740] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:31:853:853235] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43491.0 us
+[12:24:31:861:861708] Message from the orchestrator! Code 5
+[12:24:31:861:861717] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:31:885:885402] [Gpuless] SWAP_IN completed: 148897792 bytes in 23681.0 us
+[12:24:31:895:895453] Message from the orchestrator! Code 4
+[12:24:31:895:895467] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:31:940:940020] [Gpuless] SWAP_OFF completed: 148897792 bytes in 44548.0 us
+[12:24:31:951:951226] Message from the orchestrator! Code 5
+[12:24:31:951:951237] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:31:975:975177] [Gpuless] SWAP_IN completed: 148897792 bytes in 23935.0 us
+[12:24:31:986:986114] Message from the orchestrator! Code 4
+[12:24:31:986:986123] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:32:030:030261] [Gpuless] SWAP_OFF completed: 148897792 bytes in 44133.0 us
+[12:24:32:040:040289] Message from the orchestrator! Code 5
+[12:24:32:040:040298] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:32:064:064161] [Gpuless] SWAP_IN completed: 148897792 bytes in 23852.0 us
+[12:24:32:074:074896] Message from the orchestrator! Code 4
+[12:24:32:074:074906] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:32:119:119373] [Gpuless] SWAP_OFF completed: 148897792 bytes in 44463.0 us
+[12:24:32:129:129931] Message from the orchestrator! Code 5
+[12:24:32:129:129937] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:32:153:153600] [Gpuless] SWAP_IN completed: 148897792 bytes in 23658.0 us
+[12:24:32:164:164621] Message from the orchestrator! Code 4
+[12:24:32:164:164630] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:32:208:208262] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43627.0 us
+[12:24:32:218:218643] Message from the orchestrator! Code 5
+[12:24:32:218:218652] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:32:242:242680] [Gpuless] SWAP_IN completed: 148897792 bytes in 24025.0 us
+[12:24:32:253:253389] Message from the orchestrator! Code 4
+[12:24:32:253:253397] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:32:298:298035] [Gpuless] SWAP_OFF completed: 148897792 bytes in 44633.0 us
+[12:24:32:308:308614] Message from the orchestrator! Code 5
+[12:24:32:308:308623] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:32:332:332330] [Gpuless] SWAP_IN completed: 148897792 bytes in 23703.0 us
+[12:24:32:342:342601] Message from the orchestrator! Code 4
+[12:24:32:342:342614] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:32:385:385847] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43228.0 us
+[12:24:32:396:396531] Message from the orchestrator! Code 5
+[12:24:32:396:396543] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:32:420:420367] [Gpuless] SWAP_IN completed: 148897792 bytes in 23819.0 us
+[12:24:32:431:431159] Message from the orchestrator! Code 4
+[12:24:32:431:431171] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:32:474:474045] [Gpuless] SWAP_OFF completed: 148897792 bytes in 42869.0 us
+[12:24:32:483:483654] Message from the orchestrator! Code 5
+[12:24:32:483:483664] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:32:507:507117] [Gpuless] SWAP_IN completed: 148897792 bytes in 23447.0 us
+[12:24:32:517:517563] Message from the orchestrator! Code 4
+[12:24:32:517:517574] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:32:561:561706] [Gpuless] SWAP_OFF completed: 148897792 bytes in 44128.0 us
+[12:24:32:572:572208] Message from the orchestrator! Code 5
+[12:24:32:572:572215] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:32:598:598807] [Gpuless] SWAP_IN completed: 148897792 bytes in 26588.0 us
+[12:24:32:609:609630] Message from the orchestrator! Code 4
+[12:24:32:609:609644] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:32:653:653544] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43894.0 us
+[12:24:32:663:663603] Message from the orchestrator! Code 5
+[12:24:32:663:663612] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:32:687:687907] [Gpuless] SWAP_IN completed: 148897792 bytes in 24291.0 us
+[12:24:32:698:698679] Message from the orchestrator! Code 4
+[12:24:32:698:698691] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:32:741:741455] [Gpuless] SWAP_OFF completed: 148897792 bytes in 42760.0 us
+[12:24:32:751:751720] Message from the orchestrator! Code 5
+[12:24:32:751:751729] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:32:775:775443] [Gpuless] SWAP_IN completed: 148897792 bytes in 23709.0 us
+[12:24:32:786:786105] Message from the orchestrator! Code 4
+[12:24:32:786:786112] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:32:829:829367] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43250.0 us
+[12:24:32:839:839173] Message from the orchestrator! Code 5
+[12:24:32:839:839181] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:32:863:863196] [Gpuless] SWAP_IN completed: 148897792 bytes in 24011.0 us
+[12:24:32:873:873989] Message from the orchestrator! Code 4
+[12:24:32:873:873999] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:32:916:916027] [Gpuless] SWAP_OFF completed: 148897792 bytes in 42016.0 us
+[12:24:32:925:925538] Message from the orchestrator! Code 5
+[12:24:32:925:925547] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:32:949:949493] [Gpuless] SWAP_IN completed: 148897792 bytes in 23943.0 us
+[12:24:32:959:959000] Message from the orchestrator! Code 4
+[12:24:32:959:959011] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:33:002:002459] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43443.0 us
+[12:24:33:013:013040] Message from the orchestrator! Code 5
+[12:24:33:013:013051] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:33:036:036727] [Gpuless] SWAP_IN completed: 148897792 bytes in 23672.0 us
+[12:24:33:047:047272] Message from the orchestrator! Code 4
+[12:24:33:047:047283] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:33:090:090050] [Gpuless] SWAP_OFF completed: 148897792 bytes in 42761.0 us
+[12:24:33:100:100086] Message from the orchestrator! Code 5
+[12:24:33:100:100096] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:33:123:123760] [Gpuless] SWAP_IN completed: 148897792 bytes in 23659.0 us
+[12:24:33:133:133690] Message from the orchestrator! Code 4
+[12:24:33:133:133701] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:33:176:176903] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43198.0 us
+[12:24:33:187:187354] Message from the orchestrator! Code 5
+[12:24:33:187:187364] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:33:210:210945] [Gpuless] SWAP_IN completed: 148897792 bytes in 23577.0 us
+[12:24:33:220:220577] Message from the orchestrator! Code 4
+[12:24:33:220:220586] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:33:264:264240] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43649.0 us
+[12:24:33:275:275173] Message from the orchestrator! Code 5
+[12:24:33:275:275183] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:33:299:299012] [Gpuless] SWAP_IN completed: 148897792 bytes in 23825.0 us
+[12:24:33:308:308245] Message from the orchestrator! Code 4
+[12:24:33:308:308256] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:33:351:351456] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43195.0 us
+[12:24:33:360:360602] Message from the orchestrator! Code 5
+[12:24:33:360:360611] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:33:384:384602] [Gpuless] SWAP_IN completed: 148897792 bytes in 23986.0 us
+[12:24:33:394:394284] Message from the orchestrator! Code 4
+[12:24:33:394:394296] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:33:437:437421] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43120.0 us
+[12:24:33:447:447582] Message from the orchestrator! Code 5
+[12:24:33:447:447592] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:33:471:471323] [Gpuless] SWAP_IN completed: 148897792 bytes in 23726.0 us
+[12:24:33:482:482049] Message from the orchestrator! Code 4
+[12:24:33:482:482061] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:33:525:525335] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43270.0 us
+[12:24:33:535:535089] Message from the orchestrator! Code 5
+[12:24:33:535:535096] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:33:559:559117] [Gpuless] SWAP_IN completed: 148897792 bytes in 24016.0 us
+[12:24:33:569:569822] Message from the orchestrator! Code 4
+[12:24:33:569:569833] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:33:614:614200] [Gpuless] SWAP_OFF completed: 148897792 bytes in 44363.0 us
+[12:24:33:624:624952] Message from the orchestrator! Code 5
+[12:24:33:624:624965] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:33:648:648946] [Gpuless] SWAP_IN completed: 148897792 bytes in 23977.0 us
+[12:24:33:659:659406] Message from the orchestrator! Code 4
+[12:24:33:659:659418] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:33:702:702071] [Gpuless] SWAP_OFF completed: 148897792 bytes in 42648.0 us
+[12:24:33:712:712443] Message from the orchestrator! Code 5
+[12:24:33:712:712453] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:33:736:736407] [Gpuless] SWAP_IN completed: 148897792 bytes in 23944.0 us
+[12:24:33:746:746172] Message from the orchestrator! Code 4
+[12:24:33:746:746182] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:33:788:788846] [Gpuless] SWAP_OFF completed: 148897792 bytes in 42660.0 us
+[12:24:33:799:799280] Message from the orchestrator! Code 5
+[12:24:33:799:799289] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:33:822:822681] [Gpuless] SWAP_IN completed: 148897792 bytes in 23387.0 us
+[12:24:33:833:833060] Message from the orchestrator! Code 4
+[12:24:33:833:833068] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:33:875:875582] [Gpuless] SWAP_OFF completed: 148897792 bytes in 42507.0 us
+[12:24:33:886:886243] Message from the orchestrator! Code 5
+[12:24:33:886:886252] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:33:909:909792] [Gpuless] SWAP_IN completed: 148897792 bytes in 23534.0 us
+[12:24:33:920:920102] Message from the orchestrator! Code 4
+[12:24:33:920:920111] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:33:963:963353] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43237.0 us
+[12:24:33:973:973986] Message from the orchestrator! Code 5
+[12:24:33:973:973993] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:33:998:998405] [Gpuless] SWAP_IN completed: 148897792 bytes in 24405.0 us
+[12:24:34:010:010038] Message from the orchestrator! Code 4
+[12:24:34:010:010061] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:34:058:058991] [Gpuless] SWAP_OFF completed: 148897792 bytes in 48923.0 us
+[12:24:34:069:069516] Message from the orchestrator! Code 5
+[12:24:34:069:069526] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:34:093:093463] [Gpuless] SWAP_IN completed: 148897792 bytes in 23932.0 us
+[12:24:34:102:102917] Message from the orchestrator! Code 4
+[12:24:34:102:102926] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:34:147:147980] [Gpuless] SWAP_OFF completed: 148897792 bytes in 45049.0 us
+[12:24:34:157:157114] Message from the orchestrator! Code 5
+[12:24:34:157:157125] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:34:184:184845] [Gpuless] SWAP_IN completed: 148897792 bytes in 27715.0 us
+[12:24:34:200:200449] Message from the orchestrator! Code 4
+[12:24:34:200:200466] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:34:249:249769] [Gpuless] SWAP_OFF completed: 148897792 bytes in 49297.0 us
+[12:24:34:260:260100] Message from the orchestrator! Code 5
+[12:24:34:260:260111] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:34:295:295895] [Gpuless] SWAP_IN completed: 148897792 bytes in 35774.0 us
+[12:24:34:305:305498] Message from the orchestrator! Code 4
+[12:24:34:305:305508] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:34:351:351302] [Gpuless] SWAP_OFF completed: 148897792 bytes in 45789.0 us
+[12:24:34:361:361435] Message from the orchestrator! Code 5
+[12:24:34:361:361447] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:34:384:384820] [Gpuless] SWAP_IN completed: 148897792 bytes in 23368.0 us
+[12:24:34:393:393831] Message from the orchestrator! Code 4
+[12:24:34:393:393841] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:34:437:437671] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43826.0 us
+[12:24:34:448:448210] Message from the orchestrator! Code 5
+[12:24:34:448:448220] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:34:471:471600] [Gpuless] SWAP_IN completed: 148897792 bytes in 23376.0 us
+[12:24:34:480:480807] Message from the orchestrator! Code 4
+[12:24:34:480:480817] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:34:524:524561] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43739.0 us
+[12:24:34:533:533870] Message from the orchestrator! Code 5
+[12:24:34:533:533879] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:34:557:557663] [Gpuless] SWAP_IN completed: 148897792 bytes in 23779.0 us
+[12:24:34:568:568596] Message from the orchestrator! Code 4
+[12:24:34:568:568606] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:34:612:612733] [Gpuless] SWAP_OFF completed: 148897792 bytes in 44115.0 us
+[12:24:34:623:623392] Message from the orchestrator! Code 5
+[12:24:34:623:623402] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:34:646:646942] [Gpuless] SWAP_IN completed: 148897792 bytes in 23535.0 us
+[12:24:34:657:657846] Message from the orchestrator! Code 4
+[12:24:34:657:657858] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:34:701:701176] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43313.0 us
+[12:24:34:712:712019] Message from the orchestrator! Code 5
+[12:24:34:712:712029] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:34:736:736007] [Gpuless] SWAP_IN completed: 148897792 bytes in 23974.0 us
+[12:24:34:746:746804] Message from the orchestrator! Code 4
+[12:24:34:746:746817] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:34:790:790261] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43440.0 us
+[12:24:34:801:801043] Message from the orchestrator! Code 5
+[12:24:34:801:801055] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:34:825:825815] [Gpuless] SWAP_IN completed: 148897792 bytes in 24756.0 us
+[12:24:34:835:835774] Message from the orchestrator! Code 4
+[12:24:34:835:835785] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:34:880:880243] [Gpuless] SWAP_OFF completed: 148897792 bytes in 44453.0 us
+[12:24:34:890:890363] Message from the orchestrator! Code 5
+[12:24:34:890:890373] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:34:915:915481] [Gpuless] SWAP_IN completed: 148897792 bytes in 25103.0 us
+[12:24:34:925:925586] Message from the orchestrator! Code 4
+[12:24:34:925:925600] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:34:969:969895] [Gpuless] SWAP_OFF completed: 148897792 bytes in 44290.0 us
+[12:24:34:980:980640] Message from the orchestrator! Code 5
+[12:24:34:980:980652] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:35:004:004395] [Gpuless] SWAP_IN completed: 148897792 bytes in 23739.0 us
+[12:24:35:013:013867] Message from the orchestrator! Code 4
+[12:24:35:013:013875] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:35:057:057652] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43771.0 us
+[12:24:35:067:067565] Message from the orchestrator! Code 5
+[12:24:35:067:067576] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:35:091:091761] [Gpuless] SWAP_IN completed: 148897792 bytes in 24180.0 us
+[12:24:35:101:101989] Message from the orchestrator! Code 4
+[12:24:35:101:101999] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:35:145:145758] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43753.0 us
+[12:24:35:155:155416] Message from the orchestrator! Code 5
+[12:24:35:155:155425] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:35:179:179244] [Gpuless] SWAP_IN completed: 148897792 bytes in 23814.0 us
+[12:24:35:187:187529] Message from the orchestrator! Code 4
+[12:24:35:187:187538] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:35:231:231017] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43473.0 us
+[12:24:35:241:241621] Message from the orchestrator! Code 5
+[12:24:35:241:241631] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:35:265:265814] [Gpuless] SWAP_IN completed: 148897792 bytes in 24178.0 us
+[12:24:35:276:276757] Message from the orchestrator! Code 4
+[12:24:35:276:276769] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:35:319:319782] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43008.0 us
+[12:24:35:330:330677] Message from the orchestrator! Code 5
+[12:24:35:330:330688] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:35:354:354662] [Gpuless] SWAP_IN completed: 148897792 bytes in 23970.0 us
+[12:24:35:365:365677] Message from the orchestrator! Code 4
+[12:24:35:365:365691] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:35:409:409438] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43742.0 us
+[12:24:35:419:419643] Message from the orchestrator! Code 5
+[12:24:35:419:419652] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:35:443:443372] [Gpuless] SWAP_IN completed: 148897792 bytes in 23709.0 us
+[12:24:35:453:453453] Message from the orchestrator! Code 4
+[12:24:35:453:453463] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:35:496:496944] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43476.0 us
+[12:24:35:508:508040] Message from the orchestrator! Code 5
+[12:24:35:508:508050] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:35:531:531859] [Gpuless] SWAP_IN completed: 148897792 bytes in 23805.0 us
+[12:24:35:541:541716] Message from the orchestrator! Code 4
+[12:24:35:541:541727] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:35:586:586085] [Gpuless] SWAP_OFF completed: 148897792 bytes in 44353.0 us
+[12:24:35:595:595887] Message from the orchestrator! Code 5
+[12:24:35:595:595897] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:35:620:620262] [Gpuless] SWAP_IN completed: 148897792 bytes in 24361.0 us
+[12:24:35:630:630850] Message from the orchestrator! Code 4
+[12:24:35:630:630864] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:35:674:674606] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43736.0 us
+[12:24:35:685:685239] Message from the orchestrator! Code 5
+[12:24:35:685:685249] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:35:709:709356] [Gpuless] SWAP_IN completed: 148897792 bytes in 24103.0 us
+[12:24:35:718:718684] Message from the orchestrator! Code 4
+[12:24:35:718:718694] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:35:764:764924] [Gpuless] SWAP_OFF completed: 148897792 bytes in 46225.0 us
+[12:24:35:774:774833] Message from the orchestrator! Code 5
+[12:24:35:774:774842] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:35:798:798465] [Gpuless] SWAP_IN completed: 148897792 bytes in 23618.0 us
+[12:24:35:809:809009] Message from the orchestrator! Code 4
+[12:24:35:809:809023] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:35:853:853184] [Gpuless] SWAP_OFF completed: 148897792 bytes in 44156.0 us
+[12:24:35:864:864312] Message from the orchestrator! Code 5
+[12:24:35:864:864323] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:35:888:888288] [Gpuless] SWAP_IN completed: 148897792 bytes in 23959.0 us
+[12:24:35:897:897801] Message from the orchestrator! Code 4
+[12:24:35:897:897811] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:35:941:941369] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43554.0 us
+[12:24:35:951:951365] Message from the orchestrator! Code 5
+[12:24:35:951:951378] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:35:975:975569] [Gpuless] SWAP_IN completed: 148897792 bytes in 24187.0 us
+[12:24:35:985:985115] Message from the orchestrator! Code 4
+[12:24:35:985:985127] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:36:029:029282] [Gpuless] SWAP_OFF completed: 148897792 bytes in 44149.0 us
+[12:24:36:038:038136] Message from the orchestrator! Code 5
+[12:24:36:038:038149] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:36:062:062449] [Gpuless] SWAP_IN completed: 148897792 bytes in 24296.0 us
+[12:24:36:072:072030] Message from the orchestrator! Code 4
+[12:24:36:072:072042] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:36:116:116291] [Gpuless] SWAP_OFF completed: 148897792 bytes in 44243.0 us
+[12:24:36:126:126186] Message from the orchestrator! Code 5
+[12:24:36:126:126196] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:36:150:150055] [Gpuless] SWAP_IN completed: 148897792 bytes in 23855.0 us
+[12:24:36:160:160498] Message from the orchestrator! Code 4
+[12:24:36:160:160511] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:36:204:204176] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43660.0 us
+[12:24:36:213:213159] Message from the orchestrator! Code 5
+[12:24:36:213:213169] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:36:237:237219] [Gpuless] SWAP_IN completed: 148897792 bytes in 24046.0 us
+[12:24:36:246:246783] Message from the orchestrator! Code 4
+[12:24:36:246:246797] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:36:291:291134] [Gpuless] SWAP_OFF completed: 148897792 bytes in 44326.0 us
+[12:24:36:301:301787] Message from the orchestrator! Code 5
+[12:24:36:301:301798] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:36:326:326044] [Gpuless] SWAP_IN completed: 148897792 bytes in 24242.0 us
+[12:24:36:335:335840] Message from the orchestrator! Code 4
+[12:24:36:335:335851] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:36:379:379847] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43992.0 us
+[12:24:36:388:388629] Message from the orchestrator! Code 5
+[12:24:36:388:388639] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:36:413:413151] [Gpuless] SWAP_IN completed: 148897792 bytes in 24507.0 us
+[12:24:36:423:423676] Message from the orchestrator! Code 4
+[12:24:36:423:423688] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:36:467:467961] [Gpuless] SWAP_OFF completed: 148897792 bytes in 44269.0 us
+[12:24:36:478:478886] Message from the orchestrator! Code 5
+[12:24:36:478:478896] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:36:503:503001] [Gpuless] SWAP_IN completed: 148897792 bytes in 24101.0 us
+[12:24:36:513:513894] Message from the orchestrator! Code 4
+[12:24:36:513:513907] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:36:558:558024] [Gpuless] SWAP_OFF completed: 148897792 bytes in 44112.0 us
+[12:24:36:568:568254] Message from the orchestrator! Code 5
+[12:24:36:568:568263] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:36:592:592405] [Gpuless] SWAP_IN completed: 148897792 bytes in 24136.0 us
+[12:24:36:602:602821] Message from the orchestrator! Code 4
+[12:24:36:602:602832] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:36:646:646962] [Gpuless] SWAP_OFF completed: 148897792 bytes in 44124.0 us
+[12:24:36:657:657242] Message from the orchestrator! Code 5
+[12:24:36:657:657250] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:36:681:681309] [Gpuless] SWAP_IN completed: 148897792 bytes in 24054.0 us
+[12:24:36:690:690866] Message from the orchestrator! Code 4
+[12:24:36:690:690876] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:36:734:734993] [Gpuless] SWAP_OFF completed: 148897792 bytes in 44110.0 us
+[12:24:36:745:745441] Message from the orchestrator! Code 5
+[12:24:36:745:745448] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:36:769:769445] [Gpuless] SWAP_IN completed: 148897792 bytes in 23993.0 us
+[12:24:36:778:778946] Message from the orchestrator! Code 4
+[12:24:36:778:778961] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:36:823:823636] [Gpuless] SWAP_OFF completed: 148897792 bytes in 44669.0 us
+[12:24:36:834:834422] Message from the orchestrator! Code 5
+[12:24:36:834:834431] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:36:858:858190] [Gpuless] SWAP_IN completed: 148897792 bytes in 23754.0 us
+[12:24:36:868:868661] Message from the orchestrator! Code 4
+[12:24:36:868:868671] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:36:912:912653] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43977.0 us
+[12:24:36:922:922561] Message from the orchestrator! Code 5
+[12:24:36:922:922569] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:36:946:946543] [Gpuless] SWAP_IN completed: 148897792 bytes in 23970.0 us
+[12:24:36:955:955878] Message from the orchestrator! Code 4
+[12:24:36:955:955887] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:37:000:000256] [Gpuless] SWAP_OFF completed: 148897792 bytes in 44364.0 us
+[12:24:37:009:009931] Message from the orchestrator! Code 5
+[12:24:37:009:009940] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:37:033:033680] [Gpuless] SWAP_IN completed: 148897792 bytes in 23736.0 us
+[12:24:37:043:043296] Message from the orchestrator! Code 4
+[12:24:37:043:043307] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:37:085:085825] [Gpuless] SWAP_OFF completed: 148897792 bytes in 42514.0 us
+[12:24:37:094:094577] Message from the orchestrator! Code 5
+[12:24:37:094:094584] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:37:118:118630] [Gpuless] SWAP_IN completed: 148897792 bytes in 24023.0 us
+[12:24:37:129:129246] Message from the orchestrator! Code 4
+[12:24:37:129:129259] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:37:172:172157] [Gpuless] SWAP_OFF completed: 148897792 bytes in 42893.0 us
+[12:24:37:182:182611] Message from the orchestrator! Code 5
+[12:24:37:182:182622] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:37:206:206568] [Gpuless] SWAP_IN completed: 148897792 bytes in 23942.0 us
+[12:24:37:217:217026] Message from the orchestrator! Code 4
+[12:24:37:217:217037] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:37:260:260411] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43370.0 us
+[12:24:37:270:270716] Message from the orchestrator! Code 5
+[12:24:37:270:270726] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:37:294:294714] [Gpuless] SWAP_IN completed: 148897792 bytes in 23982.0 us
+[12:24:37:305:305203] Message from the orchestrator! Code 4
+[12:24:37:305:305214] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:37:348:348474] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43254.0 us
+[12:24:37:358:358728] Message from the orchestrator! Code 5
+[12:24:37:358:358737] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:37:382:382513] [Gpuless] SWAP_IN completed: 148897792 bytes in 23771.0 us
+[12:24:37:392:392146] Message from the orchestrator! Code 4
+[12:24:37:392:392165] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:37:438:438601] [Gpuless] SWAP_OFF completed: 148897792 bytes in 46430.0 us
+[12:24:37:448:448229] Message from the orchestrator! Code 5
+[12:24:37:448:448237] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:37:471:471842] [Gpuless] SWAP_IN completed: 148897792 bytes in 23601.0 us
+[12:24:37:482:482349] Message from the orchestrator! Code 4
+[12:24:37:482:482361] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:37:525:525353] [Gpuless] SWAP_OFF completed: 148897792 bytes in 42986.0 us
+[12:24:37:534:534978] Message from the orchestrator! Code 5
+[12:24:37:534:534987] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:37:559:559132] [Gpuless] SWAP_IN completed: 148897792 bytes in 24140.0 us
+[12:24:37:569:569692] Message from the orchestrator! Code 4
+[12:24:37:569:569703] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:37:614:614338] [Gpuless] SWAP_OFF completed: 148897792 bytes in 44630.0 us
+[12:24:37:624:624561] Message from the orchestrator! Code 5
+[12:24:37:624:624574] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:37:648:648804] [Gpuless] SWAP_IN completed: 148897792 bytes in 24226.0 us
+[12:24:37:658:658009] Message from the orchestrator! Code 4
+[12:24:37:658:658019] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:37:701:701724] [Gpuless] SWAP_OFF completed: 148897792 bytes in 43699.0 us
+[12:24:37:712:712504] Message from the orchestrator! Code 5
+[12:24:37:712:712515] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:37:736:736285] [Gpuless] SWAP_IN completed: 148897792 bytes in 23766.0 us
+[12:24:37:745:745649] Message from the orchestrator! Code 4
+[12:24:37:745:745662] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:37:790:790710] [Gpuless] SWAP_OFF completed: 148897792 bytes in 45043.0 us
+[12:24:37:801:801602] Message from the orchestrator! Code 5
+[12:24:37:801:801611] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:37:825:825710] [Gpuless] SWAP_IN completed: 148897792 bytes in 24094.0 us
+[12:24:37:836:836296] Message from the orchestrator! Code 4
+[12:24:37:836:836306] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:37:884:884898] [Gpuless] SWAP_OFF completed: 148897792 bytes in 48587.0 us
+[12:24:37:894:894659] Message from the orchestrator! Code 5
+[12:24:37:894:894665] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:37:919:919159] [Gpuless] SWAP_IN completed: 148897792 bytes in 24490.0 us
+[12:24:37:929:929794] Message from the orchestrator! Code 4
+[12:24:37:929:929807] [Gpuless] Received SWAP_OFF, swapping out GPU memory
+[12:24:37:973:973989] [Gpuless] SWAP_OFF completed: 148897792 bytes in 44169.0 us
+[12:24:37:984:984503] Message from the orchestrator! Code 5
+[12:24:37:984:984511] [Gpuless] Received SWAP_IN, swapping in GPU memory
+[12:24:38:009:009107] [Gpuless] SWAP_IN completed: 148897792 bytes in 24592.0 us
+[12:24:48:300:300768] Finished iceoryx2 event loop with status 1
+[12:24:48:300:300837] Received 1547 requests
+[12:24:48:300:300849] Memory Report: alocated_mallocs: 148897792 peak_mallocs: 148897792 nvml_used: 960495616
+[12:24:48:300:300860] Memory Report: nvml_calls: 293 nvml_total_time: 23829.971999999987 nvml_max_time: 499.872
